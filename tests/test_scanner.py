@@ -1,11 +1,13 @@
 from __future__ import annotations
 
 import json
+import subprocess
 import tempfile
 import unittest
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 import sys
+from unittest.mock import patch
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -288,6 +290,184 @@ class ReportingTests(unittest.TestCase):
 
         self.assertEqual(restored["generated_for"], "2026-04-17")
         self.assertEqual(restored["top_opportunities"][0]["ticker"], "TOP1")
+
+
+class FrontendExportTests(unittest.TestCase):
+    def test_export_frontend_data_writes_index_and_report_files(self) -> None:
+        from stock_scanner.frontend_data import export_frontend_data
+        from stock_scanner.storage import ensure_storage, save_report
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            paths = ensure_storage(root / "data")
+            public_dir = root / "web" / "public" / "data"
+
+            older_bundle = build_report_bundle(
+                [
+                    make_company(
+                        "OLD1",
+                        revenue=180.0,
+                        revenue_prev_year=120.0,
+                        revenue_prev_quarter=160.0,
+                        profit=45.0,
+                        profit_prev_year=24.0,
+                        profit_prev_quarter=36.0,
+                        news=[make_news("Older catalyst", CatalystSentiment.POSITIVE, days_ago=4)],
+                    )
+                ],
+                as_of=date(2026, 4, 16),
+            )
+            latest_bundle = build_report_bundle(
+                [
+                    make_company(
+                        "NEW1",
+                        revenue=200.0,
+                        revenue_prev_year=125.0,
+                        revenue_prev_quarter=170.0,
+                        profit=52.0,
+                        profit_prev_year=30.0,
+                        profit_prev_quarter=40.0,
+                        news=[make_news("Fresh catalyst", CatalystSentiment.POSITIVE, days_ago=1)],
+                    )
+                ],
+                as_of=date(2026, 4, 17),
+            )
+
+            save_report(paths, older_bundle, render_markdown_report(older_bundle))
+            save_report(paths, latest_bundle, render_markdown_report(latest_bundle))
+
+            result = export_frontend_data(paths, public_dir)
+
+            self.assertEqual(result.latest_report_date, "2026-04-17")
+            self.assertEqual(result.report_dates, ["2026-04-17", "2026-04-16"])
+            index_payload = json.loads((public_dir / "index.json").read_text(encoding="utf-8"))
+            self.assertEqual(index_payload["latestReportDate"], "2026-04-17")
+            self.assertEqual(index_payload["reports"][0]["date"], "2026-04-17")
+            self.assertEqual(index_payload["reports"][0]["reportPath"], "reports/report-2026-04-17.json")
+            self.assertTrue((public_dir / "reports" / "report-2026-04-17.json").exists())
+            self.assertTrue((public_dir / "reports" / "report-2026-04-17.md").exists())
+            latest_payload = json.loads(
+                (public_dir / "reports" / "report-2026-04-17.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(latest_payload["generated_for"], "2026-04-17")
+
+    def test_export_frontend_data_promotes_watchlist_when_top_opportunities_is_empty(self) -> None:
+        from stock_scanner.frontend_data import export_frontend_data
+        from stock_scanner.storage import ensure_storage, save_report
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            paths = ensure_storage(root / "data")
+            public_dir = root / "web" / "public" / "data"
+
+            watch_bundle = build_report_bundle(
+                [
+                    make_company(
+                        "WATCH1",
+                        revenue=150.0,
+                        revenue_prev_year=104.0,
+                        revenue_prev_quarter=145.0,
+                        profit=31.0,
+                        profit_prev_year=20.0,
+                        profit_prev_quarter=29.0,
+                        news=[],
+                    )
+                ],
+                as_of=date(2026, 4, 17),
+            )
+
+            save_report(paths, watch_bundle, render_markdown_report(watch_bundle))
+
+            export_frontend_data(paths, public_dir)
+
+            index_payload = json.loads((public_dir / "index.json").read_text(encoding="utf-8"))
+            self.assertEqual(index_payload["reports"][0]["topTickers"], ["WATCH1"])
+            self.assertEqual(index_payload["reports"][0]["bucketCounts"]["topOpportunities"], 0)
+            self.assertEqual(index_payload["reports"][0]["bucketCounts"]["catalystWatchlist"], 1)
+
+
+class PublishCommandTests(unittest.TestCase):
+    def test_publish_command_runs_scan_export_build_and_git_steps(self) -> None:
+        from stock_scanner import cli
+
+        with patch.object(cli, "_run_scan") as run_scan, patch.object(
+            cli, "_export_dashboard_data"
+        ) as export_data, patch.object(cli, "_run_frontend_build") as build_app, patch.object(
+            cli, "_git_has_publish_changes", return_value=True
+        ) as has_changes, patch.object(cli, "_git_commit_publish") as git_commit, patch.object(
+            cli, "_git_push_publish"
+        ) as git_push:
+            result = cli.main(["--data-root", "/tmp/data", "publish", "--date", "2026-04-17"])
+
+        self.assertEqual(result, 0)
+        run_scan.assert_called_once()
+        export_data.assert_called_once()
+        build_app.assert_called_once()
+        has_changes.assert_called_once()
+        git_commit.assert_called_once_with("2026-04-17")
+        git_push.assert_called_once()
+
+    def test_publish_command_skips_commit_and_push_when_no_changes(self) -> None:
+        from stock_scanner import cli
+
+        with patch.object(cli, "_run_scan"), patch.object(cli, "_export_dashboard_data"), patch.object(
+            cli, "_run_frontend_build"
+        ), patch.object(cli, "_git_has_publish_changes", return_value=False), patch.object(
+            cli, "_git_commit_publish"
+        ) as git_commit, patch.object(cli, "_git_push_publish") as git_push:
+            result = cli.main(["--data-root", "/tmp/data", "publish", "--date", "2026-04-17"])
+
+        self.assertEqual(result, 0)
+        git_commit.assert_not_called()
+        git_push.assert_not_called()
+
+    def test_publish_command_reports_success_when_no_changes_exist(self) -> None:
+        from stock_scanner import cli
+
+        with patch.object(cli, "_run_scan"), patch.object(cli, "_export_dashboard_data"), patch.object(
+            cli, "_run_frontend_build"
+        ), patch.object(cli, "_git_has_publish_changes", return_value=False), patch(
+            "builtins.print"
+        ) as print_mock:
+            result = cli.main(["publish", "--date", "2026-04-17", "--demo"])
+
+        self.assertEqual(result, 0)
+        print_mock.assert_any_call("No publishable changes detected.")
+
+    def test_git_has_publish_changes_only_detects_owned_paths(self) -> None:
+        from stock_scanner import cli
+
+        with patch.object(
+            cli,
+            "_run_command",
+            return_value=subprocess.CompletedProcess(
+                args=["git"],
+                returncode=0,
+                stdout=" M data/reports/report-2026-04-17.json\n",
+                stderr="",
+            ),
+        ) as run_command:
+            self.assertTrue(cli._git_has_publish_changes())
+
+        run_command.assert_called_once_with(
+            ["git", "status", "--short", "--", "data/reports", "web", ".codex", ".github"],
+            cwd=cli.PROJECT_ROOT,
+        )
+
+    def test_git_has_publish_changes_returns_false_for_clean_status(self) -> None:
+        from stock_scanner import cli
+
+        with patch.object(
+            cli,
+            "_run_command",
+            return_value=subprocess.CompletedProcess(
+                args=["git"],
+                returncode=0,
+                stdout="",
+                stderr="",
+            ),
+        ):
+            self.assertFalse(cli._git_has_publish_changes())
 
 
 if __name__ == "__main__":
