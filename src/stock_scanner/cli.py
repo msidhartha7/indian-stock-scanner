@@ -148,6 +148,7 @@ def _export_dashboard_data(paths) -> None:
 
 
 def _run_frontend_build() -> None:
+    _run_command(["npm", "install"], cwd=WEB_ROOT)
     _run_command(["npm", "run", "build"], cwd=WEB_ROOT)
 
 

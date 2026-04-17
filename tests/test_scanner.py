@@ -469,6 +469,20 @@ class PublishCommandTests(unittest.TestCase):
         ):
             self.assertFalse(cli._git_has_publish_changes())
 
+    def test_run_frontend_build_installs_dependencies_before_building(self) -> None:
+        from stock_scanner import cli
+
+        with patch.object(cli, "_run_command") as run_command:
+            cli._run_frontend_build()
+
+        self.assertEqual(
+            run_command.call_args_list,
+            [
+                unittest.mock.call(["npm", "install"], cwd=cli.WEB_ROOT),
+                unittest.mock.call(["npm", "run", "build"], cwd=cli.WEB_ROOT),
+            ],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
