@@ -32,8 +32,16 @@ jobs:
           cache: npm
           cache-dependency-path: web/package-lock.json
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
+      - name: Export dashboard data
+        run: PYTHONPATH=src python3 -m stock_scanner export-dashboard-data
 
       - name: Install dependencies
         working-directory: web

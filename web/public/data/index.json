@@ -1,0 +1,19 @@
+{
+  "latestReportDate": "2026-04-17",
+  "reports": [
+    {
+      "date": "2026-04-17",
+      "reportPath": "reports/report-2026-04-17.json",
+      "bucketCounts": {
+        "topOpportunities": 1,
+        "catalystWatchlist": 0,
+        "valuationStretched": 0,
+        "highGrowthLackingConfirmation": 0,
+        "avoidForNow": 1
+      },
+      "topTickers": [
+        "TRENT"
+      ]
+    }
+  ]
+}

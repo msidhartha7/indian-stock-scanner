@@ -386,7 +386,179 @@ class FrontendExportTests(unittest.TestCase):
             self.assertEqual(index_payload["reports"][0]["bucketCounts"]["catalystWatchlist"], 1)
 
 
+class ProviderTests(unittest.TestCase):
+    def test_yahoo_client_uses_fundamentals_timeseries_endpoint_for_live_snapshot(self) -> None:
+        from stock_scanner import providers
+
+        chart_payload = {
+            "chart": {
+                "result": [
+                    {
+                        "meta": {
+                            "regularMarketPrice": 2450.0,
+                            "fiftyTwoWeekHigh": 2650.0,
+                            "chartPreviousClose": 2440.0,
+                        },
+                        "timestamp": [
+                            1719792000,
+                            1722470400,
+                            1725148800,
+                            1727740800,
+                            1730419200,
+                            1733011200,
+                            1735689600,
+                            1738368000,
+                            1740787200,
+                            1743465600,
+                        ],
+                        "indicators": {
+                            "quote": [
+                                {
+                                    "close": [
+                                        2100.0,
+                                        2140.0,
+                                        2185.0,
+                                        2230.0,
+                                        2275.0,
+                                        2310.0,
+                                        2355.0,
+                                        2390.0,
+                                        2420.0,
+                                        2450.0,
+                                    ],
+                                    "volume": [
+                                        1000000,
+                                        1050000,
+                                        1100000,
+                                        1080000,
+                                        1120000,
+                                        1150000,
+                                        1175000,
+                                        1190000,
+                                        1210000,
+                                        1230000,
+                                    ],
+                                }
+                            ]
+                        },
+                    }
+                ]
+            }
+        }
+        timeseries_payload = {
+            "timeseries": {
+                "result": [
+                    {
+                        "meta": {"symbol": ["RELIANCE.NS"], "type": ["quarterlyTotalRevenue"]},
+                        "quarterlyTotalRevenue": [
+                            {"asOfDate": "2024-03-31", "reportedValue": {"raw": 1000.0}},
+                            {"asOfDate": "2024-06-30", "reportedValue": {"raw": 1050.0}},
+                            {"asOfDate": "2024-12-31", "reportedValue": {"raw": 1100.0}},
+                            {"asOfDate": "2025-03-31", "reportedValue": {"raw": 1300.0}},
+                        ],
+                    },
+                    {
+                        "meta": {"symbol": ["RELIANCE.NS"], "type": ["quarterlyNetIncome"]},
+                        "quarterlyNetIncome": [
+                            {"asOfDate": "2024-03-31", "reportedValue": {"raw": 100.0}},
+                            {"asOfDate": "2024-06-30", "reportedValue": {"raw": 110.0}},
+                            {"asOfDate": "2024-12-31", "reportedValue": {"raw": 120.0}},
+                            {"asOfDate": "2025-03-31", "reportedValue": {"raw": 150.0}},
+                        ],
+                    },
+                    {
+                        "meta": {"symbol": ["RELIANCE.NS"], "type": ["quarterlyOperatingIncome"]},
+                        "quarterlyOperatingIncome": [
+                            {"asOfDate": "2024-03-31", "reportedValue": {"raw": 120.0}},
+                            {"asOfDate": "2024-06-30", "reportedValue": {"raw": 130.0}},
+                            {"asOfDate": "2024-12-31", "reportedValue": {"raw": 140.0}},
+                            {"asOfDate": "2025-03-31", "reportedValue": {"raw": 182.0}},
+                        ],
+                    },
+                    {
+                        "meta": {"symbol": ["RELIANCE.NS"], "type": ["quarterlyOperatingCashFlow"]},
+                        "quarterlyOperatingCashFlow": [
+                            {"asOfDate": "2025-03-31", "reportedValue": {"raw": 175.0}},
+                        ],
+                    },
+                    {
+                        "meta": {"symbol": ["RELIANCE.NS"], "type": ["quarterlyTotalDebt"]},
+                        "quarterlyTotalDebt": [
+                            {"asOfDate": "2025-03-31", "reportedValue": {"raw": 410.0}},
+                        ],
+                    },
+                    {
+                        "meta": {"symbol": ["RELIANCE.NS"], "type": ["quarterlyBasicAverageShares"]},
+                        "quarterlyBasicAverageShares": [
+                            {"asOfDate": "2024-03-31", "reportedValue": {"raw": 10.0}},
+                            {"asOfDate": "2024-06-30", "reportedValue": {"raw": 10.0}},
+                            {"asOfDate": "2024-12-31", "reportedValue": {"raw": 10.0}},
+                            {"asOfDate": "2025-03-31", "reportedValue": {"raw": 10.0}},
+                        ],
+                    },
+                ],
+                "error": None,
+            }
+        }
+
+        def fake_fetch_json(url: str) -> dict:
+            if "finance/chart" in url:
+                return chart_payload
+            if "fundamentals-timeseries" in url:
+                return timeseries_payload
+            raise AssertionError(f"Unexpected URL: {url}")
+
+        with patch.object(providers, "_fetch_json", side_effect=fake_fetch_json), patch.object(
+            providers, "fetch_google_news", return_value=[]
+        ):
+            snapshot = providers.YahooFinanceClient().fetch_company_snapshot(
+                {"ticker": "RELIANCE", "company_name": "Reliance Industries", "sector": "Energy"}
+            )
+
+        self.assertEqual(snapshot.latest.revenue, 1300.0)
+        self.assertEqual(snapshot.latest.revenue_prev_quarter, 1100.0)
+        self.assertEqual(snapshot.latest.revenue_prev_year, 1000.0)
+        self.assertEqual(snapshot.latest.net_profit, 150.0)
+        self.assertEqual(snapshot.latest.operating_cash_flow, 175.0)
+        self.assertEqual(snapshot.latest.total_debt, 410.0)
+        self.assertEqual(snapshot.trailing_twelve_month_profit, 480.0)
+        self.assertGreater(snapshot.valuation_percentile, 0.0)
+
+
 class PublishCommandTests(unittest.TestCase):
+    def test_export_dashboard_data_command_rebuilds_static_site_data_from_reports(self) -> None:
+        from stock_scanner import cli
+        from stock_scanner.storage import ensure_storage, save_report
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            paths = ensure_storage(root / "data")
+            public_dir = root / "web" / "public" / "data"
+            bundle = build_report_bundle(
+                [
+                    make_company(
+                        "NEW1",
+                        revenue=200.0,
+                        revenue_prev_year=125.0,
+                        revenue_prev_quarter=170.0,
+                        profit=52.0,
+                        profit_prev_year=30.0,
+                        profit_prev_quarter=40.0,
+                        news=[make_news("Fresh catalyst", CatalystSentiment.POSITIVE, days_ago=1)],
+                    )
+                ],
+                as_of=date(2026, 4, 17),
+            )
+            save_report(paths, bundle, render_markdown_report(bundle))
+
+            with patch.object(cli, "FRONTEND_DATA_ROOT", public_dir):
+                result = cli.main(["--data-root", str(paths.root), "export-dashboard-data"])
+
+            self.assertEqual(result, 0)
+            index_payload = json.loads((public_dir / "index.json").read_text(encoding="utf-8"))
+            self.assertEqual(index_payload["latestReportDate"], "2026-04-17")
+            self.assertEqual(index_payload["reports"][0]["reportPath"], "reports/report-2026-04-17.json")
+
     def test_publish_command_runs_scan_export_build_and_git_steps(self) -> None:
         from stock_scanner import cli
 

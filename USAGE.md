@@ -101,6 +101,14 @@ PYTHONPATH=src python3 -m stock_scanner publish --demo --date 2026-04-17
 - push to the tracked branch
 - let GitHub Actions rebuild and deploy GitHub Pages automatically
 
+If you only need to rebuild the static dashboard data from report artifacts that are already checked in, run:
+
+```bash
+PYTHONPATH=src python3 -m stock_scanner export-dashboard-data
+```
+
+This is the command the GitHub Pages workflow now uses before the Vite build.
+
 ## Report Output
 
 Each scan writes:

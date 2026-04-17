@@ -49,5 +49,7 @@ For day-to-day usage details, command examples, and output descriptions, see [US
 - `scan --demo` is the safest first run because it verifies the full pipeline without depending on external endpoints.
 - `scan` without `--demo` uses public Yahoo Finance endpoints plus Google News RSS.
 - `publish` runs the dated scan, refreshes `web/public/data`, builds the dashboard, commits changed publish artifacts, pushes to the tracked branch, and lets GitHub Actions deploy GitHub Pages.
+- `export-dashboard-data` rebuilds `web/public/data` from checked-in `data/reports` artifacts without running a new scan.
+- GitHub Pages now runs `export-dashboard-data` during the deploy workflow, so the site can rebuild its report index directly from tracked report files.
 - The provider layer is replaceable, so stronger data sources can be plugged in later without changing the CLI contract.
 - This tool is a research assistant, not financial advice.

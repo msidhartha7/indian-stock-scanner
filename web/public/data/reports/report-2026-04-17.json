@@ -1,0 +1,103 @@
+{
+  "generated_for": "2026-04-17",
+  "top_opportunities": [
+    {
+      "ticker": "TRENT",
+      "company_name": "Trent",
+      "sector": "Retail",
+      "opportunity_score": 68,
+      "time_window_fit": 0.625,
+      "catalyst_strength": 0.28,
+      "valuation_stretch": 0.58,
+      "setup_quality": 0.986,
+      "risk_score": 0.75,
+      "passed_hard_gates": true,
+      "action_label": "Research now",
+      "rejection_reasons": [],
+      "positives": [
+        "Strong earnings momentum",
+        "Price trend is constructive",
+        "Valuation still has room to rerate"
+      ],
+      "risks": [],
+      "summary": "TRENT combines 91% earnings momentum, 28% catalyst strength, and 99% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q4FY26",
+        "revenue": 220.0,
+        "revenue_prev_year": 150.0,
+        "revenue_prev_quarter": 195.0,
+        "net_profit": 46.0,
+        "profit_prev_year": 28.0,
+        "profit_prev_quarter": 40.0,
+        "operating_margin": 0.23,
+        "operating_margin_prev_quarter": 0.2,
+        "operating_cash_flow": 60.0,
+        "total_debt": 10.0
+      },
+      "last_price": 100.0,
+      "updated_at": "2026-04-17T00:00:00+00:00",
+      "news": [
+        {
+          "source": "Demo Wire",
+          "title": "Order win and expansion update",
+          "url": "https://example.com/trent",
+          "published_at": "2026-04-16T00:00:00+00:00",
+          "sentiment": "positive"
+        }
+      ]
+    }
+  ],
+  "catalyst_watchlist": [],
+  "valuation_stretched": [],
+  "high_growth_lacking_confirmation": [],
+  "avoid_for_now": [
+    {
+      "ticker": "CALM",
+      "company_name": "Calm Industries",
+      "sector": "Industrials",
+      "opportunity_score": 50,
+      "time_window_fit": 0.376,
+      "catalyst_strength": 0.0,
+      "valuation_stretch": 0.62,
+      "setup_quality": 0.79,
+      "risk_score": 0.75,
+      "passed_hard_gates": true,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [],
+      "positives": [
+        "Price trend is constructive"
+      ],
+      "risks": [
+        "Catalyst support is limited"
+      ],
+      "summary": "CALM combines 68% earnings momentum, 0% catalyst strength, and 79% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q4FY26",
+        "revenue": 150.0,
+        "revenue_prev_year": 102.0,
+        "revenue_prev_quarter": 142.0,
+        "net_profit": 30.0,
+        "profit_prev_year": 19.0,
+        "profit_prev_quarter": 28.0,
+        "operating_margin": 0.21,
+        "operating_margin_prev_quarter": 0.2,
+        "operating_cash_flow": 28.0,
+        "total_debt": 18.0
+      },
+      "last_price": 88.0,
+      "updated_at": "2026-04-17T00:00:00+00:00",
+      "news": []
+    }
+  ],
+  "important_developments": [
+    {
+      "source": "Demo Wire",
+      "title": "Order win and expansion update",
+      "url": "https://example.com/trent",
+      "published_at": "2026-04-16T00:00:00+00:00",
+      "sentiment": "positive"
+    }
+  ]
+}

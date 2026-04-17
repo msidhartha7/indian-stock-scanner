@@ -49,6 +49,10 @@ def build_parser() -> argparse.ArgumentParser:
         help="Use bundled demo data instead of hitting public providers",
     )
 
+    subparsers.add_parser(
+        "export-dashboard-data",
+        help="Rebuild static dashboard data from existing report artifacts",
+    )
     subparsers.add_parser("refresh-universe", help="Reset the default liquid universe")
     return parser
 
@@ -81,6 +85,11 @@ def main(argv: list[str] | None = None) -> int:
         _git_commit_publish(as_of.isoformat())
         _git_push_publish()
         print(f"Published stock dashboard for {as_of.isoformat()}")
+        return 0
+
+    if args.command == "export-dashboard-data":
+        _export_dashboard_data(paths)
+        print(f"Dashboard data exported to {FRONTEND_DATA_ROOT}")
         return 0
 
     if args.command == "report":
