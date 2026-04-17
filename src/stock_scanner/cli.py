@@ -2,15 +2,22 @@ from __future__ import annotations
 
 import argparse
 import json
+import subprocess
 from datetime import date
 from pathlib import Path
 
 from .demo_data import demo_companies
+from .frontend_data import export_frontend_data
 from .pipeline import build_report_bundle
 from .providers import YahooFinanceClient
 from .reporting import render_markdown_report
 from .storage import ensure_storage, latest_report_date, load_bundle, save_report, save_snapshots
 from .universe import load_universe, refresh_universe
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+WEB_ROOT = PROJECT_ROOT / "web"
+FRONTEND_DATA_ROOT = WEB_ROOT / "public" / "data"
+PUBLISH_PATHS = ["data/reports", "web", ".codex", ".github"]
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -32,6 +39,16 @@ def build_parser() -> argparse.ArgumentParser:
     explain = subparsers.add_parser("explain", help="Explain a single ticker from latest report")
     explain.add_argument("ticker", help="Ticker to explain")
 
+    publish = subparsers.add_parser(
+        "publish", help="Run scan, refresh dashboard data, and push updates"
+    )
+    publish.add_argument("--date", dest="run_date", default=None, help="Publish date in YYYY-MM-DD")
+    publish.add_argument(
+        "--demo",
+        action="store_true",
+        help="Use bundled demo data instead of hitting public providers",
+    )
+
     subparsers.add_parser("refresh-universe", help="Reset the default liquid universe")
     return parser
 
@@ -48,14 +65,22 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.command == "scan":
         as_of = date.fromisoformat(args.run_date) if args.run_date else date.today()
-        refresh_universe(paths)
-        companies = demo_companies() if args.demo else _fetch_live_universe(paths)
-        save_snapshots(paths, as_of, companies)
-        bundle = build_report_bundle(companies, as_of=as_of)
-        markdown = render_markdown_report(bundle)
-        markdown_path, json_path = save_report(paths, bundle, markdown)
+        markdown_path, json_path = _run_scan(paths, as_of=as_of, use_demo=args.demo)
         print(f"Report written to {markdown_path}")
         print(f"JSON written to {json_path}")
+        return 0
+
+    if args.command == "publish":
+        as_of = date.fromisoformat(args.run_date) if args.run_date else date.today()
+        _run_scan(paths, as_of=as_of, use_demo=args.demo)
+        _export_dashboard_data(paths)
+        _run_frontend_build()
+        if not _git_has_publish_changes():
+            print("No publishable changes detected.")
+            return 0
+        _git_commit_publish(as_of.isoformat())
+        _git_push_publish()
+        print(f"Published stock dashboard for {as_of.isoformat()}")
         return 0
 
     if args.command == "report":
@@ -109,6 +134,44 @@ def _fetch_live_universe(paths) -> list:
     return companies
 
 
+def _run_scan(paths, *, as_of: date, use_demo: bool) -> tuple[Path, Path]:
+    refresh_universe(paths)
+    companies = demo_companies() if use_demo else _fetch_live_universe(paths)
+    save_snapshots(paths, as_of, companies)
+    bundle = build_report_bundle(companies, as_of=as_of)
+    markdown = render_markdown_report(bundle)
+    return save_report(paths, bundle, markdown)
+
+
+def _export_dashboard_data(paths) -> None:
+    export_frontend_data(paths, FRONTEND_DATA_ROOT)
+
+
+def _run_frontend_build() -> None:
+    _run_command(["npm", "run", "build"], cwd=WEB_ROOT)
+
+
+def _git_has_publish_changes() -> bool:
+    result = _run_command(["git", "status", "--short", "--", *PUBLISH_PATHS], cwd=PROJECT_ROOT)
+    return bool(result.stdout.strip())
+
+
+def _git_commit_publish(publish_date: str) -> None:
+    _run_command(["git", "add", *PUBLISH_PATHS], cwd=PROJECT_ROOT)
+    _run_command(["git", "commit", "-m", f"Publish stock scan for {publish_date}"], cwd=PROJECT_ROOT)
+
+
+def _git_push_publish() -> None:
+    _run_command(["git", "push"], cwd=PROJECT_ROOT)
+
+
+def _run_command(command: list[str], *, cwd: Path) -> subprocess.CompletedProcess[str]:
+    result = subprocess.run(command, cwd=cwd, capture_output=True, text=True, check=False)
+    if result.returncode != 0:
+        message = result.stderr.strip() or result.stdout.strip() or "command failed"
+        raise SystemExit(f"{' '.join(command)} failed: {message}")
+    return result
+
+
 if __name__ == "__main__":
     raise SystemExit(main())
-

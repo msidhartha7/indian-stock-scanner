@@ -6,6 +6,7 @@ import unittest
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 import sys
+from unittest.mock import patch
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -381,6 +382,42 @@ class FrontendExportTests(unittest.TestCase):
             self.assertEqual(index_payload["reports"][0]["topTickers"], ["WATCH1"])
             self.assertEqual(index_payload["reports"][0]["bucketCounts"]["topOpportunities"], 0)
             self.assertEqual(index_payload["reports"][0]["bucketCounts"]["catalystWatchlist"], 1)
+
+
+class PublishCommandTests(unittest.TestCase):
+    def test_publish_command_runs_scan_export_build_and_git_steps(self) -> None:
+        from stock_scanner import cli
+
+        with patch.object(cli, "_run_scan") as run_scan, patch.object(
+            cli, "_export_dashboard_data"
+        ) as export_data, patch.object(cli, "_run_frontend_build") as build_app, patch.object(
+            cli, "_git_has_publish_changes", return_value=True
+        ) as has_changes, patch.object(cli, "_git_commit_publish") as git_commit, patch.object(
+            cli, "_git_push_publish"
+        ) as git_push:
+            result = cli.main(["--data-root", "/tmp/data", "publish", "--date", "2026-04-17"])
+
+        self.assertEqual(result, 0)
+        run_scan.assert_called_once()
+        export_data.assert_called_once()
+        build_app.assert_called_once()
+        has_changes.assert_called_once()
+        git_commit.assert_called_once_with("2026-04-17")
+        git_push.assert_called_once()
+
+    def test_publish_command_skips_commit_and_push_when_no_changes(self) -> None:
+        from stock_scanner import cli
+
+        with patch.object(cli, "_run_scan"), patch.object(cli, "_export_dashboard_data"), patch.object(
+            cli, "_run_frontend_build"
+        ), patch.object(cli, "_git_has_publish_changes", return_value=False), patch.object(
+            cli, "_git_commit_publish"
+        ) as git_commit, patch.object(cli, "_git_push_publish") as git_push:
+            result = cli.main(["--data-root", "/tmp/data", "publish", "--date", "2026-04-17"])
+
+        self.assertEqual(result, 0)
+        git_commit.assert_not_called()
+        git_push.assert_not_called()
 
 
 if __name__ == "__main__":
