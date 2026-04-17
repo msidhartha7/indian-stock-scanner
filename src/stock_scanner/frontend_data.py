@@ -40,6 +40,7 @@ def export_frontend_data(paths: StoragePaths, destination: Path) -> FrontendExpo
                 "bucketCounts": {
                     "topOpportunities": len(payload["top_opportunities"]),
                     "catalystWatchlist": len(payload["catalyst_watchlist"]),
+                    "lateEntryRisk": len(payload["late_entry_risk"]),
                     "valuationStretched": len(payload["valuation_stretched"]),
                     "highGrowthLackingConfirmation": len(
                         payload["high_growth_lacking_confirmation"]

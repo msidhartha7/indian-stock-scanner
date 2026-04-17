@@ -318,7 +318,51 @@ class ReportingTests(unittest.TestCase):
         self.assertIsInstance(bundle, ReportBundle)
         self.assertEqual(bundle.top_opportunities[0].ticker, "TOP1")
         self.assertEqual(bundle.catalyst_watchlist[0].ticker, "WATCH")
-        self.assertEqual(bundle.avoid_for_now[0].ticker, "STRETCH")
+        self.assertEqual(bundle.late_entry_risk[0].ticker, "STRETCH")
+
+    def test_valuation_stretched_bucket_excludes_hard_gate_failures(self) -> None:
+        unprofitable_stretched = make_company(
+            "BADVAL",
+            revenue=200.0, revenue_prev_year=130.0, revenue_prev_quarter=175.0,
+            profit=-5.0,
+            profit_prev_year=10.0, profit_prev_quarter=8.0,
+            valuation_percentile=0.95,
+        )
+        bundle = build_report_bundle([unprofitable_stretched], as_of=date(2026, 4, 17))
+        tickers_in_stretched = [c.ticker for c in bundle.valuation_stretched]
+        self.assertNotIn("BADVAL", tickers_in_stretched)
+
+    def test_late_entry_risk_bucket_is_separate_from_avoid_for_now(self) -> None:
+        stretched = make_company(
+            "LATEENTRY",
+            revenue=210.0, revenue_prev_year=130.0, revenue_prev_quarter=175.0,
+            profit=54.0, profit_prev_year=30.0, profit_prev_quarter=42.0,
+            last_price=145.0, sma_50=105.0, sma_200=88.0,
+            distance_from_52w_high_pct=0.0,
+            valuation_percentile=0.96,
+            relative_strength_3m=0.34,
+            news=[make_news("Q4 earnings beat", CatalystSentiment.POSITIVE)],
+        )
+        bundle = build_report_bundle([stretched], as_of=date(2026, 4, 17))
+
+        self.assertIn("LATEENTRY", [c.ticker for c in bundle.late_entry_risk])
+        self.assertNotIn("LATEENTRY", [c.ticker for c in bundle.avoid_for_now])
+
+    def test_markdown_report_contains_late_entry_risk_section(self) -> None:
+        stretched = make_company(
+            "LATEENTRY",
+            revenue=210.0, revenue_prev_year=130.0, revenue_prev_quarter=175.0,
+            profit=54.0, profit_prev_year=30.0, profit_prev_quarter=42.0,
+            last_price=145.0, sma_50=105.0, sma_200=88.0,
+            distance_from_52w_high_pct=0.0,
+            valuation_percentile=0.96,
+            relative_strength_3m=0.34,
+            news=[make_news("Q4 earnings beat", CatalystSentiment.POSITIVE)],
+        )
+        bundle = build_report_bundle([stretched], as_of=date(2026, 4, 17))
+        report = render_markdown_report(bundle)
+        self.assertIn("Late-entry risk", report)
+        self.assertIn("LATEENTRY", report)
 
     def test_markdown_report_contains_expected_sections(self) -> None:
         company = make_company(

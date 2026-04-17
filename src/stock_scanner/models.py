@@ -160,6 +160,7 @@ class ReportBundle:
     generated_for: date
     top_opportunities: list[ScoredCompany]
     catalyst_watchlist: list[ScoredCompany]
+    late_entry_risk: list[ScoredCompany]
     valuation_stretched: list[ScoredCompany]
     high_growth_lacking_confirmation: list[ScoredCompany]
     avoid_for_now: list[ScoredCompany]
@@ -170,6 +171,7 @@ class ReportBundle:
             "generated_for": self.generated_for.isoformat(),
             "top_opportunities": [item.to_dict() for item in self.top_opportunities],
             "catalyst_watchlist": [item.to_dict() for item in self.catalyst_watchlist],
+            "late_entry_risk": [item.to_dict() for item in self.late_entry_risk],
             "valuation_stretched": [item.to_dict() for item in self.valuation_stretched],
             "high_growth_lacking_confirmation": [
                 item.to_dict() for item in self.high_growth_lacking_confirmation

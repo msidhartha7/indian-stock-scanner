@@ -17,23 +17,24 @@ def build_report_bundle(companies: list[CompanySnapshot], *, as_of: date) -> Rep
         item for item in scored if item.action_label == "Research now" and item.passed_hard_gates
     ][:10]
     catalyst_watchlist = [item for item in scored if item.action_label == "Watch closely"][:10]
+    late_entry_risk = [item for item in scored if item.action_label == "Late-entry risk"][:10]
     valuation_stretched = [
-        item for item in scored if "Valuation looks stretched" in item.risks
+        item for item in scored
+        if "Valuation looks stretched" in item.risks and item.passed_hard_gates
     ][:10]
     high_growth_lacking_confirmation = [
         item
         for item in scored
         if "Strong earnings momentum" in item.positives and item.action_label != "Research now"
     ][:10]
-    avoid_for_now = [item for item in scored if item.action_label in {"Avoid for now", "Late-entry risk"}][
-        :10
-    ]
+    avoid_for_now = [item for item in scored if item.action_label == "Avoid for now"][:10]
 
     important_developments = _top_developments(scored)
     return ReportBundle(
         generated_for=as_of,
         top_opportunities=top_opportunities,
         catalyst_watchlist=catalyst_watchlist,
+        late_entry_risk=late_entry_risk,
         valuation_stretched=valuation_stretched,
         high_growth_lacking_confirmation=high_growth_lacking_confirmation,
         avoid_for_now=avoid_for_now,
