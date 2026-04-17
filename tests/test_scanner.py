@@ -421,6 +421,19 @@ class PublishCommandTests(unittest.TestCase):
         git_commit.assert_not_called()
         git_push.assert_not_called()
 
+    def test_publish_command_reports_success_when_no_changes_exist(self) -> None:
+        from stock_scanner import cli
+
+        with patch.object(cli, "_run_scan"), patch.object(cli, "_export_dashboard_data"), patch.object(
+            cli, "_run_frontend_build"
+        ), patch.object(cli, "_git_has_publish_changes", return_value=False), patch(
+            "builtins.print"
+        ) as print_mock:
+            result = cli.main(["publish", "--date", "2026-04-17", "--demo"])
+
+        self.assertEqual(result, 0)
+        print_mock.assert_any_call("No publishable changes detected.")
+
     def test_git_has_publish_changes_only_detects_owned_paths(self) -> None:
         from stock_scanner import cli
 

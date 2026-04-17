@@ -9,7 +9,11 @@ source venv/bin/activate
 python3 --version
 ```
 
-The project currently uses the standard library only, so there is no dependency install step for the MVP.
+The scanner uses the standard library, and the dashboard adds a small Node-based frontend:
+
+```bash
+npm --prefix web install
+```
 
 ## Running the Scanner
 
@@ -74,6 +78,29 @@ This prints the exact stored JSON payload for that ticker, including:
 - invalidation reason
 - recent news
 
+## Publishing The Dashboard
+
+Run the one-command publish flow:
+
+```bash
+PYTHONPATH=src python3 -m stock_scanner publish
+```
+
+Use demo data when you want to verify the full publishing pipeline without live endpoints:
+
+```bash
+PYTHONPATH=src python3 -m stock_scanner publish --demo --date 2026-04-17
+```
+
+`publish` will:
+
+- run the dated scan
+- regenerate `web/public/data` from all checked-in reports
+- build the Vite dashboard
+- commit changed publish artifacts
+- push to the tracked branch
+- let GitHub Actions rebuild and deploy GitHub Pages automatically
+
 ## Report Output
 
 Each scan writes:
@@ -98,6 +125,12 @@ Run the unit tests:
 PYTHONPATH=src python3 -m unittest discover -s tests -v
 ```
 
+Run the dashboard production build:
+
+```bash
+npm --prefix web run build
+```
+
 Check import/bytecode compilation:
 
 ```bash
@@ -112,6 +145,7 @@ cd "/Users/sidhartha/Documents/New project/codex-hackatown/projects/indian-stock
 PYTHONPATH=src python3 -m stock_scanner refresh-universe
 PYTHONPATH=src python3 -m stock_scanner scan
 PYTHONPATH=src python3 -m stock_scanner report --latest
+PYTHONPATH=src python3 -m stock_scanner publish
 ```
 
 Suggested habit:
@@ -127,4 +161,3 @@ Suggested habit:
 - The bundled universe is a practical starter list, not full NSE 500 coverage.
 - The scoring model is intentionally transparent but still heuristic.
 - You should validate surfaced ideas manually before acting on them.
-
