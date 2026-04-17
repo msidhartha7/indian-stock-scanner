@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "indian-stock-scanner"
+version = "0.1.0"
+description = "Daily 3-6 month Indian stock opportunity scanner"
+requires-python = ">=3.12"
+
+[project.scripts]
+stock-scanner = "stock_scanner.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
