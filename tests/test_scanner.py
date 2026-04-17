@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import subprocess
 import tempfile
 import unittest
 from datetime import date, datetime, timedelta, timezone
@@ -418,6 +419,41 @@ class PublishCommandTests(unittest.TestCase):
         self.assertEqual(result, 0)
         git_commit.assert_not_called()
         git_push.assert_not_called()
+
+    def test_git_has_publish_changes_only_detects_owned_paths(self) -> None:
+        from stock_scanner import cli
+
+        with patch.object(
+            cli,
+            "_run_command",
+            return_value=subprocess.CompletedProcess(
+                args=["git"],
+                returncode=0,
+                stdout=" M data/reports/report-2026-04-17.json\n",
+                stderr="",
+            ),
+        ) as run_command:
+            self.assertTrue(cli._git_has_publish_changes())
+
+        run_command.assert_called_once_with(
+            ["git", "status", "--short", "--", "data/reports", "web", ".codex", ".github"],
+            cwd=cli.PROJECT_ROOT,
+        )
+
+    def test_git_has_publish_changes_returns_false_for_clean_status(self) -> None:
+        from stock_scanner import cli
+
+        with patch.object(
+            cli,
+            "_run_command",
+            return_value=subprocess.CompletedProcess(
+                args=["git"],
+                returncode=0,
+                stdout="",
+                stderr="",
+            ),
+        ):
+            self.assertFalse(cli._git_has_publish_changes())
 
 
 if __name__ == "__main__":
