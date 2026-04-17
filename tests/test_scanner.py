@@ -178,6 +178,56 @@ class ScoringTests(unittest.TestCase):
         self.assertIn("Governance or balance-sheet risk in recent news", result.risks)
         self.assertLess(result.risk_score, 0.6)
 
+    def test_old_news_contributes_less_to_catalyst_strength(self) -> None:
+        fresh_news = make_company(
+            "FRESH",
+            revenue=160.0, revenue_prev_year=120.0, revenue_prev_quarter=150.0,
+            profit=38.0, profit_prev_year=28.0, profit_prev_quarter=34.0,
+            news=[make_news("Big contract win", CatalystSentiment.POSITIVE, days_ago=3)],
+        )
+        stale_news = make_company(
+            "STALE",
+            revenue=160.0, revenue_prev_year=120.0, revenue_prev_quarter=150.0,
+            profit=38.0, profit_prev_year=28.0, profit_prev_quarter=34.0,
+            news=[make_news("Big contract win", CatalystSentiment.POSITIVE, days_ago=60)],
+        )
+        fresh_result = score_company(fresh_news, as_of=date(2026, 4, 17))
+        stale_result = score_company(stale_news, as_of=date(2026, 4, 17))
+
+        self.assertGreater(fresh_result.catalyst_strength, stale_result.catalyst_strength)
+
+    def test_25_pct_yoy_revenue_growth_yields_full_growth_score(self) -> None:
+        company = make_company(
+            "LARGECAP",
+            revenue=125.0,
+            revenue_prev_year=100.0,
+            revenue_prev_quarter=120.0,
+            profit=30.0,
+            profit_prev_year=24.0,
+            profit_prev_quarter=28.0,
+        )
+        result = score_company(company, as_of=date(2026, 4, 17))
+        self.assertGreaterEqual(result.opportunity_score, 55)
+
+    def test_time_window_fit_influences_opportunity_score(self) -> None:
+        base_kwargs = dict(
+            revenue=160.0, revenue_prev_year=120.0, revenue_prev_quarter=150.0,
+            profit=38.0, profit_prev_year=28.0, profit_prev_quarter=34.0,
+        )
+        high_twf = make_company(
+            "HIGHTWF", **base_kwargs,
+            news=[
+                make_news("Order win", CatalystSentiment.POSITIVE, days_ago=2),
+                make_news("Guidance raised", CatalystSentiment.POSITIVE, days_ago=5),
+            ],
+        )
+        low_twf = make_company("LOWTWF", **base_kwargs, news=[])
+        high_result = score_company(high_twf, as_of=date(2026, 4, 17))
+        low_result = score_company(low_twf, as_of=date(2026, 4, 17))
+
+        self.assertGreater(high_result.opportunity_score, low_result.opportunity_score)
+        self.assertGreater(high_result.time_window_fit, low_result.time_window_fit)
+
     def test_near_52w_high_adds_setup_bonus(self) -> None:
         near_high = make_company(
             "NEARHIGH",

@@ -13,6 +13,15 @@ def _clamp(value: float, floor: float = 0.0, ceiling: float = 1.0) -> float:
     return max(floor, min(ceiling, value))
 
 
+def _news_weight(item, as_of: date) -> float:
+    age = (as_of - item.published_at.date()).days
+    if age <= 7:
+        return 1.0
+    if age <= 30:
+        return 0.5
+    return 0.1
+
+
 def score_company(company: CompanySnapshot, *, as_of: date) -> ScoredCompany:
     latest = company.latest
     age_days = (as_of - company.updated_at.date()).days
@@ -30,8 +39,8 @@ def score_company(company: CompanySnapshot, *, as_of: date) -> ScoredCompany:
         rejection_reasons.append("Liquidity is too low")
 
     growth_inputs = [
-        _clamp(latest.revenue_yoy_growth / 0.50),
-        _clamp(latest.profit_yoy_growth / 0.50),
+        _clamp(latest.revenue_yoy_growth / 0.25),
+        _clamp(latest.profit_yoy_growth / 0.25),
         _clamp(latest.revenue_qoq_growth / 0.10),
         _clamp(latest.profit_qoq_growth / 0.10),
         _clamp(latest.margin_delta / 0.05),
@@ -44,7 +53,9 @@ def score_company(company: CompanySnapshot, *, as_of: date) -> ScoredCompany:
 
     positive_news = sum(1 for item in company.news if item.sentiment is CatalystSentiment.POSITIVE)
     negative_news = sum(1 for item in company.news if item.sentiment is CatalystSentiment.NEGATIVE)
-    catalyst_strength = _clamp((positive_news * 0.28) - (negative_news * 0.18))
+    positive_score = sum(_news_weight(i, as_of) for i in company.news if i.sentiment is CatalystSentiment.POSITIVE)
+    negative_score = sum(_news_weight(i, as_of) for i in company.news if i.sentiment is CatalystSentiment.NEGATIVE)
+    catalyst_strength = _clamp((positive_score * 0.28) - (negative_score * 0.18))
     if catalyst_strength >= 0.45:
         positives.append("Fresh catalyst support is visible")
     elif catalyst_strength < 0.2:
@@ -89,11 +100,12 @@ def score_company(company: CompanySnapshot, *, as_of: date) -> ScoredCompany:
 
     time_window_fit = _clamp((growth_score * 0.55) + (catalyst_strength * 0.45))
     opportunity_raw = (
-        (growth_score * 0.30)
-        + (catalyst_strength * 0.25)
+        (growth_score * 0.25)
+        + (catalyst_strength * 0.20)
         + (setup_quality * 0.20)
         + (valuation_headroom * 0.15)
         + (risk_score * 0.10)
+        + (time_window_fit * 0.10)
     )
     opportunity_score = int(round(opportunity_raw * 100))
     passed_hard_gates = not rejection_reasons
