@@ -57,11 +57,14 @@ def score_company(company: CompanySnapshot, *, as_of: date) -> ScoredCompany:
     elif company.last_price < company.sma_50:
         risks.append("Price trend needs confirmation")
     setup_quality += _clamp(company.relative_strength_3m / 0.25) * 0.35
-    if company.distance_from_52w_high_pct <= -0.02:
+    if company.distance_from_52w_high_pct >= -0.10:
         setup_quality += 0.20
-    else:
+        positives.append("Price near 52-week high")
+    elif company.distance_from_52w_high_pct <= -0.30:
         setup_quality += 0.05
-        risks.append("Price is close to the 52-week high")
+        risks.append("Price far from 52-week high")
+    else:
+        setup_quality += 0.12
     setup_quality = _clamp(setup_quality)
 
     valuation_headroom = _clamp(1.0 - company.valuation_percentile)

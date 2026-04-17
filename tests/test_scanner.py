@@ -44,7 +44,7 @@ def make_company(
     last_price: float = 100.0,
     sma_50: float = 95.0,
     sma_200: float = 82.0,
-    distance_from_52w_high_pct: float = -4.0,
+    distance_from_52w_high_pct: float = -0.04,
     valuation_percentile: float = 0.55,
     relative_strength_3m: float = 0.18,
     avg_daily_value: float = 5_000_000.0,
@@ -177,6 +177,26 @@ class ScoringTests(unittest.TestCase):
 
         self.assertIn("Governance or balance-sheet risk in recent news", result.risks)
         self.assertLess(result.risk_score, 0.6)
+
+    def test_near_52w_high_adds_setup_bonus(self) -> None:
+        near_high = make_company(
+            "NEARHIGH",
+            revenue=160.0, revenue_prev_year=120.0, revenue_prev_quarter=150.0,
+            profit=38.0, profit_prev_year=28.0, profit_prev_quarter=34.0,
+            distance_from_52w_high_pct=-0.05,
+        )
+        far_high = make_company(
+            "FARHIGH",
+            revenue=160.0, revenue_prev_year=120.0, revenue_prev_quarter=150.0,
+            profit=38.0, profit_prev_year=28.0, profit_prev_quarter=34.0,
+            distance_from_52w_high_pct=-0.35,
+        )
+        near_result = score_company(near_high, as_of=date(2026, 4, 17))
+        far_result = score_company(far_high, as_of=date(2026, 4, 17))
+
+        self.assertGreater(near_result.setup_quality, far_result.setup_quality)
+        self.assertIn("Price near 52-week high", near_result.positives)
+        self.assertIn("Price far from 52-week high", far_result.risks)
 
     def test_stale_company_data_fails_hard_gate(self) -> None:
         company = make_company(
