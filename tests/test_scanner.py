@@ -526,6 +526,95 @@ class ProviderTests(unittest.TestCase):
         # updated_at must reflect the latest earnings date (2025-03-31), not the chart timestamp
         self.assertEqual(snapshot.updated_at.date(), date(2025, 3, 31))
 
+    def test_year_high_falls_back_to_max_price_when_meta_field_absent(self) -> None:
+        from stock_scanner import providers
+
+        chart_payload = {
+            "chart": {
+                "result": [
+                    {
+                        "meta": {
+                            "regularMarketPrice": 2450.0,
+                            # deliberately no fiftyTwoWeekHigh
+                        },
+                        "timestamp": [1719792000, 1743465600],
+                        "indicators": {
+                            "quote": [
+                                {
+                                    "close": [2600.0, 2450.0],
+                                    "volume": [1000000, 1000000],
+                                }
+                            ]
+                        },
+                    }
+                ]
+            }
+        }
+        timeseries_payload = {
+            "timeseries": {
+                "result": [
+                    {
+                        "meta": {"symbol": ["TEST.NS"], "type": ["quarterlyTotalRevenue"]},
+                        "quarterlyTotalRevenue": [
+                            {"asOfDate": "2024-06-30", "reportedValue": {"raw": 1000.0}},
+                            {"asOfDate": "2024-09-30", "reportedValue": {"raw": 1050.0}},
+                            {"asOfDate": "2024-12-31", "reportedValue": {"raw": 1100.0}},
+                            {"asOfDate": "2025-03-31", "reportedValue": {"raw": 1200.0}},
+                        ],
+                    },
+                    {
+                        "meta": {"symbol": ["TEST.NS"], "type": ["quarterlyNetIncome"]},
+                        "quarterlyNetIncome": [
+                            {"asOfDate": "2024-06-30", "reportedValue": {"raw": 100.0}},
+                            {"asOfDate": "2024-09-30", "reportedValue": {"raw": 110.0}},
+                            {"asOfDate": "2024-12-31", "reportedValue": {"raw": 120.0}},
+                            {"asOfDate": "2025-03-31", "reportedValue": {"raw": 130.0}},
+                        ],
+                    },
+                    {
+                        "meta": {"symbol": ["TEST.NS"], "type": ["quarterlyOperatingIncome"]},
+                        "quarterlyOperatingIncome": [
+                            {"asOfDate": "2025-03-31", "reportedValue": {"raw": 150.0}},
+                        ],
+                    },
+                    {
+                        "meta": {"symbol": ["TEST.NS"], "type": ["quarterlyOperatingCashFlow"]},
+                        "quarterlyOperatingCashFlow": [
+                            {"asOfDate": "2025-03-31", "reportedValue": {"raw": 120.0}},
+                        ],
+                    },
+                    {
+                        "meta": {"symbol": ["TEST.NS"], "type": ["quarterlyTotalDebt"]},
+                        "quarterlyTotalDebt": [
+                            {"asOfDate": "2025-03-31", "reportedValue": {"raw": 50.0}},
+                        ],
+                    },
+                    {
+                        "meta": {"symbol": ["TEST.NS"], "type": ["quarterlyBasicAverageShares"]},
+                        "quarterlyBasicAverageShares": [
+                            {"asOfDate": "2025-03-31", "reportedValue": {"raw": 10.0}},
+                        ],
+                    },
+                ],
+                "error": None,
+            }
+        }
+
+        def fake_fetch(url: str) -> dict:
+            if "finance/chart" in url:
+                return chart_payload
+            return timeseries_payload
+
+        with patch.object(providers, "_fetch_json", side_effect=fake_fetch), patch.object(
+            providers, "fetch_google_news", return_value=[]
+        ):
+            snapshot = providers.YahooFinanceClient().fetch_company_snapshot(
+                {"ticker": "TEST", "company_name": "Test Co", "sector": "IT"}
+            )
+
+        # year_high must come from max(prices) = 2600, not from chartPreviousClose
+        self.assertAlmostEqual(snapshot.distance_from_52w_high_pct, (2450 / 2600) - 1, places=4)
+
 
 class PublishCommandTests(unittest.TestCase):
     def test_export_dashboard_data_command_rebuilds_static_site_data_from_reports(self) -> None:

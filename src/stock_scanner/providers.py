@@ -147,9 +147,7 @@ def _build_snapshot(item: dict, chart: dict, fundamentals: dict, news: list[News
 
     average_daily_value = statistics.mean(price * volume for price, volume in recent_pairs) if recent_pairs else 0.0
     current_price = float(chart_result["meta"].get("regularMarketPrice", prices[-1] if prices else 0.0) or 0.0)
-    year_high = float(chart_result["meta"].get("chartPreviousClose", current_price) or current_price)
-    if "fiftyTwoWeekHigh" in chart_result["meta"]:
-        year_high = float(chart_result["meta"]["fiftyTwoWeekHigh"] or year_high)
+    year_high = float(chart_result["meta"].get("fiftyTwoWeekHigh") or 0) or max(prices, default=current_price)
     distance_from_52w_high_pct = ((current_price / year_high) - 1.0) if year_high else 0.0
     trailing_pe = (current_price / trailing_eps) if trailing_eps > 0 else 0.0
     valuation_percentile = _estimate_valuation_percentile(trailing_pe, trailing_pe)
