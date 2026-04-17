@@ -483,6 +483,30 @@ class PublishCommandTests(unittest.TestCase):
             ],
         )
 
+    def test_git_commit_publish_force_adds_ignored_report_artifacts(self) -> None:
+        from stock_scanner import cli
+
+        with patch.object(cli, "_run_command") as run_command:
+            cli._git_commit_publish("2026-04-17")
+
+        self.assertEqual(
+            run_command.call_args_list,
+            [
+                unittest.mock.call(
+                    ["git", "add", "-f", "data/reports"],
+                    cwd=cli.PROJECT_ROOT,
+                ),
+                unittest.mock.call(
+                    ["git", "add", "web", ".codex", ".github"],
+                    cwd=cli.PROJECT_ROOT,
+                ),
+                unittest.mock.call(
+                    ["git", "commit", "-m", "Publish stock scan for 2026-04-17"],
+                    cwd=cli.PROJECT_ROOT,
+                ),
+            ],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
