@@ -37,7 +37,11 @@ def _fetch_text(url: str) -> str:
 
 CATALYST_KEYWORDS = {
     "positive": ("order", "contract", "deal", "beat", "guidance", "expansion", "approval", "upgrade"),
-    "negative": ("pledge", "pledged", "fraud", "probe", "downgrade", "dilution", "sell-off", "regulatory"),
+    "negative": (
+        "pledge", "pledged", "fraud", "probe", "downgrade", "dilution", "sell-off",
+        "insider selling", "block deal", "notice", "tax demand", "ED", "SEBI",
+        "promoter sale", "regulatory violation", "regulatory action",
+    ),
 }
 
 
@@ -150,7 +154,7 @@ def _build_snapshot(item: dict, chart: dict, fundamentals: dict, news: list[News
     year_high = float(chart_result["meta"].get("fiftyTwoWeekHigh") or 0) or max(prices, default=current_price)
     distance_from_52w_high_pct = ((current_price / year_high) - 1.0) if year_high else 0.0
     trailing_pe = (current_price / trailing_eps) if trailing_eps > 0 else 0.0
-    valuation_percentile = _estimate_valuation_percentile(trailing_pe, trailing_pe)
+    valuation_percentile = _estimate_valuation_percentile(trailing_pe)
 
     latest_timestamp = datetime.fromtimestamp(timestamps[-1], tz=timezone.utc)
     earnings_datetime = datetime(latest_date.year, latest_date.month, latest_date.day, tzinfo=timezone.utc)
@@ -262,11 +266,10 @@ def _ratio(numerator: float, denominator: float) -> float:
     return numerator / denominator
 
 
-def _estimate_valuation_percentile(trailing_pe: float, forward_pe: float) -> float:
-    anchor = trailing_pe if trailing_pe > 0 else forward_pe
-    if anchor <= 0:
+def _estimate_valuation_percentile(trailing_pe: float) -> float:
+    if trailing_pe <= 0:
         return 0.5
-    return max(0.1, min(0.98, math.log1p(anchor) / math.log1p(120.0)))
+    return max(0.1, min(0.98, math.log1p(trailing_pe) / math.log1p(120.0)))
 
 
 def _relative_strength(prices: list[float]) -> float:

@@ -615,6 +615,28 @@ class ProviderTests(unittest.TestCase):
         # year_high must come from max(prices) = 2600, not from chartPreviousClose
         self.assertAlmostEqual(snapshot.distance_from_52w_high_pct, (2450 / 2600) - 1, places=4)
 
+    def test_classify_news_detects_new_negative_keywords(self) -> None:
+        from stock_scanner.providers import classify_news
+
+        cases = [
+            "Promoter sale triggers block deal in mid-cap stock",
+            "SEBI issues notice to board members",
+            "ED probe into tax demand from FY23",
+            "Regulatory action taken against management",
+            "Insider selling detected ahead of results",
+        ]
+        for title in cases:
+            with self.subTest(title=title):
+                self.assertEqual(classify_news(title), CatalystSentiment.NEGATIVE, msg=title)
+
+    def test_classify_news_does_not_flag_generic_regulatory_approval_as_negative(self) -> None:
+        from stock_scanner.providers import classify_news
+
+        self.assertNotEqual(
+            classify_news("CDSCO grants regulatory approval for new drug"),
+            CatalystSentiment.NEGATIVE,
+        )
+
 
 class PublishCommandTests(unittest.TestCase):
     def test_export_dashboard_data_command_rebuilds_static_site_data_from_reports(self) -> None:
