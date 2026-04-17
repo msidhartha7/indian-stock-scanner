@@ -155,6 +155,7 @@ def _build_snapshot(item: dict, chart: dict, fundamentals: dict, news: list[News
     valuation_percentile = _estimate_valuation_percentile(trailing_pe, trailing_pe)
 
     latest_timestamp = datetime.fromtimestamp(timestamps[-1], tz=timezone.utc)
+    earnings_datetime = datetime(latest_date.year, latest_date.month, latest_date.day, tzinfo=timezone.utc)
 
     return CompanySnapshot(
         ticker=item["ticker"],
@@ -181,7 +182,7 @@ def _build_snapshot(item: dict, chart: dict, fundamentals: dict, news: list[News
         valuation_percentile=valuation_percentile,
         relative_strength_3m=_relative_strength(prices),
         avg_daily_value=average_daily_value,
-        updated_at=latest_timestamp,
+        updated_at=earnings_datetime,
         news=news,
     )
 

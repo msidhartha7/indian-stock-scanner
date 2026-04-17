@@ -523,6 +523,8 @@ class ProviderTests(unittest.TestCase):
         self.assertEqual(snapshot.latest.total_debt, 410.0)
         self.assertEqual(snapshot.trailing_twelve_month_profit, 480.0)
         self.assertGreater(snapshot.valuation_percentile, 0.0)
+        # updated_at must reflect the latest earnings date (2025-03-31), not the chart timestamp
+        self.assertEqual(snapshot.updated_at.date(), date(2025, 3, 31))
 
 
 class PublishCommandTests(unittest.TestCase):
