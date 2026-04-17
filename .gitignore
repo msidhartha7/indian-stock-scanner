@@ -8,3 +8,8 @@ __pycache__/
 data/cache/
 data/reports/
 .worktrees/
+web/node_modules/
+web/dist/
+web/*.tsbuildinfo
+web/vite.config.js
+web/vite.config.d.ts

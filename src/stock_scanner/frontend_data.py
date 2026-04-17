@@ -28,7 +28,11 @@ def export_frontend_data(paths: StoragePaths, destination: Path) -> FrontendExpo
     for report_file in report_files:
         payload = json.loads(report_file.read_text(encoding="utf-8"))
         report_name = report_file.name
+        markdown_name = report_name.removesuffix(".json") + ".md"
         shutil.copyfile(report_file, reports_dir / report_name)
+        markdown_source = paths.reports_dir / markdown_name
+        if markdown_source.exists():
+            shutil.copyfile(markdown_source, reports_dir / markdown_name)
         reports.append(
             {
                 "date": payload["generated_for"],

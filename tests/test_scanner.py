@@ -345,6 +345,7 @@ class FrontendExportTests(unittest.TestCase):
             self.assertEqual(index_payload["reports"][0]["date"], "2026-04-17")
             self.assertEqual(index_payload["reports"][0]["reportPath"], "reports/report-2026-04-17.json")
             self.assertTrue((public_dir / "reports" / "report-2026-04-17.json").exists())
+            self.assertTrue((public_dir / "reports" / "report-2026-04-17.md").exists())
             latest_payload = json.loads(
                 (public_dir / "reports" / "report-2026-04-17.json").read_text(encoding="utf-8")
             )

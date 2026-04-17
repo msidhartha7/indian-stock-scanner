@@ -11,6 +11,7 @@ const sections = [
 ] as const;
 
 type SectionKey = (typeof sections)[number][0];
+const repositoryBase = import.meta.env.BASE_URL;
 
 function App() {
   const [index, setIndex] = useState<ReportIndex | null>(null);
@@ -186,10 +187,10 @@ function App() {
                 </ul>
                 {activeDate ? (
                   <p className="artifact-links">
-                    <a href={`data/reports/report-${activeDate}.json`} target="_blank" rel="noreferrer">
+                    <a href={artifactPath(activeDate, "json")} target="_blank" rel="noreferrer">
                       JSON
                     </a>
-                    <a href={`data/reports/report-${activeDate}.md`} target="_blank" rel="noreferrer">
+                    <a href={artifactPath(activeDate, "md")} target="_blank" rel="noreferrer">
                       Markdown
                     </a>
                   </p>
@@ -282,6 +283,10 @@ function formatCurrency(value: number): string {
   return new Intl.NumberFormat("en-IN", {
     maximumFractionDigits: 0,
   }).format(value);
+}
+
+function artifactPath(dateValue: string, extension: "json" | "md"): string {
+  return `${repositoryBase}data/reports/report-${dateValue}.${extension}`;
 }
 
 export default App;
