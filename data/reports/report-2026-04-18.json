@@ -1,0 +1,1393 @@
+{
+  "generated_for": "2026-04-18",
+  "top_opportunities": [],
+  "catalyst_watchlist": [],
+  "late_entry_risk": [],
+  "valuation_stretched": [],
+  "high_growth_lacking_confirmation": [
+    {
+      "ticker": "TITAN",
+      "company_name": "Titan Company",
+      "sector": "Consumer",
+      "opportunity_score": 45,
+      "time_window_fit": 0.44,
+      "catalyst_strength": 0.0,
+      "valuation_stretch": 0.93,
+      "setup_quality": 0.726,
+      "risk_score": 0.5,
+      "passed_hard_gates": false,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [
+        "Data is stale"
+      ],
+      "positives": [
+        "Strong earnings momentum",
+        "Price trend is constructive",
+        "Price near 52-week high"
+      ],
+      "risks": [
+        "Catalyst support is limited",
+        "Valuation looks stretched",
+        "Cash conversion is weak",
+        "Debt is high relative to profits"
+      ],
+      "summary": "TITAN combines 80% earnings momentum, 0% catalyst strength, and 73% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q2FY26",
+        "revenue": 249150000000.0,
+        "revenue_prev_year": 175500000000.0,
+        "revenue_prev_quarter": 148140000000.0,
+        "net_profit": 16840000000.0,
+        "profit_prev_year": 10470000000.0,
+        "profit_prev_quarter": 10910000000.0,
+        "operating_margin": 0.10058197872767409,
+        "operating_margin_prev_quarter": 0.1111111111111111,
+        "operating_cash_flow": 0.0,
+        "total_debt": 207770000000.0
+      },
+      "last_price": 4525.9,
+      "updated_at": "2025-12-31T00:00:00+00:00",
+      "news": [
+        {
+          "source": "Moneycontrol.com",
+          "title": "Kalyan Jewellers, Titan shares fall up to 6% as Indian banks halt gold and silver imports - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQczN0czNGdzk3MmIxWkVwNE9DNnU0UXdpV2YtcFFHN1QzU1Rna05SemZETVdZMlFlUnh4R2ZvZG5kem5Rdk94VHZjc1VacW13RldGeU5MOWdURHUwZjZXSHV2NFp0ZEw0aklwRkszdlJXN1UzYjVMeDJWckNUNkRhUXVsaHZETmUwVG8zeVZDSEJVaEhIX1V2cWxoQ0xZcTVnSDNaYVVOVTBVUnhPUTZCRzlyU0JCN29GSVVBTU9PMndWRjV2aTJ3TmdYTWpqOWtFbVRGRHU0R3hub3d1Zmw1SG1QVjFLWWhUalNRb9IB7AFBVV95cUxQczN0czNGdzk3MmIxWkVwNE9DNnU0UXdpV2YtcFFHN1QzU1Rna05SemZETVdZMlFlUnh4R2ZvZG5kem5Rdk94VHZjc1VacW13RldGeU5MOWdURHUwZjZXSHV2NFp0ZEw0aklwRkszdlJXN1UzYjVMeDJWckNUNkRhUXVsaHZETmUwVG8zeVZDSEJVaEhIX1V2cWxoQ0xZcTVnSDNaYVVOVTBVUnhPUTZCRzlyU0JCN29GSVVBTU9PMndWRjV2aTJ3TmdYTWpqOWtFbVRGRHU0R3hub3d1Zmw1SG1QVjFLWWhUalNRbw?oc=5",
+          "published_at": "2026-04-17T06:21:46+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Trade Brains",
+          "title": "Kalyan Jewellers, Titan Shares Tumble 6% as Gold & Silver Import Gridlock Hits India - Trade Brains",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX1NaLUJIX0drR3FIWGI5UWwwaFU3Z0ctcmVsZm82M2kyTGdFY1FXZGphS1pkS3pKM3h2VTQzbTNZbl9jeVBETHh4V2lmREtlZEhaU0hlZjZHal9NNzNDMHhEVlY0a0FmU2FlQzFJa2ZKRTdPaGMyVzBveDRFMVliRElsazlKUXVhU2w1RE1FQkM5YWZ5bjNTUTY2VkhoX1JuRXhzU3pWWQ?oc=5",
+          "published_at": "2026-04-17T10:45:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "AD HOC NEWS",
+          "title": "Titan Company Ltd Stock: India's Leading Jewellery and Watches Giant Offers Steady Growth for Global - AD HOC NEWS",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaTVUbDUtcjc5QTR6NTR3emdJczFXRTlxY2VjVVpXcklZNUx2Zm5RSTFjX05ZRHl0ekRBT0QyWVJlMmJpRmxkal9fQUUzeFlGbnNfZHFLSWdyOFhtdFFKTmRUZG5pX3VEbjYxbnp4WFRORlhGUEo4S3hUVGlJSzFtcHNzSVhIV2doMDVaakFoQk9EYmtsOGZoTlhSU3hTM0JhcFBUZGlaRFNkU0hGQjJtcUtTNVlfRTlrQWFQM1d3?oc=5",
+          "published_at": "2026-04-02T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "lokmattimes.com",
+          "title": "Kalyan Jewellers falls 6 pc, Titan company slips amid DGFT delay - lokmattimes.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQzFpVkNxLUUxS2xETnlVSTFVQ2w1SnBnWmk4UmR3a3lRVkRZZXlmRDNvamUtTjllR0U2Y3FTU3FSaVcxZXlKeWNWaXJWaVYzQTJndHhtTUx1emlNOVVYUzJ3N2pRYml3dHVJaEJpT0RTbklQYlF3WDRzX180UkthQUZNYkU4MVRUY0J3S2NTX3ZXMDN4OUk5dGVHNGNoNlF4R3pV0gGoAUFVX3lxTFBBVEpaZl8wTlFkSnJFSmlJb2NiUmFNMURSdE1QTTVibkpzMmNBMXpheXVxSkZXdUl6djFBazRwb2haVlpZZ3BNYVZmUlRYNGQ1YThKMTlYYWxvSnRrNmxuUEdqeU1Pa2luWEk5Q3FrVE91X19qckNURTlSVkhrLU04SG9RUnFvalVQOTkteU5UMHlpUTQ2TzlvOG5TYnBFR2pxd2VJbzZiVw?oc=5",
+          "published_at": "2026-04-17T10:08:04+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Economic Times",
+          "title": "Titan shares soar 6% after better-than-expected Q4 business update. Should you buy? - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNX21vcjA3a1hHRGdGRk1NMDczbVdBMlhoRlBSNjNHS2VtcVZFV3RaeVd3bFg3WEhWel94cXBCVGVrM3FNQTh2NTJIMV9xeTRWQ1hDTzl4MXBtYjg4Z1c0WVRyRFAxQTVwNmhYOWNUMy1EQzhhLTV4LTk4U3ZIeEc2VFNiSnJDWHRHcTNjVnRrR0Fib1JMUXIxZXdSRUxmY28xWTEwV01rTmVCNWRWaXNMWUhfOUYyLWhidWFsWWtiTENXWW1YWEJ4RmhzM3RFUWdwVzlud1JTY045YTdHRVRSc0t2UGF0UnRnT2lVLdIB8gFBVV95cUxOek5MMkROR014ZW1qdC1xenBJYVZDQjdzUFRXaXNoOERaaUZ5RW5HQlUxdkZ2WHhLZ2pDQ2ptaFRUTjlMU2Q5TndmZ3JreXZBQ1Z1bjZGZzh4V2VBUE82ZFg0VkNZbnhyQmdfRTdzeUcta1dPR0g4bS1tZExHVEFxek1IMmxSeEVqbnhVRUlzTF9NMkNtM294MFdQam9QOEE1czVRaVpJUTduYzQzeVRndUtaMm92d0pkOUF1cXNaM3RONmFGQXRXLXZtSGMweV85SlY2ZTRpVnlmM0RLd2RiNjRJMVhYWlRsdWlacF91a0NGQQ?oc=5",
+          "published_at": "2026-04-08T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "NDTV Profit",
+          "title": "Five Stocks To Buy: Adani Power, Titan, Cummins India, Mankind Pharma And More - NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX0doUkc0TTBJNm5aWmhCUjJLVV9GeW4xZzBFYWJFZUZsSWpQUWd2MDg5aEhMVDFvb3FJMHRVal8wZDVQUjJQelFoTFFDNVljdTcyT1NQWm1yT3Rsemkya1VRODMwZURwWlg2U1JhWlRISC1YYTd4WDZRd3J0YXhJb2hudFFoUG5LWG0tZTlzZnkzTkwxTnNYeTUzN1hjVllwdmlYZ3hJVHlYREpCMjR4RGZ4RVhjc1VGS3fSAcIBQVVfeXFMUFRpVVdoUHJEN295R1VzQkZpR21oeHJ0Y2FqREJSMDVfYzhMTGZLcXlGdi1Kd3Z4QU9MbGNVOVdPbjk4dmx1THN3cjR2bUFqRjBpVlh6dWhlVUtRWng2MjVpeEp2YlU3S0pfb1M5by1DdWg1UDRReDl6OE1NUnVYcmYtSHBoWjdMbUdJeDJpaFJDdGFGQk9DZDlxWDhVZHlsTS1QajFyTzhNRzFnRG03Vm5ZcG9TTnFvS0haQ2hYaERrQ3c?oc=5",
+          "published_at": "2026-04-06T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "India Today",
+          "title": "Titan share price up 4%: Why is the Jhunjhunwala stock rising today? - India Today",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOYklCRXZWLWJwQ0hFSmo4MkNVQVVubWtfVUlCZVFaWjZGTjlaaWpUczl2aXM2U0lsbFJENnk1dnlMNUtFMm55REkwc0ktcVhDdmJmUEx2d0NJY3ltZ3ZhRGFOcU9kUEc2aFhweTc5OHl5eDQtbjdwcDFYeklnaUdNVjk5UmhCVjRjdUtfczNHSlBVbjFpZWNVMlFRM0puY3M2MWV5VFVNRHdsc3ZxTFVnWmRnUzRycjJGVWFuYl9WVVpFUG9zUHk4Z1NKSWNyWUtlZlJCbzlRY1hHM1hJVEs5Q1JqbUtoNEh2c3JIRzhyaGhXYmJV0gH6AUFVX3lxTE9zajJ1QV9US3FVdUQzdnF6d01RcFdJajM2eGdCdndEMDVsRFVtdURFXzlCTUtOZlhSTTdTREVyRFBhZWVjdV9GYXAwMjBQalU1Y04xY2FfcjVKLWNjTjlnejl5aERSQmw3V3RYLUJ2eGQ4eVpBM3VjalEySTFTbmZNcEJ3UGRCY1RRTVVpNUNGNkFaNE5GWEN1VVJNLXc4VVcyUlBHcVA4bDE1a3BYM3FkUUh4VXN3X01zcHRYQ2cyQ1NSbWhTajRyOV9NTUFlbWFVMzlLdVdfV3owdkVlZzktbDRaUFNvUzhNMkF3dDBCY3RXaF94TlMtVGc?oc=5",
+          "published_at": "2026-01-07T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Value Research",
+          "title": "Titan share price: Seven factors that drive moves in India - Value Research",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdnkzbW1oczhwTjBTeENCZmxTaXhWb25aaDdhYnNiUU8wV3VWV2VwSjlBTmNGZGw5allTSFZwWmF4clpNWGF1Y1JvZVEybnVIY0hld3RuSmw0c0JzWFhBYXhESmtpcG5zRDh4ekVfMVFHcF9rN1BZVWhLY3UyNF8zd3prTVdRNlNp?oc=5",
+          "published_at": "2026-02-13T08:00:00+00:00",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "APOLLOHOSP",
+      "company_name": "Apollo Hospitals",
+      "sector": "Healthcare",
+      "opportunity_score": 42,
+      "time_window_fit": 0.419,
+      "catalyst_strength": 0.0,
+      "valuation_stretch": 0.874,
+      "setup_quality": 0.705,
+      "risk_score": 0.32,
+      "passed_hard_gates": false,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [
+        "Data is stale"
+      ],
+      "positives": [
+        "Strong earnings momentum",
+        "Price trend is constructive",
+        "Price near 52-week high"
+      ],
+      "risks": [
+        "Catalyst support is limited",
+        "Cash conversion is weak",
+        "Debt is high relative to profits",
+        "Governance or balance-sheet risk in recent news"
+      ],
+      "summary": "APOLLOHOSP combines 76% earnings momentum, 0% catalyst strength, and 70% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q2FY26",
+        "revenue": 64774000000.0,
+        "revenue_prev_year": 55269000000.0,
+        "revenue_prev_quarter": 58421000000.0,
+        "net_profit": 5023000000.0,
+        "profit_prev_year": 3723000000.0,
+        "profit_prev_quarter": 4328000000.0,
+        "operating_margin": 0.1151851051347763,
+        "operating_margin_prev_quarter": 0.10907036853186354,
+        "operating_cash_flow": 0.0,
+        "total_debt": 54192000000.0
+      },
+      "last_price": 7699.0,
+      "updated_at": "2025-12-31T00:00:00+00:00",
+      "news": [
+        {
+          "source": "simplywall.st",
+          "title": "Apollo Hospitals Enterprise's (NSE:APOLLOHOSP) investors will be pleased with their strong 154% return over the last five years - simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSmtIR09aR05Wel9sV0R1aEd3X3U2QTRpblc3VWUtN3B6MlAteXJiX1F4Ym9CSUJZMkFIdkppYzdpalJJV3psRU9EbDk4SWZGb3owbXFjMlNYVmN2Um8xUzI3U3lGNzlIVUJkLXZfQUhHNi1NRDZZb1RLQl92TDA1XzVVN2dQRDdGeEtFRjQybkRvR1A4QndTbUFaYlNwUG42MnpHbmVTNnl3Mkp5UVhiZl9RUl9Vd08xRnZWOURZUVBxT2ExTE1vd2lFR3lSeXJjZ2V1Mjg4Ql9QZVh4OGo2Q1BHWE4tbjktRENVSWpWdVZ5Z9IB9wFBVV95cUxQUFVpQWJ6ejlmbVRKYUJJRGRsbTl2aXNyMFJ1eXhWMG15Y1NQWkdUTmN1dE1SaS1LaVdRZXdrb01NVmZwSVJLeTBsczlzeHY3RWNzR3J3a2EzNlh2d01UaEFtRVRrS0NubjdySU11SVpxaGZjR1VNaHJobXU5MGFxWGZSRm8tREg1ekpORUF2VXZpRld4UEdzUnZLLTRWMy1STHpNTEZwNjExM1cxY3lzYUxheV9DME5RTE5rSk5GT3QxUDdZcmhGU2JmMjVYYnBiRkgwdzRxX1VLM1dtczh3ejRMTm9xNU40d3pZdXQteWljRzVzVmdR?oc=5",
+          "published_at": "2026-01-28T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "MSN",
+          "title": "Coal India, Auro Pharma, Apollo Hospitals among largecap stocks to buy; check targets - MSN",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUmwtUC12QUgwck05dnY5WjFzUTVTVTdZNkEwbElOMEZQeFNRTmRPMlMtcTNMZGFuRU9GMWU2aUdQcDEyYWhWcXhXN1I0XzlhN1ZwY1ZsRklEZWRTUFQzVTR3UkN3Rnd6MVM4TkpsdTV2XzJrRzZyUTZYeUdUWmpseWkxbWV5RHlnLXVfenJlOVJ2ckZ6NnZaRVd1eFpJZDFKVVNwdExKb0h3Q19DYnpySERPelUyYmNLZUpEekVHOG9KTUdEOXB4bENraUVYYkhJNDVR?oc=5",
+          "published_at": "2026-03-24T04:42:37+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "HDFC Sky",
+          "title": "Apollo Hospitals Declares Interim Dividend of \u20b910 Per Share; Record Date Set Today - HDFC Sky",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQWJEQWxWVkZqVE1udmQyaTVudGNrZ19Qa3RnVmxKamJqYW44bGhQU3RiVVRCRUwyU3hOU1BhSkNKOHpoQWhLZUFxenFfeGN5dklDN1lOenZ6MTJKUGNzdUtlRXZ1OGRYTlZVeUhTeHlGTkEzaUFjZnlqZDl0bWhOVW55OFlZaDR2WDhJblM4RTFDekJEcFlQbkN1ZW9ObG9KaUFteU5uMEZxRGxh?oc=5",
+          "published_at": "2026-02-16T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Medical Dialogues",
+          "title": "Apollo Hospitals' Pharmacy, Healthtech Businesses Inch Closer to Demerger - Medical Dialogues",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTmFYYndCai1EWDliV1JWRjZtTWxUMHRxeXMtbElJMGF0aGtjRWgyajYwNjROd1k5bXJEbl82ZjVrTkNEbUl6U3NoRkpJd3ZuVDM4QUx2Zjc1dVk1WC1TMlUtemJvQkMyLUxaNjN5TnpHNU40M3ZORjdxMjF0TnhwWkFyMjdRZzRRNjdXWGFZSzFueldOUU5CSWN0WDRPcXlpVXVXUXVfTTdIbmJGeWt4U2NUQ29RX0ZrcnpEdGJ6QTVCZGtKcEHSAcsBQVVfeXFMT2hSR2JvNlo2TUR0MFkxRTBXeXFNX2gzd21VVHZRQzRmMll2QWJHMVJkRTlTRThSTWJjdGM1QUpsVjhPUHRmSDVVdzVGOHBabFBHRlZZQjIwcVVnMmozZzh2cWxqVmVFSXJzdDlFTFhrcWtJTFFmMWRNdDg5SldTaUZkR24zdkxsVWltN2lqM09SWTkxSC1hWVRKdkFqZlRSY2s3M3VpeUY2amJrV0VEbW9oX1VaT1VNODRWRFJXcV95ZDZXQnFGWS1EMDg?oc=5",
+          "published_at": "2025-12-25T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Mint",
+          "title": "Apollo Hospitals share price rallies 5% on strong Q3 results. Should you buy, sell or hold? - Mint",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZlFWREpYUG5uUG9VSHVDZ3d2ZmtMRGNUT2lpNF8wV1ZVMUlFQWdiMWpScXY3WXZvZE5OUVZONUt0N2VySTFjWlNON0gwRFctRHpUcEhrY1l1c0szVlVwNTlsdVZsMnlNeUd4UlJpNy00Mml1Y2swMnpJck42ZGh1Y3ljNTRZNVBqUFZWNHZyMVZ3SmxDRnpiV1BxT3lmbnlrSTk1bFNVbnRZbWpaTmVLME9XYldPdko2a3hwU0p6Q2ZQelZ1Y0JQdXpOWWpmLXMwVms0NExFREQ3bzdtVUpQNU9LYVBqS0dMZWRkV0x3Nk1pZ0dm0gH6AUFVX3lxTE90RFBiMExZVEZoLV9UeUdCR2dxMG5CaVk2cC1SMEFwUHRqYVEzcEVZQkdJRk10c2Vad0E5cFRxdGFsaG50dVlyTExLdG9QZ093djdJVXp1R29jYmwtRHlOVDNkSVhtRFlHVlBtNDdGbGcyc3N3R2FXd2NNcTNFZ1cxd3Y5RC1fQUhZNEUwWGxMVE5FM3BBd3U2RUU2QTFETkJjM3BjZkJXQ2FNbWh3SHlKcjFrRlpXSFc1cWtYSjBBMWhGZnBkRnFEUTdCRzYxQ0VNNG1JN0tobmVhcERobXNlLS1aZGJZWnNQNGJFRi1pT1daUXktY21wSFE?oc=5",
+          "published_at": "2026-02-11T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Moneycontrol.com",
+          "title": "Apollo Hospitals' shares rise nearly 2% as NSE approves demerger of pharmacy, digital health businesses - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWHVBRGdGZG5EZldvNGVULThKQUJURGtseS1oQmk0eE9Oald6NzlPVWlCZ2hMWUl5RE5BYkMxQW5nVTRSZ19NcjczSGYyeW5yNUY2UEtxNDhHWkFkS0szYnpLUW1YZHhZT0pjLXBuTWUwbkdvWFp6NGUtYjA4QzctUHRVd3pFZXRjRzBLN2phenh2ZkxuNmdONWc0Rm9LUzYzOVkwUXhOeVNIYlNzVnBDZEM4MzF3enNaUU9MYl90OE5aQWE2VzZra0VmaExFMWhRSDZraTlEZFZwSno1Qlg0QWkxZkxrZFliYlhCRFBaeHJQUjFqaEY1edIB_gFBVV95cUxQX2thdVlEOVozNFN0dC1RaTFwdnZwUjAzUUtjS3Itb1NFellhYU1IMlM5LVNXRGV5XzN0NWJEbThYOU9UWjcwR2Y1d0VDVTdFaExPT3ZST3RtWUJhNllrYnVRckdreUI5NExvX2V3SENKZHFNXzVHdWRXOGh6S3Q4N3cycEZQU1VWMmdKalpsQUtSaEtJNm5TOVBlOUxSc1Y1MWc4VmxORnBYU2xpMHM2ZENyTDZVdDVkUUR5SkVPWTlYWnJadUlsVm4wM2RnN1Z2Q01heFBJQ3BQRVFJbnlIZldIVnpUZzgwdXFacWg0X1lwZW9HbC1sOHBkRjJ4QQ?oc=5",
+          "published_at": "2025-12-24T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Fortune India",
+          "title": "Apollo Hospitals shares rise 2% after NSE clears demerger of multiple health businesses - Fortune India",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTGxpZzRJVVNEcTJBUzVESUFISjdQWnBxUkl4M0Fub2FEaTdCQVEzUVZSZThqMVFlcTlvSDhSWnlTb1I0TndDMnBaemJ3MDFHMDhkOEV6V191Vlh0TkY5R0RzNXlvWnE3R0N0TENqVWJxdDR5cEFyeHdjcW5EWEJCRzZ5dXJGTV9PZklzUEJxV1Q5MTNQMUxTWGZlNjloa2xNTUpkdUpmMEttdHRuNlViS1BWc1hxMENyQnBna0Vzc2NNQnBuVzBwXzlR0gHXAUFVX3lxTE9tZGhyTTR1X3pUdUViM1FIeXJHZFZ0OUk4bWpyVXk2TDBNLThfcy13VXlLN2p2eUpWa2lsNk5XVVZPOEtHYnBMdDUtQnlhMVZQS2ExMURVSmxuSEFNU0FZZ1JxYTd2dGM5WlZjQlZIVmg4OTFfRzQ2bzhRMVk4UHRZOXZHNkhvRDRLNW8xaWRVbWtzOVA0MnJqdjFwV285SkJKV3FMQlA5bXJGcE5Dd04tZlhZU3B2MVNaNTVoUEpHT2ZQUTR4T0t2STAtcEpRRVA5MEk4STBB?oc=5",
+          "published_at": "2025-12-24T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Economic Times",
+          "title": "Apollo Hospitals Enterprise - Big Promoter Move: 10 stocks see promoter pledges cut in Q3FY26 - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSDZ0RVozUjMtUHkxUXRTMkFkWUtUNWVXXzh6ZjJTekp2Z0pxTkJaUW51SHZJeHQ4R1ZSMThJVUxiQVFBekRqbG9OZ280VGtIa2ppMzBuTEhXTzFkNEkzeExFWjFxdDcya0NKamZmcG1iWExBMEE4OGFnNG4xRjhnZGJMVmlSMzh3eG5QSmNXOHNQUC1ybXhacG9TYXdFNHJLNmFsNnc1UzNvYjNILUl3LVlCNlMtMExkX2t0NkQzWmNJNTYtM3F4NHdRVkxJa1lGbGZ1eTRYd1JLcjVZT25fODdDY3ROTXVJZE4xVDVkTnlMWDA4?oc=5",
+          "published_at": "2026-01-26T08:00:00+00:00",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "ticker": "M&M",
+      "company_name": "Mahindra & Mahindra",
+      "sector": "Auto",
+      "opportunity_score": 37,
+      "time_window_fit": 0.437,
+      "catalyst_strength": 0.0,
+      "valuation_stretch": 0.667,
+      "setup_quality": 0.12,
+      "risk_score": 0.5,
+      "passed_hard_gates": false,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [
+        "Data is stale"
+      ],
+      "positives": [
+        "Strong earnings momentum"
+      ],
+      "risks": [
+        "Catalyst support is limited",
+        "Price trend needs confirmation",
+        "Cash conversion is weak",
+        "Debt is high relative to profits"
+      ],
+      "summary": "M&M combines 80% earnings momentum, 0% catalyst strength, and 12% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q2FY26",
+        "revenue": 515799500000.0,
+        "revenue_prev_year": 414649800000.0,
+        "revenue_prev_quarter": 454358800000.0,
+        "net_profit": 46746400000.0,
+        "profit_prev_year": 31805800000.0,
+        "profit_prev_quarter": 40833200000.0,
+        "operating_margin": 0.14497280435518065,
+        "operating_margin_prev_quarter": 0.14903618021704432,
+        "operating_cash_flow": 0.0,
+        "total_debt": 1249493100000.0
+      },
+      "last_price": 3200.2,
+      "updated_at": "2025-12-31T00:00:00+00:00",
+      "news": [
+        {
+          "source": "The Financial Express",
+          "title": "Maruti to M&M: Why HSBC is betting on 6 auto stocks with upto 22% upside potential - The Financial Express",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaVZQNjBrUWlwY2d5LU9zOC0wSzhMWmExR0k5NTBvMTdkODF2c1Q1UTdCeUZUei1IRUdqdzd2cXBHMmR6S1VPd09Fa3F1Q3M0c3JMcFcwQ2hBaUFDeEY4WUkyRG80OGJVSDdFTE1qa2tWSDh1T3NjbUZDcGVya1labmIxZ2JyeXU1YWEtMWF2Rm8zeXpuc2dCYXdBYlUwU0RCMzRjazI2b3QySkVhS2NseEF4MmYwUzBPbEo4dW5KZG1yQk9UaGdIMFRCOXV4WXVQ0gHXAUFVX3lxTE5jTTV2UEV3TUdxTV9hQ0lONi1iYVVLNjd3ZDFvTEpyVktQakc0cDdtZVByUV82YXZZdThIN3loWDNna1J3R3NadXhuZlo2cUo0aXd4Z0hsZG82c0l1RGNuajdSSUpMRk1BeDM1b09sNlZCQjlua2pPRUNUNVV5M1FuMkpVQlVCeE8zMllHOWRlTGlicVBCdWxBTi1HMGFVQzQxNDVIdm5BVG0zTzVoYUh6d2wyaU5lY0hfc3h6ekRHeFpLSFk0bTNldl81eGlmVzJVamxKQWNr?oc=5",
+          "published_at": "2026-04-15T04:47:08+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Economic Times",
+          "title": "Stocks in news: Wipro, Angel One, HDB Financial, Clean Max Enviro, M&M - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOU0xwODdXUGJVNnpOMDBzVjdTRDloY0R6cDgxN3c3WUxyYWh3cUJTZ2dTMS1YVVFoMy1za2l4UkxSV1pacGMwRjFfUmkzcjg1UUc0ZEwtaEFVOFBJUWZRV0hHUGx2T1RsUW1wQUE0LVNBYUV2TmNLU05mR2s5cjR4SHFiTzB5QWMxSmRIRl80VWMwUnEwY2VhTm9RUmlPUm9DS2VTNjhOd2JsaXE3Z3l5TXBWcS1Cb0ZGYWR6aThNQUkzYmx4VjJ1dGt4QWdJRjlyM0hFc9IB2gFBVV95cUxQR1JzU1hfdUtJMTNWLXZTVk9wTmdCTXJYd21DejBmZE1oX2RMaWwxY240ZjdEVl9vR0xYdU9xaUdWUEx1Mk85MWdNLWVQWmFDLS1mb3BtOGIzdXBtajdwanduekpfVnlUTUQ3VjlWdGd1Uk5qQnhQUGpSbVN5akRTYnFwM1N2OU9SRTdwaTlsMDZha3pyai1TTVVzM244N2xTUzNQRU00ZXJHMzNvUkM1bGF0U3M3LWVVaUtZaW1Ta2dWbS1PNzNUUGlGVEdYY2F3SHRkR2kzWWRYQQ?oc=5",
+          "published_at": "2026-04-16T00:52:17+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Upstox",
+          "title": "Mahindra & Mahindra shares tumble 5%, NIFTY AUTO index down 1.6%; here is why - Upstox",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMUtXdVJRWVp6WFAtMTJOYWxUaTNaT1RvbWFZUzhPVUd1TmZBSlFGTDFoY1VPYkx6bEMwdlBySGJ0Zm96a1JPa0xmUk9tcVBmTDJMazdQV3B3YzJNc1JyZWJyWG5LcTVBVFlQSWdQQlZ0MnVJaG9yUFd1RHFReUo5SW5YTjFjcml6NU1ONXFEUzNtcE1Fc3AwUXFzQnlGci04OHUwRGxwNmdqZDRTdGlON3lEbUpaTDhneDVGUktQcnQ5ejhXSm53U1BGR1hLOGVkeWppSDZSM29fdw?oc=5",
+          "published_at": "2026-01-26T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "simplywall.st",
+          "title": "Those who invested in Mahindra & Mahindra (NSE:M&M) five years ago are up 321% - simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZm5LNDJOYzY1MWZZenhJZmRicUhGQ2hGZ3JSZnQ2bVFqT2RzNl9mM0xpQTlJWm8wSXZtcTZpMUlkUnd5dWI1WUNtb0M3dVBSRXl0OS1zdGdSQ2ROMWhDVS1oMjRIanBiSWJmdzAwdHBmeFRVSjNxNU9LS01DclN0Wm5xOTFwbDB1RVZQMUJBSTJJZFRJRVV2cjFnaFlXMlZfd2xrZGhlS1Y2WGxvMlhDT3l4M1ZzUC0wclZnMzBDbXJ2WWVHV0JIY0R6bEtSdnNXb01DSjl4aFhlLUdE0gHiAUFVX3lxTFBoTjQxck40ZWsxOUpIemp3YnM2MlR1N1NNaTdDNk50NWdxdXl0a3N6b1ZMODBsbHZBZTVFWXd1NzhQc3ZFZXJIUG8yRlNTTUIzQU55eEdCNlFjQUt4eXFHZjBrX2h2S19uNFlmd0dxNTd5NGFhUnZrX2RUWi1LWXNncWdfNDBqakx5b3FBbnQ4c2hoWHIzWWZ4UTFwRFRaY0I0OXVqM3pOb0lxaU1na25WbnFLUkxtOHdpdjllRVdkOTBKSEtSREF0cVRiNVNRYTR5SXg1V2h5Z3NUaEliVmNTNlE?oc=5",
+          "published_at": "2026-02-16T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Moneycontrol.com",
+          "title": "M&M shares fall 2% after Q3 results: Brokerages remain mixed; check latest target prices - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRGNDSUFSNmFYRWRITW91MzBfQ0FHRndCVjBUcl9LTlVpcEtZMzBoT1BwdHVQR1dBRVlMc081SjlfSGwybHpQdWliV3p5ZlJ1eU1Jei14ZEFrSkszYnctMUNrRVdnN1Zqbjd2a3pkaTV2X0s4Sk1jeTJ4VVNBWHNrOWU2Nnl3V3E5UDIzRzc2bV9fWS1SOGNzc2ZOeHh4eUtsUDgwbkxldjZmNmg1SVkzSVZzd3hqNDU1VmxCQmRIN1NudXU4dk5hUFZiMDFQcGpHWjdodGVGelRIUXFyN0VnOHdVbFTSAeoBQVVfeXFMTjFKRDhuX3VCM1pKLXlZV1ZZdi1sTTVTd2pXSk5oazdTd1dFcW1BUVZCMzJ3VHJaLXJfNHhQMnFwVUd5TXBvOG4zVzBoWEtlOF9kdUk4bVJpOTNmcnpPOFZfSllnek1iMWVhQldfa0ozNU1GUFZIaThneFNZendkSXFsQnJ1a0VGR0xuX2lxYmN6d2x0SlhLQWNud3B6OW8tNk9TdkZDZHp3SndIZDFoWE1MLW95Vl9FZUlGbU1NWXpfdWxFeWF4NFdSUUh5YTE4VGY3MlZtWGtjdVJDWnBDVDBVMDdXV25OZ3B3?oc=5",
+          "published_at": "2026-02-12T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "NDTV Profit",
+          "title": "M&M, Tata Motors And Other Auto Stocks Fall \u2014 Here's Why - NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV1IxVFMwLUZrYWp5NDl6d24zay1tMVdKWVUxTm1MNl9FRTdBNjR1WW03YmNrSS1TTG8wcmVGRnBsMVEtU1JwekxEdmJ0dlVweDhnMlRIZG9tanBPeGtvZ1RXNmlnYk4xcXNCUzc4QS1kT0dKOEhaRGcyT2xBTHoyV0JjX3NLbkhSQkJGN3JHUHhNTnZqLXZpR2xDWkHSAaQBQVVfeXFMT2dfY2JUd2Zmcm9JQ25KdXBTQVAyb0xKNTNUVFNwTkl5X1djQS1JVDlkbmF2TDU0Vkpnc3pUdkFTdDFZSHZNX3J2c1QwZGtmLWVMTW42Qy1TRVpnY0ZIRjhJVHRfa1NGb3REZk5LMnRHRTJ2TUxHc3hMRmVTd1JVZEx6dWM3WWdsbEhJYjhZOVNEUnRTcVFDX0xTeGRaT2xIMFZiUVI?oc=5",
+          "published_at": "2026-01-27T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "CNBC TV18",
+          "title": "Explained \u2014 What led to a 6% drop in Mahindra & Mahindra shares on Tuesday - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT19ZWXVYdTFXMWt3UDVGUzRiT2JScHkyeUN4aElCNUpaVUd0blNfSndSU2lYR2VKVW91TUN4OFFNNnRzT1paTFBfT2xFVlRlclpjX0JkRXlzdU5hQUt0ekNsZHRkVGxFSVcyU09IUl9HSmdDQmkxUWJKWE1QaUdFanYxN0t5MmRnUGhZZG1mWkhUcE00bFREUWwxZVpVOWV5VmNodXBST3VlNGVTemhwbGQxMEl5aTd3VjFRcHNicnhYaFFibnFKcS1ucUpwZDlE0gHWAUFVX3lxTFBiMk9oV3VSWnlGZkRZRExzTGtsSkU1Y1JpZkdkQ1pUcm9GS2xaTkttVG5mRGFiekNFYXVteW1GMXBwbHQ4Vnp6V2g3U1FRcnc5ai1MTWNwT2JNcFBmekVOZnJjZG02UjhiQ3RYMGdkRWxyajNId1BPRnhhY0Iwa3NKd3NqcTZXLVdDOF9uOWdyRWRQRllqMm5xY0FPd0t6aWFISV9JcnNnaWJuQzI5SnZxT2VfTVJ1QUFBcS10anNrOW1VbnBwc1Z4b2hpdVB4d21oRWVtaUE?oc=5",
+          "published_at": "2026-01-27T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Times of India",
+          "title": "M&M, Lenskart & more: Stocks to watch out for on February 13 - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUjBJTVBGT0tpMFNBWkp6d2R2My1mbFVaVUZQNTQyVVRvQllnOFk3Y2RVYlVOTXQ2N2dTQjJMZG1OTDVZd2hkc3pwOVlNTTk5ajRiZUpueFM0enpDUFkweS1TbUpYQVAzbm9NQXRtZGUyWTNxdVJGLUxPaU9HdU5xRm5leENqVGgwaE5lUUpoU19vWmdMaVMtMlIxMXU5M2E2Q2J3QTh4LTRJVFlCMVNGVjZtb1NoTXIxQ2MyWDZnZXgybUpFcFRMRXJLWnk3ZVY0eHFNLTNNeUPSAd4BQVVfeXFMTzNjQ1hDMTAyaG5GXy05THRyemlNcHlnb0hKSWE3VWRReVk1djhxTHp4VWJWNndlVV9EZ1F1eXFJNDA5eEx4M3hod0tuenhwclpNRkFZLUc4NDFCcUs4R3NnZ3FMSl9TZGdZaWxqZVBHeTVtQ1NWb1R0a2RPLWhGaHFfT2RaakE4QnVaXzJZNFZEZnV5Y05KWGF2aWpjLUVmNDVnX0wxc2NmWmV1bTVFNWNJYzJXMzFJMkJIRlgzSHpxVHpzQzJIQ0I1Q3ZHTHhBSEw3eFl6SkxOYVZuTjJR?oc=5",
+          "published_at": "2026-02-13T08:00:00+00:00",
+          "sentiment": "neutral"
+        }
+      ]
+    }
+  ],
+  "avoid_for_now": [
+    {
+      "ticker": "JSWSTEEL",
+      "company_name": "JSW Steel",
+      "sector": "Materials",
+      "opportunity_score": 55,
+      "time_window_fit": 0.607,
+      "catalyst_strength": 0.84,
+      "valuation_stretch": 0.804,
+      "setup_quality": 0.688,
+      "risk_score": 0.5,
+      "passed_hard_gates": false,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [
+        "Data is stale"
+      ],
+      "positives": [
+        "Fresh catalyst support is visible",
+        "Price trend is constructive",
+        "Price near 52-week high"
+      ],
+      "risks": [
+        "Momentum is below the preferred threshold",
+        "Cash conversion is weak",
+        "Debt is high relative to profits"
+      ],
+      "summary": "JSWSTEEL combines 42% earnings momentum, 84% catalyst strength, and 69% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q2FY26",
+        "revenue": 452190000000.0,
+        "revenue_prev_year": 407930000000.0,
+        "revenue_prev_quarter": 424600000000.0,
+        "net_profit": 21390000000.0,
+        "profit_prev_year": 7170000000.0,
+        "profit_prev_quarter": 21840000000.0,
+        "operating_margin": 0.09142174749552179,
+        "operating_margin_prev_quarter": 0.11867640131888836,
+        "operating_cash_flow": 0.0,
+        "total_debt": 1192220000000.0
+      },
+      "last_price": 1240.3,
+      "updated_at": "2025-12-31T00:00:00+00:00",
+      "news": [
+        {
+          "source": "Whalesbook",
+          "title": "John Cockerill India Share Price: JSW Steel se \u20b9300 Cr ka contract! Stock **4.14%** up, par valuation par sawaal. - Whalesbook",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOV2V6VE1obmFYMmZWcm1DT3FpTnc3Um11YTBjbkJaMnJyam5rdTJ4VURodzJFU0FMTXctRnY1d1JyU2o5eEltTGhidE9zV3g3QTg1SzFEVnVJRWZ4ZVc3d3JYMHRjR3gxYk8zYk5wZExhZWZNWWtuUDVfMG1va0xyM2V0bXRaWHYwZmVXZDQ2MW9ub3VXTmkxLW9wak9lNUtYN1lRVXhpZFQxU2V1akxPRC1HbkhQZHVVaUNMVzlrdnJ3OVRsa19sSU5BbkdGOGlmR2NhamNQeGIwUXU3WFJHMnE1LUNSX0FWZ3NKY2pyVDhhZnJJSTQyTm1KNA?oc=5",
+          "published_at": "2026-04-16T06:13:56+00:00",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Dalal Street Investment Journal",
+          "title": "John Cockerill India Ltd Bags Rs 300 Crore JSW Steel Contract; Stock Gains Over 4% in Early Trade Today - Dalal Street Investment Journal",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOU3E1QzVfT3Z5UU5pOGRjbU8zeGFab2ZydkxDRXU4SlVjT09pWUhNMWtDcThTYTdzWlZRdGJ2MjAzQi1CRTVDX0VZd25DeWtRT25ISFRZMENRMkxDa21wREQ5NG1HdE85VVFSYlpkZkd5cEM1S1BuSjI1bWRfRDZaWUhjcFR0Mkd6aDZEc2t4Sk9WcGNmbzlQVEZmeE5hN1pYdTVHRHBmeDlqMTByeG15Ym5iVUg3S0Y2Q0RiUnJ4M21ERWlKN2VvZTBqQWZnNlh0bkZFOXdJNUtUWHVLZFB1Wkk0bm4?oc=5",
+          "published_at": "2026-04-16T06:13:14+00:00",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Trade Brains",
+          "title": "Small-Cap Stock Jumps 5% After Its Belgium-Based Subsidiary Bags \u20b9300 Cr JSW Steel Order - Trade Brains",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWkJmbHRtUmU0MmJMRUpVTEhSMlA1dXlKcDhTUnBkOHpkbW9tZGRjV1J0bkF6cnVoSEpwUEdrMEgyQWlXQzF1MGRyN1BkanIzQnNxODZGc3Y1QkNyaWJwWXVVelJVWDZhVmpuSFdKWmNXMFl2TUw1OHJjVXhDdUJDMjNjZDlqd2tCdEVodm9BaE1tQjhFRHhaaFR1NHlaZThTS29ydkFyZGdZTlh5YnpR?oc=5",
+          "published_at": "2026-04-16T09:50:00+00:00",
+          "sentiment": "positive"
+        },
+        {
+          "source": "The Financial Express",
+          "title": "Nomura bets big on steel: Tata Steel, JSW Steel among top picks as margins surge - The Financial Express",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNjg3VGdBS212eTZZaGVjTHBXRHFORktOc2VlVldEWHRlbFFCWC1fdEhsOWdUbVF4UXlzVjNaUE0zZVl2QUtzcFV3YnVlS3NTUWV2MUluN1FDSk5DUm9CVHZsOGx5ajJuSkQzVDRTNi1RNTRzTjZURERiRW9hRG5Ib2RjUFhDZDhlWTRoWWRCS3YwLVZ5bFhvY1VFeTFfYlN1RVZzVnZ4bDBIUjc5SDJYbTc4d3BSOGRWU1FGZFlUVmtrWWhrWXfSAcwBQVVfeXFMTWFHeEtJbGNpS0dSZm5EN3lqMl9ORzdCaFJKZy1nWUc0QUQ4Mlh3akg0MHNranBxOVZsdGFxcGhpMm5ZaUVjRFBxMkpoNlRzSGZtdlltSVROU3lDdDN4UndqSjU0cjNiSDNJNlZKbEFMckxXYmQyX2RJWC03Mk8zNGUxNXFhQUNtSnZYSExjc0tnbUY4OE1zUU5VX21MZGVxOWhvWDZjbkRWeWljb0ZLSnNYNkNPbTVRTVFTMkpTZXVSaXE3TnZBRGd5Ym84?oc=5",
+          "published_at": "2026-04-13T05:34:09+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "NDTV Profit",
+          "title": "Stock Picks Today: JSW Steel, Shriram Finance, TCS, Delhivery, Tata Steel And More On Brokerages' Radar - NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQT2hsdVJ1TmhLX1U1S252bzVXZ0VrakpDQi1aZWp6UFpXWWRUdm91R21OaThQMDl0cmhyaDFVVV9jTE1FcWhPLVVESjF4a3E1X0xKRnQ0UzlWbW0zTVRMcEVqczhVTjRDb3pKc3VEY0hpZmFSY3V2SEVmZ2NNM3Z1eFE5QTF5aG5pTzlSRi1SYjkzX2NoczNidzh2S2NvNTJqaGZ3STNpN0NhWXFIQ2xTOC13QmVnQ3R1TW10a2dVOHl2OU5hN3JYejIxOWEwdnNJOC1aWG1sQ1TSAeABQVVfeXFMUGptNllvS3ZJaXlRYlYyNjlacVVlRDlvRzQ5Ukt0d2NpYXdKaF9XUGdyXzh4NFVyZXV2N0Q3ZnJUSjVyUU85T1A5NVc5Njc0c3BHRDAzVUROTUJfaHdIOFAwbThlSC1qUUwtRjVFMjVVekhzOUVfM2lGRklfbW0zSUg0LXFkZ2pkd2UtQ0syV3hDbG5VdTBTa1NrZUhmdkVTRDEyVXpmbjcwWjZGTFZXSlhOcHF2eUtUczZmbmQzamFLNWdweHB0cFpud3lnTXVxS2FKQWhMNG43MWJTSFFWSW4?oc=5",
+          "published_at": "2026-04-10T01:37:05+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Business Standard",
+          "title": "Stocks to Watch today: TCS, Wipro, JSW Steel, HDFC Life, BSE, Tata Steel - Business Standard",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUTV4a1J6c0pRemVSb2ZVaDkyNjJJVi1abXpRV1RvTFJXRXlXTVFfaEN1dHppQUZ6d09YWlZHalFkRWtKOHVrc0JaUlRlWUFmRXYzTUtVSHd0WXNyNThkbW11Ykw0eWR6QzF5dk9FVVhzcWo3M1BEdjBpeHdUeTFleHo1TkZGTk9ka1pPdHRkRFFDQ2ZBUDFQVF82dm10Z1BuWTFQWXg2X3RtNGNfWUFjeEhjNmhaZ0UxZFZ1akVCc3JUdGNHRUdXSHptb1pmUdIB0wFBVV95cUxNNHhHV3VCa0puNlJyWC1kNWR3ak1NWTNjNm1LUWtPU3o1VGMtcDEyMDBURGxHOEEyemxCZnBmTmV5Z3hSSkdsbjJ2RVpUY19YUm1ld3EtZzJ2cGliQzQxWVJzRGlTNzFPRF8wX01FMjFBNzZpZmtLRHd2RzhIWVd5NEhETzBQVmFrTmxSS2VieXZFUUNtZ2ctbVNHeGpGLXdrYjJSdlppU3U5Tll2Q1dVclVjUXM4WTVmdzNqd2tYM01JZ3RsTldMSzhHQ1hOS29oUmxr?oc=5",
+          "published_at": "2026-04-10T02:11:42+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "CNBC TV18",
+          "title": "Stocks to Watch for March 30: Coal India, JSW Steel, Gujarat Fluorochemicals, RailTel and more - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZF9PRGFTaGM5bF9VTU9XQ21YcGhQNnJLZ2ZkTmlnOWFuT1M3Y2p3T0Rmby1yNVV5UGNYTk4wa1F5RktwTndpRWU3SmFxVE4xMHMwOERGeHI3a2h0SjJpcUl2eUVqaW9HTldnNEZIc3phYzh4dmNsU094Yng1SEhNbmlRdk9jYTZFeHFEbi1wMzIyemp5ZTlHWlJfbWVIR1BmdWxUMGIybkxPOGhjemJrWEtZNGp0ZnFTQ0ptM3QxR0kzQi1jMmtXRF9ycDZqdnZNTEo5UFhDdFNlQm5KR0HSAeMBQVVfeXFMT0lyRnNiQmhCMEZuY0pPQlpGeE5ldm5BTngwZXJyVS1WWTlFVFpJTVdLbm1CalYzVHR0ejJ6c3ByY2ZQbWhhZzJpR2thZVdTTmJtbHRrMlZwc2xYaGk5SjRFM1pwVVFWT1J3aG5wZXQwVVlxYnN4MTFMRVQ3d3MxMlV6WDJHNmdVeGtkZjdBQUpLbTA1ZVFtbTRCSnlSQWVxQ3Q0eGR2YXRfZ0d1VHVFTlpHSUc2OFFwRi1FTFQ2OENUM3Y5bE1NQzZZd01MUERXZE12SUR5elJsaEVlZmstSlU2aXM?oc=5",
+          "published_at": "2026-03-29T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Business Today",
+          "title": "JSW Steel, Coal India, Paytm, Sammaan Capital, Thermax among stocks in focus next week; here\u2019s why - Business Today",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdHYtV1lOUHlETjZLNXN5RTM3bzRXSWRrN0hrYWdhMHA2UXVweG9zcEFoaHgwLURVYzA1WGNSWTI0Tk1JUDZjalBhRGlJd1BDUVlVWkFoQWFLTEZIVWZoYWRSc1dUV0oyaG83d2ZXaGczbnh6ZWU1NXk1RkxXQVdseDZkYXFFdTNKZ1AteC1EcTBhRHRzbm84YVYxSExaTkF6ZUJVemViOWM5VWhkbWdwQzcyU053SGhnNC1zcHVDMUkwWDRONmRtdzZYLWpOdENidjdaYkZISTRGWEdoeEpqLXNPelNwLWxrU0JyZGp4ZkpOZ9IB9wFBVV95cUxOeXl1X2F1UTIxUHVQczVxQzgxNEVGOU1RVFpuMThMUlZMWHQ2X0F5aDhOUC16a1Vyb0pkQjVGa0YweC1uLWVSdGN0Y1lTM0NxNktfTmRmdDJkeTQyY09zdjNJaFhxR29DS0FHUEZyNDVBSmI2S0VvUzRRVTFKeDRaU1JBVGNuMHYwNXdraG1mc1d6Y0NlLVZLUnhqU1RjdjF3UXB1U2xwSGozbTF5YzZiLVc0cl9IcWhDdHo4dmV0TEl6TG5HaE5KdXVtSW9iV3J3cnNENi1faTVwVHdyWnFzSFF2SU9QazMzZjBFc1RvelNrSmlqS0pv?oc=5",
+          "published_at": "2026-03-28T07:00:00+00:00",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "POWERGRID",
+      "company_name": "Power Grid",
+      "sector": "Utilities",
+      "opportunity_score": 52,
+      "time_window_fit": 0.411,
+      "catalyst_strength": 0.0,
+      "valuation_stretch": 0.622,
+      "setup_quality": 0.941,
+      "risk_score": 0.5,
+      "passed_hard_gates": false,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [
+        "Data is stale"
+      ],
+      "positives": [
+        "Price trend is constructive",
+        "Price near 52-week high"
+      ],
+      "risks": [
+        "Catalyst support is limited",
+        "Cash conversion is weak",
+        "Debt is high relative to profits"
+      ],
+      "summary": "POWERGRID combines 75% earnings momentum, 0% catalyst strength, and 94% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q2FY26",
+        "revenue": 123950900000.0,
+        "revenue_prev_year": 112330300000.0,
+        "revenue_prev_quarter": 111962200000.0,
+        "net_profit": 41849600000.0,
+        "profit_prev_year": 38616300000.0,
+        "profit_prev_quarter": 36305800000.0,
+        "operating_margin": 0.5866451957993044,
+        "operating_margin_prev_quarter": 0.5373483193434927,
+        "operating_cash_flow": 0.0,
+        "total_debt": 1345177100000.0
+      },
+      "last_price": 318.1,
+      "updated_at": "2025-12-31T00:00:00+00:00",
+      "news": [
+        {
+          "source": "The Economic Times",
+          "title": "Holding strong post breakout: Power Grid Corporation of India poised for trend continuation - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQWWpGbUc4RnZ5Tl9aRWJXYjB3QmJIUnp5N3FZejJEYy1TOFJsX2RTQ3RmTXBRNXFhc0tzZkxiUGEtZGZKT3BWMl9vREZISkVVbzlFUVFzM250T3hQSkg5NjM1TmtXQU9tSF8ycE1lTmc5NUl6di14VG52RUFRTkF6aXhtM3BVMG1JcHd3VXU3c0EtUzBrY1N1SG03Q0JvUFhzSVcwUHlOUWNQekwycEF1RXJweGlzWWVlZTF1MDNnYXp0TUZuSHFNX0dBVmhITWQ2ZUJJejlMcnhnZ25tOHA5V2s2d2JTeU1FRldVbV930gHzAUFVX3lxTFA5ZG5sbENVZVktWWxDTVAtWkNWQ1F3dHgtM2dSWDc4MnBCZzVpVzhXSGhRS2c0QXlHRXpPUkE2UjNpVC1KNno4eDBCRmJDRlhRbjdwX2RkWkxpT0FmdWlEcnJWemY5OVFSV0lfOEN2c0hsZTRyNVQ4bHVlYkxpZG9oUzY3dGlyM3dUcXFadGl4VUQtd21uejhKenEtcEEtOUwxQl9scFRBemxXblhtMzZuVlNGSUVzZnIxd19McnlYQlpkM0JWaUdpZ0F3LXNYZjZNVzZncUtlMlcxRnY3TXFTQlRIMTE4SG1jclBoeUtBRW9MMA?oc=5",
+          "published_at": "2026-04-16T03:50:36+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Business Today",
+          "title": "BT Closing Bell | Sensex settles 504 pts higher, Nifty above 24,350; HUL, Power Grid lead index gainers - Business Today",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPNGQycHZQOFhXbGJlRWw0R0djNmFoT3lqamZZRUlNZlV3MFJrOHdVcEhwOERQMmFnZWU1VnUxUnZnRWlzS09lUGNDNWs5OE5iMVB6bUIxZ3NLN2ZQSTdJVmV0WHhmaENZRzF0WG1SMnh2V2JoWFkzUE85OUU5azJIQlpxS1E2RFc4X1pkNHg4bWcyZ0F5QTE1VkJ1T2Y3d2JKSncxRExhajNxUnY3NmY3b0FqRkhybmhqSWhsVXBOb1FrMkRaeHgzaU5mMnBpLTlmS1ZPVm5iOHRmZTNLLUluWXF3UjdSM2pnQ0hMaENGeUZfRzZBMnNwa9IB_gFBVV95cUxNVVRIbzJzMUNDZUJSaGtvWHVGdkZqakpnMkpGSENZYVhvdGtCNWVLWnh0czB1TzJfQnBxN1R3NkRLVHBvMlM4ejRObWRVR2lqUW1xS3c0dEZobXQxOWxuNnlXeHdHN2tpMlZISkgxeEtrUDZYdmpjWFozWjhaVU9uUVQ1YWVJZ2FPRVhVWXdTanBMNC1RNnFEd0tSX3hjVXRqeDhFelI1T0gtclh1cHRZQ3V3SENZMW95bzRDTUM2NDVKY0pPQXQ0T18yMDgyUmprX2djYUNHam00V1RuXzYzSHhFeFFFczl4SlBSVl9hOXpIWUZnZ21tNFpZVFM0Zw?oc=5",
+          "published_at": "2026-04-17T10:12:02+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Markets Mojo",
+          "title": "Power Grid Corporation of India Ltd is Rated Hold - Markets Mojo",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONlduaVdqWENiaHdwa3hPYnVSTkdMakZDLVNNeWU2NWVZcHZnc0NCWWJ0UlVDZHNRakYxTzVEM0o3d3E4Z0VJX3Z3Q3NzZGpsRXREOWEwaHVxdnNPbTJzV2ZQdzNmT0liSGhEbzVVWUhWbVpoaEJUT3g0cElxWVBUVEhHUXl1Nmxwc0FKX1p2dFRQSDRuVFdaWlR1MFBwMmc2aVdWSzhmbnFrRC1hU2YxUg?oc=5",
+          "published_at": "2026-04-14T18:28:15+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "scanx.trade",
+          "title": "POWERGRID Announces Completion of Tenure for Two Independent Directors - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSTZxaFVlalZmVkxMU0FjWnpRMk1SbWZOZzRIMnJOWllHdVRMQUZnbWFrcF9MVHNRM1AwUWZSdEVXVjRPVkliWWNEazZ6Q0l0RGF5VFhRbTFsbzhiTjZnTnN2ajR2YkJfN1h2d1l4RlpLallDR001NjNqeDVpdi1mTXVxZVRWa1BIWld2MF9zWVE4WmRwVVVSMkJMa0V0dzhONGhFSDh6NS12UHJsc3RZMHpCLVZXS0IwWnBfdFVoQjVDTTJaQlE?oc=5",
+          "published_at": "2026-04-16T06:40:29+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "simplywall.st",
+          "title": "Power Grid Corporation of India (NSE:POWERGRID) Will Pay A Dividend Of \u20b93.25 - simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPanJjTVpzeXNlVTVLLURJWThhNzJtZ2JxNXd0N2JyRnlwT2QwSmJtYU9OMVN6aVRYc3pIbEhENVh6UnFxQnFwenI2LW1hLS1rMkEzVi1rR1VudnQ2Vlp6QzNuYzZNUlh2OHRGR3NnRkxpUWRfUnZoNHgzbUtPdFBNcllhSUR2cmtfNGZObHhCRGlaWUxibl91dTNpOWZtVi1TMGpLNjFpai1GUnJDRHNqdFkwX3VCbG1xN3IxOENFVEpSdFZwbzU5TGt3akIwMkJSY0laaTBlOERGSTZJTGdLZVkzOTdOSGxtNVU1d0RYb2JBUdIB9wFBVV95cUxNOXJLUldiYVVTTGVORi1TZlJZcnpTSE9nY0FwYWEtWDFyQWp4SV90bFZWOG80aFlyN1VHZEZka2FocTlNRkFZbFlYV0R3TUp1TEg4akNEbkc5c1AxNExhbDl3MXlrd1ZJenFvUGYxaEhJWWNGSklUN01xUDJNUnVsclNfY3FPbVlQeFNZN19pN3c2Nl94VEpFMS16cEFwd0JydlRxZEI2cVJ4Zi1ic1NUSUZKRFdodGc0ZGtGVXZJTFF5X2tzUXFDMXNaY0wydFdDLVpWeGJtc1hOSllKemdJazNxS2I5Tnk5WGNiUHA2c3k4Sm1ieG5z?oc=5",
+          "published_at": "2026-02-05T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "MarketWatch",
+          "title": "Power Grid Corp. of India slides Monday, underperforms competitors - MarketWatch",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcl9wT0l4NW1WY2w4RFhtMWpGazM4X204LUZSaVZhajZBT1RxMURGcTR6cjV2Y0pSQ1NxTlRUeXEzdm1RbS1pc2ZWZm5nY1ZpQjR5UHk0QVhiQVd1OE55SVlDOVdMUTczTkkxbDJTNlg3eFpIcVBLOXNnRXFnNnhBdUZ1NGQ0QkdjdDkzLTduTHBhZF9ZY1p0ZERva1BOMWo4SmpvdTlqNVQzUXZRRDRkNHJfVHBnN21ndnNWZw?oc=5",
+          "published_at": "2026-04-13T10:33:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "CNBC TV18",
+          "title": "Power Grid Corporation of India Ltd. Share Price Live Today - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnhsQk8tdVNOTkt1aDFadzlSTm5Zell6Z1JCOGh0LUJIMGZvUXhrcWdScDVZUU5xcWEzRWZLVlY5UWZKQkRlNUdQM1BlNVVEUU8xX2ZKLWtCWG9NLU1QLU1lcTBEZjhUc184T3k2b01pV1VIWWxoaHF1bmc2MTlKZkRHM3pzZzhoZU43RUN3R3ZOZDlUU3c?oc=5",
+          "published_at": "2026-01-03T14:44:53+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Economic Times",
+          "title": "Stock Radar: Why Power Grid stock is a medium-term buy? Holds above 50-weeks moving average - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOZmQzd3Z4aVBvaEdsUFc0blJTYUlNMUdicHVza0NmYll0UnZRRHFfanFJRGRMM0oxaExlcWJUc2VlSmtBVGNOUkp1OTh5VHZndTNwTGM5MER3LVE1RmxGUDAyNnktTFpoVUhPT2Y1bGFOV3cwMXBHZG1VMENMNTJab0VwZURsaEdOVzhiNjVNQWFZa05uOHZIU0U2amxIU256WVNNeGRNbndMdXQ3NWNfWGNjOF9oVmhwc1BFcTcwWThLcndCb19kY1JNck1xRGZEd016bGxjSWx4OGRET1FIYTV0S0hDb0F5T3pGMmZqTndSYl8wNFHSAfsBQVVfeXFMTkZ4cll3OWQ1WUgxZ2REUEdwaG1ueXdQdF9BVWVCVkpfT3lsdUVFRTNOMThVT2wybVdhZkxGVWlxWnZPR3JnRkhXaDRpVDhzVGVldnQ4eGJxVWVKVjRpYnlzWV9UcEFmZWE2eVNjTVMtSmhGeUU4UGhPTjQybE96eXFFeWpCZHpuQXNPR0hudXJUZGZBcmtwM2RTQjhidzFydzB4b1ZMY2lORWN6SnBPOXRHZ0xwXzVQMXYtNEJ3QjVPN2JqWlotaVdHeVp1c1g3Sm9zd2lST2VvY0ZZUXR6a1ZKTmdwY0FiRUltYW5IRl9KQlVDRktFLWE5d1U?oc=5",
+          "published_at": "2026-04-15T23:30:00+00:00",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "SHRIRAMFIN",
+      "company_name": "Shriram Finance",
+      "sector": "Financials",
+      "opportunity_score": 51,
+      "time_window_fit": 0.48,
+      "catalyst_strength": 0.42,
+      "valuation_stretch": 0.628,
+      "setup_quality": 0.722,
+      "risk_score": 0.5,
+      "passed_hard_gates": false,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [
+        "Data is stale"
+      ],
+      "positives": [
+        "Price trend is constructive",
+        "Price near 52-week high"
+      ],
+      "risks": [
+        "Cash conversion is weak",
+        "Debt is high relative to profits"
+      ],
+      "summary": "SHRIRAMFIN combines 53% earnings momentum, 42% catalyst strength, and 72% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q2FY26",
+        "revenue": 67338800000.0,
+        "revenue_prev_year": 57999300000.0,
+        "revenue_prev_quarter": 59993700000.0,
+        "net_profit": 25296500000.0,
+        "profit_prev_year": 32468500000.0,
+        "profit_prev_quarter": 21594000000.0,
+        "operating_margin": 0.0,
+        "operating_margin_prev_quarter": 0.0,
+        "operating_cash_flow": 0.0,
+        "total_debt": 1788397000000.0
+      },
+      "last_price": 1036.95,
+      "updated_at": "2025-12-31T00:00:00+00:00",
+      "news": [
+        {
+          "source": "AD HOC NEWS",
+          "title": "Shriram Finance Ltd stock (INE721A01013): Why its rural lending model matters more now for global in - AD HOC NEWS",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQy1Qdm41cmdkelgzSlliODY3RGZBbXRnRkNtUzNtUnB1VU5lYkVvWDRhZDRxN0VyQ29jMFNfTHFPVTU5TUNjSkhVUEYwYXFCNG05b1g3czFFcVVIbXhuVDdYeTh6X0o4MjV6S3NRSnJzQWdrZzdsZnhuby1lb2hBRlo2aGpXQU4xMW8tT29xRWxxc3VXQzk3VFVuSnM4UXdMQ0Y5WDYxQUt0a1ZsMVRBR05HOS04NmFvTFpHbQ?oc=5",
+          "published_at": "2026-04-14T18:55:51+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "India IPO",
+          "title": "Shriram Finance Gets Triple AAA Upgrades; JPMorgan & Morgan Stanley Bullish - India IPO",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQnl4d0s5SlZlR3FydE5CNFBPZ1Bpc3NHVDBaRl9qSkUzM0JGcVlMSUVjdE5IRFcwdWtnYkFuZkNqRUdmcXRoSmpuOWFvX3lDNVg3enJpQ21EcHlqcDM2aEFMVGo1ejAxUDNXeWZpN0VBcXZycTBBS2hOT0pURGlkejVCb1NBYWxEV0NyWmRhekI3Vmo4WmJERXFlVXQ1TGxMTVlMZmZ6TGZOaXZT?oc=5",
+          "published_at": "2026-04-13T04:33:07+00:00",
+          "sentiment": "positive"
+        },
+        {
+          "source": "The Financial Express",
+          "title": "ICICI Bank, Kotak Mahindra, Shriram Finance: Jefferies sees 21% to 42% upside potential in top financial picks - The Financial Express",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWjl5bi1UVzAzMnFSSklxb25YeTR3VS1JT1F0cExTd2RxY1JqWTdYcmZjNWdaQ1djdEVkLUFmYV8xX0c3c093UEdWc1FkRHh1UjkzVGU2VXlsZjg1YWRib1Z2MjV0TjhoenQ5dVEtTXhKUkVBaXE0U0lrVEpxWVJaaUh6c0RpU3BnWlAzMVp1dHV0RldSdktSRWFKS0dwM2pESlM4ZmMzd0lLVjRvMXZpNjAwTVc3TDV0bVU1dkNWRzhuQVRIcGNGRGhESFhmcEp0aUY00gHaAUFVX3lxTFBFMlNpc2x6Ynl3cTFnYkJwc2tJX0Ryc3ZpZGRZeDBoSFMxZnRSRXI2WWU4bFBTRjMtVXpCZ0FGN2kzelNCU1dKZnM4b3BtcnNIOHlFVVpSMDRoNFFDa2thSUJrSlgxOTdSMmFGMWZ2alN3N3NVN01XbzduZzBiVERkN3FNakxUaVhyRHo0a2E0RllvNVgtRFlaZHpPbTJxRmdKcC13Zi1EcVpMNktxeG1KclNOUzN6UG03TWVjMmVwdi1mOFdwbzk2R1ctaEFVZEpoZFdrSFRZcjRn?oc=5",
+          "published_at": "2026-04-14T06:41:04+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Upstox",
+          "title": "Shriram Finance shares settle 10% higher as Japan's MUFG Bank acquires 20% stake for \u20b939,618 crore - Upstox",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbUFwQUE2MFBTZGxTbVczS21fOERiRFpwTTZvZTZ4M2ozSnZKRWJfQURGLWY2WnhRWXZZOTlQQi1hT2lYeHZuTThWbGVuSUYweE5seGpybHFSRV9Ea01tQzZ0dGlEclpxV0hrdG9TZU1aVUFkT090ajIyU2dOd2lfOWVaTVBTS3ZjOUhPRTBlb0h4ZUgydnFHdWFfZDNnbWRuWGJaeWtmbGZLRFJnc0dnMXdGUHgyYUlCbnJ6ejZpaW1UOEdYZ1d4c2NhaFJzd3MxdTlqbkxPMWkyT2dLVE92QUFLRnFYZ1pyOGc?oc=5",
+          "published_at": "2026-04-08T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Business Standard",
+          "title": "Antique initiates coverage on Shriram Finance with 'Buy', sees 28% upside - Business Standard",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSUhwSVM0NkJ1Qzg0TkpQcElNWWhCcXlYbzRZRGtPdlZHRldOUjhEcmJwOF9MZlZMRnc1NnplOTNZbHNCdlBMVi1vQzdsRDhMdVZzTldJcG1HZHVjTVdoTUtUcW43N0NLdUt3eXJQYVlNdVFzUGNXT3BLNEE2eHlLcWNDZkwyaHh2UmFZVnF3VGxuQU1MZlNwQnBfa1BlZkk1cHlKSjdOTTR0Vk9QemJ3MFdQUFI1YlBGaFkxMHh0bmFYZ0tIZ0llcFJXakdDN0p1eGfSAdcBQVVfeXFMT3otTE1Uc2xzT1B1WEQ4VUNPWGZzN3BLSVhsa0dNSXoxeEVQampQSmVpNFB0SkNHdUljdTRIWHB4UG5qX29iU1NlWjFHYTBTXy1WYzRHN2stZENCc0dfNUJ4WjRELVNKNlVqM0ppOWxEcThzMnhjQTdJcEVNMDdTR3d2LWZjdUcwVm1NY0tvakJFRndNNkhPRkZnUzR3UzhleHVISGFsZG5BSng0UWJSa0VKbGV2Rjl1ZVFWcUJOZmtIMWdoRjhsalRRVWhpZFZxdnBhTXFhUDA?oc=5",
+          "published_at": "2026-04-02T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "BusinessLine",
+          "title": "MUFG Bank takes 20% stake in Shriram Finance for \u20b939,618 cr - BusinessLine",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNbmxFaW1rVVJfY3pqLS16MzMySHRrQ0RSY2hoWmpKRmdMMXZhOElKQl80dk5rOUlkM0xRdTJzRWNndlBvWjRYZnM3ZVIzNmtmcUhlMm80bGtkYkt1Y2JTYmFIV2tPQ0x1dEktd3IxWmFzcjhoQ0l5YXNCWmN4QWVZUHZmQ013NXVoRk9PaDZxQ3lLUHBCdGR2eW5mZWNDTFpqM1B4eU95TVRLVEpRcUVXdENCZF95b2NJTkh4NXRtMkVIWlBSNng0OU4xNjJpT0NjWDhud2llSzlyV056MU10ci1EMVd3MUd4UkFyMWdxT1NMN2g2aW1BY3h4X0ZxZS1pSmI0Y01HYUw4WXPSAZICQVVfeXFMT3pBZF9ZcFBRU3hYcU41SHRXUXFWVWhFSnM4czBCN2FyMThlamRwV1RvZGY1ZFh3VWZNRy1qd1dnZElya2lLZUZHYlcxbzRMVWxZQzktdjNDRjNXZ0pVY1MxYkJMamhxVUxUMXZTaGJqVDRqTXRYN3lVTkQ2aXVkOFVLTVl3VEVFMkJDZnFNcmtzalM4SDkzUURFeWFoRExvY0k5UXhHNDR1YmpsU1NnMnVUbElmWW5tNkplM3NwelVpall2ZExXQUpDNFVZeFZTdmpYZjJMVTlwMlNlMGh6YlIyVG5NeHJsNGpFazIxdFVmY3BPaFBIT2haNGJ2cFZ1a0k4c1NBUkJkX2hBdDlSdW81dw?oc=5",
+          "published_at": "2026-04-08T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "scanx.trade",
+          "title": "Shriram Finance Receives Stock Exchange Approval for MUFG Bank Share Allotment - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbGxSem5PYzdLQncyZllYSGJTanpqR1g2MjU0QlYxLTBwTXFCb1Nod21nemdoSkJ6UHNqN3F6cE5QX0I5ek1meE5CVVBlaUNlblpJbHpCRElNNS1sQkRTRGpucFN0VjM2aGhxN0tWQmtLS3J3NXBpWGtyeWh2aW9jV1Jqek51YU9Wc3RyaXpYN2RRWjliVWFLUklkM1hUZnlLZUVzOWp5eUFFZ2JfN2cyLTZBRnFOMHhZTVFoQkhYQlgwczNWQ0E?oc=5",
+          "published_at": "2026-04-10T07:00:00+00:00",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Retail Banker International",
+          "title": "MUFG Bank to acquire 20% stake in India\u2019s Shriram Finance for $4.3bn - Retail Banker International",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBpLXJPaExYZnU3OFhXMFJEMXZia0VWNHMzX0JoNDNoQmplSE5pcVd5bFVuUnBCRUhUc2p5RFY5NENXek43Y013dHpoVld2ZDFrNWRaS0FsNF9RM1dyYlRRdXlzR1ZKSGEwT3Y0Nkw0c3hkQ2x5SWZz?oc=5",
+          "published_at": "2025-12-22T08:00:00+00:00",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "TITAN",
+      "company_name": "Titan Company",
+      "sector": "Consumer",
+      "opportunity_score": 45,
+      "time_window_fit": 0.44,
+      "catalyst_strength": 0.0,
+      "valuation_stretch": 0.93,
+      "setup_quality": 0.726,
+      "risk_score": 0.5,
+      "passed_hard_gates": false,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [
+        "Data is stale"
+      ],
+      "positives": [
+        "Strong earnings momentum",
+        "Price trend is constructive",
+        "Price near 52-week high"
+      ],
+      "risks": [
+        "Catalyst support is limited",
+        "Valuation looks stretched",
+        "Cash conversion is weak",
+        "Debt is high relative to profits"
+      ],
+      "summary": "TITAN combines 80% earnings momentum, 0% catalyst strength, and 73% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q2FY26",
+        "revenue": 249150000000.0,
+        "revenue_prev_year": 175500000000.0,
+        "revenue_prev_quarter": 148140000000.0,
+        "net_profit": 16840000000.0,
+        "profit_prev_year": 10470000000.0,
+        "profit_prev_quarter": 10910000000.0,
+        "operating_margin": 0.10058197872767409,
+        "operating_margin_prev_quarter": 0.1111111111111111,
+        "operating_cash_flow": 0.0,
+        "total_debt": 207770000000.0
+      },
+      "last_price": 4525.9,
+      "updated_at": "2025-12-31T00:00:00+00:00",
+      "news": [
+        {
+          "source": "Moneycontrol.com",
+          "title": "Kalyan Jewellers, Titan shares fall up to 6% as Indian banks halt gold and silver imports - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQczN0czNGdzk3MmIxWkVwNE9DNnU0UXdpV2YtcFFHN1QzU1Rna05SemZETVdZMlFlUnh4R2ZvZG5kem5Rdk94VHZjc1VacW13RldGeU5MOWdURHUwZjZXSHV2NFp0ZEw0aklwRkszdlJXN1UzYjVMeDJWckNUNkRhUXVsaHZETmUwVG8zeVZDSEJVaEhIX1V2cWxoQ0xZcTVnSDNaYVVOVTBVUnhPUTZCRzlyU0JCN29GSVVBTU9PMndWRjV2aTJ3TmdYTWpqOWtFbVRGRHU0R3hub3d1Zmw1SG1QVjFLWWhUalNRb9IB7AFBVV95cUxQczN0czNGdzk3MmIxWkVwNE9DNnU0UXdpV2YtcFFHN1QzU1Rna05SemZETVdZMlFlUnh4R2ZvZG5kem5Rdk94VHZjc1VacW13RldGeU5MOWdURHUwZjZXSHV2NFp0ZEw0aklwRkszdlJXN1UzYjVMeDJWckNUNkRhUXVsaHZETmUwVG8zeVZDSEJVaEhIX1V2cWxoQ0xZcTVnSDNaYVVOVTBVUnhPUTZCRzlyU0JCN29GSVVBTU9PMndWRjV2aTJ3TmdYTWpqOWtFbVRGRHU0R3hub3d1Zmw1SG1QVjFLWWhUalNRbw?oc=5",
+          "published_at": "2026-04-17T06:21:46+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Trade Brains",
+          "title": "Kalyan Jewellers, Titan Shares Tumble 6% as Gold & Silver Import Gridlock Hits India - Trade Brains",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX1NaLUJIX0drR3FIWGI5UWwwaFU3Z0ctcmVsZm82M2kyTGdFY1FXZGphS1pkS3pKM3h2VTQzbTNZbl9jeVBETHh4V2lmREtlZEhaU0hlZjZHal9NNzNDMHhEVlY0a0FmU2FlQzFJa2ZKRTdPaGMyVzBveDRFMVliRElsazlKUXVhU2w1RE1FQkM5YWZ5bjNTUTY2VkhoX1JuRXhzU3pWWQ?oc=5",
+          "published_at": "2026-04-17T10:45:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "AD HOC NEWS",
+          "title": "Titan Company Ltd Stock: India's Leading Jewellery and Watches Giant Offers Steady Growth for Global - AD HOC NEWS",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaTVUbDUtcjc5QTR6NTR3emdJczFXRTlxY2VjVVpXcklZNUx2Zm5RSTFjX05ZRHl0ekRBT0QyWVJlMmJpRmxkal9fQUUzeFlGbnNfZHFLSWdyOFhtdFFKTmRUZG5pX3VEbjYxbnp4WFRORlhGUEo4S3hUVGlJSzFtcHNzSVhIV2doMDVaakFoQk9EYmtsOGZoTlhSU3hTM0JhcFBUZGlaRFNkU0hGQjJtcUtTNVlfRTlrQWFQM1d3?oc=5",
+          "published_at": "2026-04-02T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "lokmattimes.com",
+          "title": "Kalyan Jewellers falls 6 pc, Titan company slips amid DGFT delay - lokmattimes.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQzFpVkNxLUUxS2xETnlVSTFVQ2w1SnBnWmk4UmR3a3lRVkRZZXlmRDNvamUtTjllR0U2Y3FTU3FSaVcxZXlKeWNWaXJWaVYzQTJndHhtTUx1emlNOVVYUzJ3N2pRYml3dHVJaEJpT0RTbklQYlF3WDRzX180UkthQUZNYkU4MVRUY0J3S2NTX3ZXMDN4OUk5dGVHNGNoNlF4R3pV0gGoAUFVX3lxTFBBVEpaZl8wTlFkSnJFSmlJb2NiUmFNMURSdE1QTTVibkpzMmNBMXpheXVxSkZXdUl6djFBazRwb2haVlpZZ3BNYVZmUlRYNGQ1YThKMTlYYWxvSnRrNmxuUEdqeU1Pa2luWEk5Q3FrVE91X19qckNURTlSVkhrLU04SG9RUnFvalVQOTkteU5UMHlpUTQ2TzlvOG5TYnBFR2pxd2VJbzZiVw?oc=5",
+          "published_at": "2026-04-17T10:08:04+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Economic Times",
+          "title": "Titan shares soar 6% after better-than-expected Q4 business update. Should you buy? - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNX21vcjA3a1hHRGdGRk1NMDczbVdBMlhoRlBSNjNHS2VtcVZFV3RaeVd3bFg3WEhWel94cXBCVGVrM3FNQTh2NTJIMV9xeTRWQ1hDTzl4MXBtYjg4Z1c0WVRyRFAxQTVwNmhYOWNUMy1EQzhhLTV4LTk4U3ZIeEc2VFNiSnJDWHRHcTNjVnRrR0Fib1JMUXIxZXdSRUxmY28xWTEwV01rTmVCNWRWaXNMWUhfOUYyLWhidWFsWWtiTENXWW1YWEJ4RmhzM3RFUWdwVzlud1JTY045YTdHRVRSc0t2UGF0UnRnT2lVLdIB8gFBVV95cUxOek5MMkROR014ZW1qdC1xenBJYVZDQjdzUFRXaXNoOERaaUZ5RW5HQlUxdkZ2WHhLZ2pDQ2ptaFRUTjlMU2Q5TndmZ3JreXZBQ1Z1bjZGZzh4V2VBUE82ZFg0VkNZbnhyQmdfRTdzeUcta1dPR0g4bS1tZExHVEFxek1IMmxSeEVqbnhVRUlzTF9NMkNtM294MFdQam9QOEE1czVRaVpJUTduYzQzeVRndUtaMm92d0pkOUF1cXNaM3RONmFGQXRXLXZtSGMweV85SlY2ZTRpVnlmM0RLd2RiNjRJMVhYWlRsdWlacF91a0NGQQ?oc=5",
+          "published_at": "2026-04-08T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "NDTV Profit",
+          "title": "Five Stocks To Buy: Adani Power, Titan, Cummins India, Mankind Pharma And More - NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX0doUkc0TTBJNm5aWmhCUjJLVV9GeW4xZzBFYWJFZUZsSWpQUWd2MDg5aEhMVDFvb3FJMHRVal8wZDVQUjJQelFoTFFDNVljdTcyT1NQWm1yT3Rsemkya1VRODMwZURwWlg2U1JhWlRISC1YYTd4WDZRd3J0YXhJb2hudFFoUG5LWG0tZTlzZnkzTkwxTnNYeTUzN1hjVllwdmlYZ3hJVHlYREpCMjR4RGZ4RVhjc1VGS3fSAcIBQVVfeXFMUFRpVVdoUHJEN295R1VzQkZpR21oeHJ0Y2FqREJSMDVfYzhMTGZLcXlGdi1Kd3Z4QU9MbGNVOVdPbjk4dmx1THN3cjR2bUFqRjBpVlh6dWhlVUtRWng2MjVpeEp2YlU3S0pfb1M5by1DdWg1UDRReDl6OE1NUnVYcmYtSHBoWjdMbUdJeDJpaFJDdGFGQk9DZDlxWDhVZHlsTS1QajFyTzhNRzFnRG03Vm5ZcG9TTnFvS0haQ2hYaERrQ3c?oc=5",
+          "published_at": "2026-04-06T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "India Today",
+          "title": "Titan share price up 4%: Why is the Jhunjhunwala stock rising today? - India Today",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOYklCRXZWLWJwQ0hFSmo4MkNVQVVubWtfVUlCZVFaWjZGTjlaaWpUczl2aXM2U0lsbFJENnk1dnlMNUtFMm55REkwc0ktcVhDdmJmUEx2d0NJY3ltZ3ZhRGFOcU9kUEc2aFhweTc5OHl5eDQtbjdwcDFYeklnaUdNVjk5UmhCVjRjdUtfczNHSlBVbjFpZWNVMlFRM0puY3M2MWV5VFVNRHdsc3ZxTFVnWmRnUzRycjJGVWFuYl9WVVpFUG9zUHk4Z1NKSWNyWUtlZlJCbzlRY1hHM1hJVEs5Q1JqbUtoNEh2c3JIRzhyaGhXYmJV0gH6AUFVX3lxTE9zajJ1QV9US3FVdUQzdnF6d01RcFdJajM2eGdCdndEMDVsRFVtdURFXzlCTUtOZlhSTTdTREVyRFBhZWVjdV9GYXAwMjBQalU1Y04xY2FfcjVKLWNjTjlnejl5aERSQmw3V3RYLUJ2eGQ4eVpBM3VjalEySTFTbmZNcEJ3UGRCY1RRTVVpNUNGNkFaNE5GWEN1VVJNLXc4VVcyUlBHcVA4bDE1a3BYM3FkUUh4VXN3X01zcHRYQ2cyQ1NSbWhTajRyOV9NTUFlbWFVMzlLdVdfV3owdkVlZzktbDRaUFNvUzhNMkF3dDBCY3RXaF94TlMtVGc?oc=5",
+          "published_at": "2026-01-07T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Value Research",
+          "title": "Titan share price: Seven factors that drive moves in India - Value Research",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdnkzbW1oczhwTjBTeENCZmxTaXhWb25aaDdhYnNiUU8wV3VWV2VwSjlBTmNGZGw5allTSFZwWmF4clpNWGF1Y1JvZVEybnVIY0hld3RuSmw0c0JzWFhBYXhESmtpcG5zRDh4ekVfMVFHcF9rN1BZVWhLY3UyNF8zd3prTVdRNlNp?oc=5",
+          "published_at": "2026-02-13T08:00:00+00:00",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "NESTLEIND",
+      "company_name": "Nestle India",
+      "sector": "Consumer",
+      "opportunity_score": 44,
+      "time_window_fit": 0.424,
+      "catalyst_strength": 0.028,
+      "valuation_stretch": 0.91,
+      "setup_quality": 0.65,
+      "risk_score": 0.6,
+      "passed_hard_gates": false,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [
+        "Data is stale"
+      ],
+      "positives": [
+        "Price trend is constructive",
+        "Price near 52-week high"
+      ],
+      "risks": [
+        "Catalyst support is limited",
+        "Valuation looks stretched",
+        "Cash conversion is weak"
+      ],
+      "summary": "NESTLEIND combines 75% earnings momentum, 3% catalyst strength, and 65% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q2FY26",
+        "revenue": 56435200000.0,
+        "revenue_prev_year": 47621300000.0,
+        "revenue_prev_quarter": 50739600000.0,
+        "net_profit": 9984200000.0,
+        "profit_prev_year": 6880100000.0,
+        "profit_prev_quarter": 6465900000.0,
+        "operating_margin": 0.18209557155817646,
+        "operating_margin_prev_quarter": 0.1859139606934229,
+        "operating_cash_flow": 0.0,
+        "total_debt": 11668500000.0
+      },
+      "last_price": 1285.6,
+      "updated_at": "2025-12-31T00:00:00+00:00",
+      "news": [
+        {
+          "source": "Business Standard",
+          "title": "Nestle India Ltd up for third consecutive session - Business Standard",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbWNOSUZXQ2ZNQUVWNjJpNDZoRW5heTNxLXpHenU1X211UFRNcUdDYUFOOFBRZVlVbU5DSlVkb2xpd1R4UVNKWkltS1dnejhESndDWDJudXFJMl9RMlJxaENlRV9RVFBJV19IcV93Vy1nVzRsYVRhc1pHVVJnb3IzYW1fZTV1aWtRZVRvM19QbHlEZ0FFOW5fdnNoRzFwZEdUWUtKR0NJTmNSd2F5SWgyTFk5VlcwVzhLa0dUd1c4N1dTUGF3Wm5tVG9Ia9IB0AFBVV95cUxPWTlZNm1MR0Rsbm5UYnNyUGY3dDVDTjVQbFNMVlNpV1ZnQmNwSXlKeFBKNFJEVzlUQ19Bc195TG9Jci0wNmVCVlhIRTE3LXh2NWtWWU1VaHY3bGRDaS02TE42cEU0UEpIeHJPM2ZXQkw3Y3V1Vk1qM2ZodEpRRm02aUE0TmY4dlVZcTZkWnVnZy05bS0yWEJETml6VHQyNXE2aUNSa2hKZmUtdmtCWnJ1c0JUU09FYVF4ZGNRcmRhdEJBVDdWM2NBeWNiMnN4bDhW?oc=5",
+          "published_at": "2026-04-17T08:02:46+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Markets Mojo",
+          "title": "Nestle India Ltd is Rated Hold by MarketsMOJO - Markets Mojo",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcjg2RG93VjR1TGZDbWpxRG9MTW91NjJmR2FIckhjcmY5b2lFTnZqbHlXVDNXa09HSThHR1N1bFdtbll4QXdyZGlMaWRLVHVWZENwRHpReklaZTBadE9FbGlrV0tmS1N1TTNoUnAwS3ZQXzR1WDg0Wm8zTzF0bVQ5VU1MeWJFZGxhVS1hN2RHVm4zc1k5ZThiTjQyd1JBZWFpOEcxWE56TUJYeXM?oc=5",
+          "published_at": "2026-04-16T04:56:09+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Business Standard",
+          "title": "Nestle India Q4 result preview: Revenue may grow 13-18%; margins could fall - Business Standard",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSi1YOS1faXk5RndBZl9iYlJmalQwVlRpVVp4ejBHVVpHdWZDSHBhN3cxWF9Cek9aaENGN2x3UkVoVzFJNGFvMlJvdnJKLWp5MVlIVFR2SFg0RHpoVXZIMlJySkRHbFpuTEdLMlFxWjhtUnhuX09DSkszWFJNcm10dHg1Nmg3ejUyY2YwaVhreWJva1k1ZzNQSUU5RjVxNlQ1Y0NtdHRlMXk5VXhrRkE0VnRfZVVnR2tGTVJISW9nYjFCeG9YQTJjR2c1ZVFsWGhPSFJWWElB0gHbAUFVX3lxTE0wN016Z0UxQ1M2N29lYUFOdFlfaXNRT0VVMkxIZ096QW5hMmtrWWx6MklhNFhRUXVlNS1USTBEcU5UXzRYWDNXVzZxWExJVVkzRVZCSkdxcnVRUFZkZ1hVSnY1Tlc2S1NWNGhYQU45bFNtdFV0TGk3QlFWY19yT2NXby10eHBqQTU5N2EyaFJxNmhOaDhPM1VTeWdMUFN5MWJNNkphbjIxZlk3Nm9NZFRUY2dTQzBWLWJudG45aW9pcENRSWEwR05NSEVhSTdZOWZ0QnY5X2Zhc25oUQ?oc=5",
+          "published_at": "2026-04-17T09:06:19+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Economic Times",
+          "title": "Nestle India - Stocks to buy: Goldman Sachs lists top 7 quality stocks that look attractively priced - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNGpZeWZwY3FoMzZlcVZna0hRT0NpVkNZaVNkc0NadWo3dFRSUjByamt4WnFCanFKNFVyMWNhcV9Mbjl4TmdScEFwN0tERWw2dk9tNy1WcVdfMUR4YktqeHNuUG43NTZEUkdlQ01QTG15dmpzQm91UG9YTHpwdmdpcERQTWxqTWQ2Y2VVMDVNSUVxY240N0tyRVFqZm9ydkRjcVhEYlJRX2prbl8wMFVKd1V4SHRVdFJIWVpXQTVaRWRrWUloZ2Y2cnZXdDBEa1I5dEZ5Z082bVhRMF9SNW9ieW1mVmJacXJoV0Yza09hTTZjX3NsLU00SHJjU1NjUQ?oc=5",
+          "published_at": "2026-03-27T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Moneycontrol.com",
+          "title": "Nestle India stock gains today after Q2 beat; analysts flag margin pressure amid strong sales, easing... - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPaHJXUjc3VEZUUEctdEo1OE5tSDJOUzFXRFE4R3ZBNGhKWXJrcDRmVVRfNGoybDhKLThjVDhKcGpfZkstVk0zS2NnWUVqaXNtMjRvNEsxY1FRTTlKRkhiZ1ZMd28wM0pCN1lkUHU3T2RLOXJQNW94TzhTY1EyaHFBdThMQUQwRzFwa2pOVHRJWVpQSXp6U05STW1CSE9FRW5ZeHhQbEV5c1U1N1hYaEQtelpaRHJQWVhTQWRjQ0lKaGE1VWo0T3Fsc3EtR2I1MWdfellZbldIRm02OEp0dldMSDBPbmNYR2VvTGtsMHFNMmFLaTRkdTRaYWFfQU1lUdIBgwJBVV95cUxQM1owQkNXRzI3d3JrUF9FbUtheGFTYTB1eVBVX1R1SXhwMGx5X3hLM0Y0c25nS2ZxQlpkOVQxQVh3U2FQRE10NEFaMEFxOU9iazFKb1YtY1RPTzhlUTJ0Wm1Jb21LVEl2dHFMaDU3SER6VHVIM213bTNqT2NYZ21zZmJOYXg3eFlsal84bW5mVm0zblNWOHJHeUdqUUM4V1dVUERMX25OeHhjSGExendjWmJJX0dmX1NldUliSnRVdVhqa1E3MUlIMDdwY2dLZkwyOWUteVJCWTFUT19MWnJGV0llR1NaY19BSkMwSHlnN0xSUVZ0YkVrdHBlVTFEaXk4Ymc0?oc=5",
+          "published_at": "2025-10-17T07:00:00+00:00",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Markets Mojo",
+          "title": "Nestle India Ltd is Rated Hold - Markets Mojo",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZEtmc1c2aG1BT3hWb3hnWU5QOEtyR3VrVnp1SXpVZENnVDM0V3FKSVUtd1RTT1RTYjdtR0Q2NjBKay0zMjJhM1ltZDlwUFFfQU9CckR0OWFkVnZIQl95emdxMFVseUJWOEtpQTN0QkJkOFp4aGEzM19rWVRqMDNQVi1kWklZVk9HQmxoeWVDa0NMNnNpOVVB?oc=5",
+          "published_at": "2026-04-05T08:13:35+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Economic Times",
+          "title": "Nestle India - Valuation Alert: 10 largecap stocks trading well above Industry PE - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVmRBR3RJNDhsOUpSZl9pRldkYjNJbUMwY1lxVWw3cmNvWEhibEVrSU1IejhoWW5lRWpxR2ZVclZ6LTZpUWVER2U2XzM1aFNUSkFVdFllMy1RNTBndVpqTnJ1NlRfTzFTOG12Y3dVZnBaR0ZoWEtzek1aeUNnUi1jR3IwV1h3MlJ4akVabWczdzFLSHJyVlNYYnJMNk5IWHlZdnBHaWFWbVA5STAyVkNfbWVDNnBCaGdsME1ZUzl1N2RUakV3WUMzcU1nbVJxN1RTZzJQejdON2owdWxUdUMwR1VoSW8?oc=5",
+          "published_at": "2026-02-19T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "simplywall.st",
+          "title": "Nestl\u00e9 India Limited (NSE:NESTLEIND) Is About To Go Ex-Dividend, And It Pays A 1.3% Yield - simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUHpqbm4xcU11bHZCb3lRYlVVTnJ4WDN2cjA0dllzamhPckEteE5PSFp1V3pzdHhLSkVZVkZGcW5nbzJ4M3JfRlAwc1JnV1ZlbjlBcFE3aEc5RUtXS1pOcjhBTkFWSTdKUVdsMkdvX3FNbVd0MDRrSWVHQ3VRN2ZUTHFrQ1ZlYmxTV2doaFNmNnZIODQ0STdkNG1iNUZJYTJSZmx3RzBZcldVWVFfRmRYck1GdVFvYTlaY3dwZFpEYTVLTlItc0FBU2Rub05KaW9oUHJKVDhhSkljaFJHMHRCLXJPQl93WEnSAewBQVVfeXFMT2REX1ZXRXZ4dXFTeDZQSktLcHVoNTZtLUpnYlZyckVNY0hncjRVRmVjSmVqR0lQdmlPVEk5Zk9ySzFVTjZiUFZncVZpcDJYNnliR2ZLdWM3TnJUSGVDVGdjV3hsd1E3NTlZOFBpem1wQlZUeklYOTBlNU9DVS02OEppekMzQjlGMXR3WWVpNXA2UG9HVUxTY0ptN1hhS19ORngyNXAtT1phR0plMjFpQzlWN0xzSkJSNUg4emo2WWpnNUg4bTFxMk5YNGRCX3U0YU56cHJMdllXd2J0aVVCbldrOTI3cmQySXl4Tk4?oc=5",
+          "published_at": "2026-02-03T08:00:00+00:00",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "BAJAJ-AUTO",
+      "company_name": "Bajaj Auto",
+      "sector": "Auto",
+      "opportunity_score": 43,
+      "time_window_fit": 0.356,
+      "catalyst_strength": 0.0,
+      "valuation_stretch": 0.721,
+      "setup_quality": 0.699,
+      "risk_score": 0.5,
+      "passed_hard_gates": false,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [
+        "Data is stale"
+      ],
+      "positives": [
+        "Price trend is constructive",
+        "Price near 52-week high"
+      ],
+      "risks": [
+        "Catalyst support is limited",
+        "Cash conversion is weak",
+        "Debt is high relative to profits"
+      ],
+      "summary": "BAJAJ-AUTO combines 65% earnings momentum, 0% catalyst strength, and 70% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q2FY26",
+        "revenue": 153782400000.0,
+        "revenue_prev_year": 126889600000.0,
+        "revenue_prev_quarter": 152536400000.0,
+        "net_profit": 27498200000.0,
+        "profit_prev_year": 21956500000.0,
+        "profit_prev_quarter": 21220300000.0,
+        "operating_margin": 0.23477914247664233,
+        "operating_margin_prev_quarter": 0.2192375065885913,
+        "operating_cash_flow": 0.0,
+        "total_debt": 195646100000.0
+      },
+      "last_price": 9773.5,
+      "updated_at": "2025-12-31T00:00:00+00:00",
+      "news": [
+        {
+          "source": "AD HOC NEWS",
+          "title": "Bajaj Auto Ltd Stock: Resilient Leader in India's Two-Wheeler Market Amid EV Surge and Global Expans - AD HOC NEWS",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazc0Uzg4eDF1R2FEUlZ2bl84cFFxRldfQlBnMXp6UlZJZEp2ekM2dGpCZ3F1ZldWMXZwWGRTVjh1WExTV3M1cDNDRDVqVXFVLS1KMnR5TWpXa2N5YXBzYUVnT1VkUFlyUUdTSWNuenhLVnp5WlJWdjcwOXRyTGVkbEp6Qlpzb0Q2LUhTUVhkUVNObHJTWFFWYWI0SGxDRi1XNGhTUjV6ODdVU1h0VE01SGM0YnZYcVkwT1BfU2pPRlhjUDJG?oc=5",
+          "published_at": "2026-04-01T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Economic Times",
+          "title": "Multi-Commodity Exchange Of India - Bajaj Auto among 7 stocks hit 52-week highs; gains up to 15% in a month - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPRXFyM250X2dvTVlXMWI4UUVmSkpqZHpGdlRnd25RVHhtdkREQlpNOUFaMUFVZTFqT2llZGwwZDJWTTJDZDFVRkE0ZDdjS21vMHM3ZTFhaXVGeWFTQ0gyNC0zcXVWYTF3NUtsU0dyd2pHTk5PV0ZIclRPSjBKWFFvUmFFQ01hOThuNTl3UFQzTk1teVU5TjM5SmNPVU9zcHdhRUJ3OGNwOTJQUC0wTVVxTlo5Z1RjRDZZSkw4RmZYTXpRbnF4U2RsdkxabTRoNkFIM00tMW5WUFNrODJNbWJEUGhlYVY4TWI2aGlEYVVkLVFIV2g4Z29DNWZyNFJfMHpzalpGbFpR?oc=5",
+          "published_at": "2026-01-08T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "CNBC TV18",
+          "title": "Bajaj Auto Ltd. Share Price Today - Bajaj Auto Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBad3AzckdOeEFtbHZlOVRBSnZqS19sSmM3UGxoNFFpbzBlV3NUcXFPZnY2VktHU29hcEVnbWo3TUpyRU1kMXRuWk1LSVRmcVY3SG10dUpLMUtCaG5Vb1I5bmdJa1B4cUNzZmdYOFZsT3diRjQ4d0FUS2pYNA?oc=5",
+          "published_at": "2026-01-03T20:24:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "scanx.trade",
+          "title": "Bajaj Auto Issues Official Stock Exchange Clarification on VDO.AI Partnership - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQUJ5OG1OOXZ5QVlENlRpU01KakRYMmgtTEMtcVBBVFJnNTBDcXNlTUVQVFlEck95SDZ3QUh4azI2UFdkQVF6aWl0d2RYZE8xUTBwdFRfczZjTVNWU0ExZk55OExEbjRUbkZNck1YZmgzREdkdG11VmU5Y09xd3FieTVMUElqMWZCVklObzVrcHZPTnZVUlo0TlZLM3E5S1lTNUxoY25jMEVYRFRwbFdJMlloQVVxSVNyV3U5SXNDVEQ2UHk4Y2JmVFVQSnA3R3lhbHlfTHczVzN5UkJqOXRyeUVB?oc=5",
+          "published_at": "2026-02-25T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Mint",
+          "title": "Bajaj Auto to Tata Power - Jay Thakkar suggests three stocks to buy or sell for short-term in F&O segment - Mint",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQX3pxTWZUUTBPLUVUYjRlQ1VGTi1ldUhVUGhnNDdVUGJWRWwyZDEtRlYxdFFXLTVRbXFoYl82VTE5aDFKeDdvSW1XeTBKRVIydlhKNnUyYWRzT0xNVFVyTmN5VC0tV01qd3JiQnozSzhrWlNBSFk2eE13UG81M2l6clpldHhhRkg4YVk1UTEteW9YaXdBbFpTU1NTNU05TzAxOUZKWTFTMlVsbmJTYlJqemRGY0VuNEpjckZTWHIyMmJfemdmcTRodm96Q05jbXpHS0VwM042UEs4Qkt0Rm9oQ0hXQlhwQkxFNHVkTV95cUw1OVM3ZEFWdGtCMV8tWGJjdE9v0gGIAkFVX3lxTE9BS256WU9pNUdrd2Fydi1WQVJENGtnc3hVYXdDamZDLWFjOGIwQ0xIUGV4Tk8tXzU4WXZDbnFfTkVxeldLM1BQV2FpNHFxSDdONXktWHFZZGVSVkNwY2dteTd1QWVwSlZMaDRMSjUyRDVHNzhnS0JRRFZtX1Z2U1NTRUlzdUtEOVpfZWVXSlZwVXlLTmRCcHI1NV9uSU5nc29LZS1TZGN0OVBFamRmSG9ETmtJZm9aTmxWT3lpZmR5c1FZV0VLZXE5eW5aZ3NlOUZpR2c5VkN0X25VMHZPRzNva216VFNBOGEtNEo1MjgyQ0FVdDVTU1hoTTZYOFlDZ1d6VUI5Q3Y2cA?oc=5",
+          "published_at": "2025-10-15T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Upstox",
+          "title": "Stocks to Watch, November 10: ONGC, Nykaa, Reliance Power, Bajaj Finance, Bajaj Auto, Lenskart, Ola Electric, Coal India, HAL - Upstox",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZThTSmRKTHBjaGFmdUhEU3VvUW8tNXNjbVBEdTVKNUVMR2FVbW1PTE5QR1FzRjJYLUY2YmkwcU5mOFZ2dWV1NWNMb3RNYmY1NDZWc0pLSmhUY3ZMTzdhV01PaVlsd0w0djVOcE4xVkFBZENSVWQ3amo0bTRkNmQwY1hyYUtSNE1GOUt2RktvRU9Wd0NVd0lDVS01VFk4MzZwR1d3bE5jTlNVOUVNQ0I1RzJuNi1uUmtDaHBhNlpVRVZ3V0JGSXpwdnZLRlJXdFpObUFpYl9VOWN3cFU1ckRoVzkzYVRTTEw3ejItLUJGRExKT3JOSU1VakowZzR4UHJtdkNPTw?oc=5",
+          "published_at": "2025-11-09T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "BusinessLine",
+          "title": "Will Bajaj Auto\u2019s domestic business get a facelift? - BusinessLine",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaXdXTWY0dWJkM1pHZ1gxRnFmNUlPS1NsQVVRTjBKWmxZaml3ZDUtLUVmYjNoWUhuS3ZVRmNPLUZ4ZlJFYzlzc3R0VjJsUHNJY2RkWVUzZWZVdWtsS2VUeF90SWUwNWZDMExLOWJycllMb1ZjXzVrVldlUTZ1Q1hHWFF4R2cwRC1EVjIyUlB3WjZiODY0Rm5pT0xSU2tXalp1dzdKS21CNV80Sk9TekY1R1k3YzhfUjM3b18zNVVvaGkxOUZJRkxlR0JQNm90ZzhhVDZ1UnJyaHVjMGVkZDNkTXVUSdIB6gFBVV95cUxPOXhDVnNLNWxDaHZRRTk2UDJRWXUwa3hEMy1zb0dwX1ROU0ZodTk2N1M3VGNwM1dSX0JXNmtXX0Z0YWsxbDlWeDlyd2xzRGRGampLNEFrV1h2eXFyaEFWYUlMeDR4QURGV2VVME4tdkpvY2JtN25vRk9TR0VCX0Q1Z29YTEtCM3JLcWxDVjVJQ3VGVngwYjNMdFdkT0NraVRMR3ByU1J3QVpZbzllMHBTWVUwMTBHN3NuWThTSnk3TFcxWHBiTlVpMEUyWjQ0SS1GaWkwVV9va2ljR2Vfamg2Yy0yLTBmMVdtcWc?oc=5",
+          "published_at": "2025-08-25T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Zee Business",
+          "title": "Stocks to Watch Today (November 10, 2025): Bajaj Auto, Trent, Vedanta, Biocon, M&M, Swiggy, Coal India and more - Zee Business",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdGhLZFFXVVBVOFB3XzVmM2lwX3dTVlY0NmJCbVl4LWdQcWVFVW5JSzFrVG5zTkJ4bmdkVUQwbW5OZlp2SlhDN25kTTlyakVDNXNiUlc4Nk4wcTJjdEk4OTlvNTRuWWpxSVpFbk0xcVdQUUMtZnJMb0NIWjBJTzdmU01YOUFuZVlTQ25KQkpod21oUFNzeXBCeXB5cUdMWTNxeDJINERmbnBkX0gwNG1zd0VOTUJzejVlWFRBYWUydEpEVzc3WnN6aXBDdnZaeVZEQU02anZCYU1UV0h2d3ZKQQ?oc=5",
+          "published_at": "2025-11-10T08:00:00+00:00",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "APOLLOHOSP",
+      "company_name": "Apollo Hospitals",
+      "sector": "Healthcare",
+      "opportunity_score": 42,
+      "time_window_fit": 0.419,
+      "catalyst_strength": 0.0,
+      "valuation_stretch": 0.874,
+      "setup_quality": 0.705,
+      "risk_score": 0.32,
+      "passed_hard_gates": false,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [
+        "Data is stale"
+      ],
+      "positives": [
+        "Strong earnings momentum",
+        "Price trend is constructive",
+        "Price near 52-week high"
+      ],
+      "risks": [
+        "Catalyst support is limited",
+        "Cash conversion is weak",
+        "Debt is high relative to profits",
+        "Governance or balance-sheet risk in recent news"
+      ],
+      "summary": "APOLLOHOSP combines 76% earnings momentum, 0% catalyst strength, and 70% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q2FY26",
+        "revenue": 64774000000.0,
+        "revenue_prev_year": 55269000000.0,
+        "revenue_prev_quarter": 58421000000.0,
+        "net_profit": 5023000000.0,
+        "profit_prev_year": 3723000000.0,
+        "profit_prev_quarter": 4328000000.0,
+        "operating_margin": 0.1151851051347763,
+        "operating_margin_prev_quarter": 0.10907036853186354,
+        "operating_cash_flow": 0.0,
+        "total_debt": 54192000000.0
+      },
+      "last_price": 7699.0,
+      "updated_at": "2025-12-31T00:00:00+00:00",
+      "news": [
+        {
+          "source": "simplywall.st",
+          "title": "Apollo Hospitals Enterprise's (NSE:APOLLOHOSP) investors will be pleased with their strong 154% return over the last five years - simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSmtIR09aR05Wel9sV0R1aEd3X3U2QTRpblc3VWUtN3B6MlAteXJiX1F4Ym9CSUJZMkFIdkppYzdpalJJV3psRU9EbDk4SWZGb3owbXFjMlNYVmN2Um8xUzI3U3lGNzlIVUJkLXZfQUhHNi1NRDZZb1RLQl92TDA1XzVVN2dQRDdGeEtFRjQybkRvR1A4QndTbUFaYlNwUG42MnpHbmVTNnl3Mkp5UVhiZl9RUl9Vd08xRnZWOURZUVBxT2ExTE1vd2lFR3lSeXJjZ2V1Mjg4Ql9QZVh4OGo2Q1BHWE4tbjktRENVSWpWdVZ5Z9IB9wFBVV95cUxQUFVpQWJ6ejlmbVRKYUJJRGRsbTl2aXNyMFJ1eXhWMG15Y1NQWkdUTmN1dE1SaS1LaVdRZXdrb01NVmZwSVJLeTBsczlzeHY3RWNzR3J3a2EzNlh2d01UaEFtRVRrS0NubjdySU11SVpxaGZjR1VNaHJobXU5MGFxWGZSRm8tREg1ekpORUF2VXZpRld4UEdzUnZLLTRWMy1STHpNTEZwNjExM1cxY3lzYUxheV9DME5RTE5rSk5GT3QxUDdZcmhGU2JmMjVYYnBiRkgwdzRxX1VLM1dtczh3ejRMTm9xNU40d3pZdXQteWljRzVzVmdR?oc=5",
+          "published_at": "2026-01-28T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "MSN",
+          "title": "Coal India, Auro Pharma, Apollo Hospitals among largecap stocks to buy; check targets - MSN",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUmwtUC12QUgwck05dnY5WjFzUTVTVTdZNkEwbElOMEZQeFNRTmRPMlMtcTNMZGFuRU9GMWU2aUdQcDEyYWhWcXhXN1I0XzlhN1ZwY1ZsRklEZWRTUFQzVTR3UkN3Rnd6MVM4TkpsdTV2XzJrRzZyUTZYeUdUWmpseWkxbWV5RHlnLXVfenJlOVJ2ckZ6NnZaRVd1eFpJZDFKVVNwdExKb0h3Q19DYnpySERPelUyYmNLZUpEekVHOG9KTUdEOXB4bENraUVYYkhJNDVR?oc=5",
+          "published_at": "2026-03-24T04:42:37+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "HDFC Sky",
+          "title": "Apollo Hospitals Declares Interim Dividend of \u20b910 Per Share; Record Date Set Today - HDFC Sky",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQWJEQWxWVkZqVE1udmQyaTVudGNrZ19Qa3RnVmxKamJqYW44bGhQU3RiVVRCRUwyU3hOU1BhSkNKOHpoQWhLZUFxenFfeGN5dklDN1lOenZ6MTJKUGNzdUtlRXZ1OGRYTlZVeUhTeHlGTkEzaUFjZnlqZDl0bWhOVW55OFlZaDR2WDhJblM4RTFDekJEcFlQbkN1ZW9ObG9KaUFteU5uMEZxRGxh?oc=5",
+          "published_at": "2026-02-16T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Medical Dialogues",
+          "title": "Apollo Hospitals' Pharmacy, Healthtech Businesses Inch Closer to Demerger - Medical Dialogues",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTmFYYndCai1EWDliV1JWRjZtTWxUMHRxeXMtbElJMGF0aGtjRWgyajYwNjROd1k5bXJEbl82ZjVrTkNEbUl6U3NoRkpJd3ZuVDM4QUx2Zjc1dVk1WC1TMlUtemJvQkMyLUxaNjN5TnpHNU40M3ZORjdxMjF0TnhwWkFyMjdRZzRRNjdXWGFZSzFueldOUU5CSWN0WDRPcXlpVXVXUXVfTTdIbmJGeWt4U2NUQ29RX0ZrcnpEdGJ6QTVCZGtKcEHSAcsBQVVfeXFMT2hSR2JvNlo2TUR0MFkxRTBXeXFNX2gzd21VVHZRQzRmMll2QWJHMVJkRTlTRThSTWJjdGM1QUpsVjhPUHRmSDVVdzVGOHBabFBHRlZZQjIwcVVnMmozZzh2cWxqVmVFSXJzdDlFTFhrcWtJTFFmMWRNdDg5SldTaUZkR24zdkxsVWltN2lqM09SWTkxSC1hWVRKdkFqZlRSY2s3M3VpeUY2amJrV0VEbW9oX1VaT1VNODRWRFJXcV95ZDZXQnFGWS1EMDg?oc=5",
+          "published_at": "2025-12-25T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Mint",
+          "title": "Apollo Hospitals share price rallies 5% on strong Q3 results. Should you buy, sell or hold? - Mint",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZlFWREpYUG5uUG9VSHVDZ3d2ZmtMRGNUT2lpNF8wV1ZVMUlFQWdiMWpScXY3WXZvZE5OUVZONUt0N2VySTFjWlNON0gwRFctRHpUcEhrY1l1c0szVlVwNTlsdVZsMnlNeUd4UlJpNy00Mml1Y2swMnpJck42ZGh1Y3ljNTRZNVBqUFZWNHZyMVZ3SmxDRnpiV1BxT3lmbnlrSTk1bFNVbnRZbWpaTmVLME9XYldPdko2a3hwU0p6Q2ZQelZ1Y0JQdXpOWWpmLXMwVms0NExFREQ3bzdtVUpQNU9LYVBqS0dMZWRkV0x3Nk1pZ0dm0gH6AUFVX3lxTE90RFBiMExZVEZoLV9UeUdCR2dxMG5CaVk2cC1SMEFwUHRqYVEzcEVZQkdJRk10c2Vad0E5cFRxdGFsaG50dVlyTExLdG9QZ093djdJVXp1R29jYmwtRHlOVDNkSVhtRFlHVlBtNDdGbGcyc3N3R2FXd2NNcTNFZ1cxd3Y5RC1fQUhZNEUwWGxMVE5FM3BBd3U2RUU2QTFETkJjM3BjZkJXQ2FNbWh3SHlKcjFrRlpXSFc1cWtYSjBBMWhGZnBkRnFEUTdCRzYxQ0VNNG1JN0tobmVhcERobXNlLS1aZGJZWnNQNGJFRi1pT1daUXktY21wSFE?oc=5",
+          "published_at": "2026-02-11T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Moneycontrol.com",
+          "title": "Apollo Hospitals' shares rise nearly 2% as NSE approves demerger of pharmacy, digital health businesses - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWHVBRGdGZG5EZldvNGVULThKQUJURGtseS1oQmk0eE9Oald6NzlPVWlCZ2hMWUl5RE5BYkMxQW5nVTRSZ19NcjczSGYyeW5yNUY2UEtxNDhHWkFkS0szYnpLUW1YZHhZT0pjLXBuTWUwbkdvWFp6NGUtYjA4QzctUHRVd3pFZXRjRzBLN2phenh2ZkxuNmdONWc0Rm9LUzYzOVkwUXhOeVNIYlNzVnBDZEM4MzF3enNaUU9MYl90OE5aQWE2VzZra0VmaExFMWhRSDZraTlEZFZwSno1Qlg0QWkxZkxrZFliYlhCRFBaeHJQUjFqaEY1edIB_gFBVV95cUxQX2thdVlEOVozNFN0dC1RaTFwdnZwUjAzUUtjS3Itb1NFellhYU1IMlM5LVNXRGV5XzN0NWJEbThYOU9UWjcwR2Y1d0VDVTdFaExPT3ZST3RtWUJhNllrYnVRckdreUI5NExvX2V3SENKZHFNXzVHdWRXOGh6S3Q4N3cycEZQU1VWMmdKalpsQUtSaEtJNm5TOVBlOUxSc1Y1MWc4VmxORnBYU2xpMHM2ZENyTDZVdDVkUUR5SkVPWTlYWnJadUlsVm4wM2RnN1Z2Q01heFBJQ3BQRVFJbnlIZldIVnpUZzgwdXFacWg0X1lwZW9HbC1sOHBkRjJ4QQ?oc=5",
+          "published_at": "2025-12-24T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Fortune India",
+          "title": "Apollo Hospitals shares rise 2% after NSE clears demerger of multiple health businesses - Fortune India",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTGxpZzRJVVNEcTJBUzVESUFISjdQWnBxUkl4M0Fub2FEaTdCQVEzUVZSZThqMVFlcTlvSDhSWnlTb1I0TndDMnBaemJ3MDFHMDhkOEV6V191Vlh0TkY5R0RzNXlvWnE3R0N0TENqVWJxdDR5cEFyeHdjcW5EWEJCRzZ5dXJGTV9PZklzUEJxV1Q5MTNQMUxTWGZlNjloa2xNTUpkdUpmMEttdHRuNlViS1BWc1hxMENyQnBna0Vzc2NNQnBuVzBwXzlR0gHXAUFVX3lxTE9tZGhyTTR1X3pUdUViM1FIeXJHZFZ0OUk4bWpyVXk2TDBNLThfcy13VXlLN2p2eUpWa2lsNk5XVVZPOEtHYnBMdDUtQnlhMVZQS2ExMURVSmxuSEFNU0FZZ1JxYTd2dGM5WlZjQlZIVmg4OTFfRzQ2bzhRMVk4UHRZOXZHNkhvRDRLNW8xaWRVbWtzOVA0MnJqdjFwV285SkJKV3FMQlA5bXJGcE5Dd04tZlhZU3B2MVNaNTVoUEpHT2ZQUTR4T0t2STAtcEpRRVA5MEk4STBB?oc=5",
+          "published_at": "2025-12-24T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Economic Times",
+          "title": "Apollo Hospitals Enterprise - Big Promoter Move: 10 stocks see promoter pledges cut in Q3FY26 - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSDZ0RVozUjMtUHkxUXRTMkFkWUtUNWVXXzh6ZjJTekp2Z0pxTkJaUW51SHZJeHQ4R1ZSMThJVUxiQVFBekRqbG9OZ280VGtIa2ppMzBuTEhXTzFkNEkzeExFWjFxdDcya0NKamZmcG1iWExBMEE4OGFnNG4xRjhnZGJMVmlSMzh3eG5QSmNXOHNQUC1ybXhacG9TYXdFNHJLNmFsNnc1UzNvYjNILUl3LVlCNlMtMExkX2t0NkQzWmNJNTYtM3F4NHdRVkxJa1lGbGZ1eTRYd1JLcjVZT25fODdDY3ROTXVJZE4xVDVkTnlMWDA4?oc=5",
+          "published_at": "2026-01-26T08:00:00+00:00",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "ticker": "ADANIPORTS",
+      "company_name": "Adani Ports",
+      "sector": "Logistics",
+      "opportunity_score": 39,
+      "time_window_fit": 0.259,
+      "catalyst_strength": 0.0,
+      "valuation_stretch": 0.707,
+      "setup_quality": 0.753,
+      "risk_score": 0.5,
+      "passed_hard_gates": false,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [
+        "Data is stale"
+      ],
+      "positives": [
+        "Price trend is constructive",
+        "Price near 52-week high"
+      ],
+      "risks": [
+        "Catalyst support is limited",
+        "Cash conversion is weak",
+        "Debt is high relative to profits"
+      ],
+      "summary": "ADANIPORTS combines 47% earnings momentum, 0% catalyst strength, and 75% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q2FY26",
+        "revenue": 97045900000.0,
+        "revenue_prev_year": 79635500000.0,
+        "revenue_prev_quarter": 91261400000.0,
+        "net_profit": 30536100000.0,
+        "profit_prev_year": 25202600000.0,
+        "profit_prev_quarter": 33145900000.0,
+        "operating_margin": 0.45357093911231694,
+        "operating_margin_prev_quarter": 0.4646455127797733,
+        "operating_cash_flow": 0.0,
+        "total_debt": 513048200000.0
+      },
+      "last_price": 1573.4,
+      "updated_at": "2025-12-31T00:00:00+00:00",
+      "news": [
+        {
+          "source": "India TV News",
+          "title": "Market Opening Bell: Sensex, Nifty flat amid weak global cues, Adani Ports in action - India TV News",
+          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPbzFrRXBlZTRGTDdna0g0QWxlMV91YWNxd1pTM2h0N1JtUUNhUEZ1Rm5KM0M2VGtNX1Jqbm5NTUhhcDQzTjFoUFNNU3NTajNMZlFzaTN4RnRfSVgtbDIzSHdxenM0enNSaG9Ob3RxQ1VTcXNBQzM0aklZck5JcWpyYXNNQ192MXNwLWk3WFRqLVNjWkNuOXMxVGdUNWdWRVBsemc3dWUyRkVTZ28xcGNyQi1NVE9uVXZLNUtWQUMyeGw3U3dZMy0tUXJWSG5GS2Q4anAxLVNFZHRTZ05MTnk2LUlJR2RqMlNDQVFWWDE5VTZ6SWZBZmpVelRBbnBWaTFPVUp0ZjVrWERiN2VTU2RBOV9jQ2llanhvU1HSAZ8CQVVfeXFMTkdwbndJLTFOTllhZ1hwQ0ZrNVBhb3BYUWZwX1NpcEhOaHJGNmFHeEFaNDBpOXlMRExYTktKMkcxZzJkOXJWZ0F0R2ZmWEFQQXNtdUhQNFhwc3dvSFFiR1FfbGRBT1ZUN1VTNWl1VGFDWExhWmRHdnBTSkExaV9ma3dCUEk3WXNPdTlPallvd0xibkNBdXhRd05hN0lueDlfd2F2YVV5NWp6Z2FzLW9XR1YzMjVrekJTcWlTUGdGN1g2ZXc4ZGsxaEFVOXRxTjd4M3pxcnNraV9aTUFGU1F4dWtJbVZRZ0d4OFk0eVVDai1UdzNyYVloOVk0UFI5VXk0TFpHQ2dYb1F2akpzNkdNTGsydTBJVkdFUXFaTUp5M1U?oc=5",
+          "published_at": "2026-04-17T03:54:23+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "AD HOC NEWS",
+          "title": "Adani Ports & SEZ Ltd stock (INE742F01042): Is India's port dominance strong enough to unlock new up - AD HOC NEWS",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWjlYRDc0U2NrREhsSzVRdGJPZzhIMElZUy1BRzRuclpXcW51N1d4UzU4WS1JUWJYQUZIMkJMVGFqUml2b2Nzb2xMMnB2ZGhIek9MUlhlRG96OWYyWmFUWElmYjJMVkhVeXNnbHVFWV9OM2Z5RnNjdEdxd3dWTEVKa0FWQzluRm0yT1NMdG1xWXl3SDVTbktLTXhVX3BMdDl6LTJZTVA1NEQ4ZVJxeklIMGFaQ2M1ZWEtcnhreGZaWQ?oc=5",
+          "published_at": "2026-04-14T21:49:52+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Economic Times",
+          "title": "Adani Ports shares jump 5% as company crosses 500 million tonnes cargo milestone - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVTJ0NWxWLTNJNVVzdXNMWEx1X1dnWnBqM09XNi14Zm9hYkhPREEzZWtleGo2SkVMQkxaXzhXb2dQUk1qMktMS0NZSkxVRHFuaUpSZlhJcWdjNldMZmFJaWcydHN2N0RiMjZCd05aSU9SMjkwSHVuOXhBWV9aQkRFZUd6TlBxeVlOSmhJcW9UQVVxbWRzYlBXNmRpOENSUjRpdk1jMl96NDZiV3lOQ0YzZ0JKdHBabGVMTlBsSnVZSzI0VlpiV1FHWkUtN1Z6T2JNMnpCb0JjM3hoM09aUkx2UzR5Qlk1VE9N0gHuAUFVX3lxTE5KM2ExcUFtYjNqc1daajhZdEwycmZRTzRJd280c0ZORUIyT2xzdHUwQVYzSnVpay1zTTJiMnZQaFR2bXhmbDJMazBiSThkMmNfNVpyV1MzMzN0Y2RMa3I1RlhUeVBRQkJNVExIeXFkVjZBS1l2VW5UMHBaZUY4YXZabHowakJTdXQ3RWlqeXc5SWNBY0Jsd2x5dXF1Sk92N0FPY3lrSUhHWFAtN3lzaVhrX2FhQkVYSTlHMHRaalVqU2tOLWZrM01IcThfTlI5dkF3RHFkT3NXWnlNWU1Zd2thaGpqWDczWU9NWDZmcVE?oc=5",
+          "published_at": "2026-04-01T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "TradingView \u2014 Track All Markets",
+          "title": "Adani Ports shares jump 2.5% to top become Nifty gainer today on iron ore MoU with NMDC, Vale Brazil - TradingView \u2014 Track All Markets",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaDdwWWpEQVprTThONW8zREdXbWxyUlBYa1BmUm44bFFvSkdsU0hHbUM3Zy13RjNkNzNjRE5YcVRZa1N6NnJpT0w5RU10bDJGa3hHdFJLb0tlbG1XV1UzZWZtUkxjT05NUlRhbFF2N0pTenBKUkViOUNYcmZLcTU4dlo0bUhyWHZHZG1IMFBWcEMxMWg3d0E5aDZkSXJiS0JpaDZxc3ZKUlY3UXNxN0FkRUJJeXFpV3RRU25relVGWGp0MGx2SE1lRmloajNIVE5QVEZQcTQ4TkEtT0Y5VzNYcnkxcHk4Y3dyb1FtR2Jpck1FRGs?oc=5",
+          "published_at": "2026-02-22T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "scanx.trade",
+          "title": "Adani Ports Submits Q4 FY26 Compliance Certificate Under SEBI Depositories Regulations - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWDVGd3R6RnR5MmdNWUZhSGYwb1pZbE5WRHEtSHFRLUxjNTJ4RzlyeDNXbWxkU3JMVVJwSGtCOVc2dmlzMFQzQzBzWWRTMGJuUWJtYzRwVERVQXhKMFMwbGdHV19CQmZNSHJLVnU1cGZVUFZUQ09RWnJSSC1ndi1uTjdEcy1rODY3QUoxVGhyUEh6V1BGcFA0T1pVYW1QTk9xazFlNEhCSm5GWk53cXlyVXNfTkdIaVZCSUFyNl8wNGFtckc0TjBaUDhBeWtPdmZNbVBya0hHSDdLM1U?oc=5",
+          "published_at": "2026-04-04T07:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Times of India",
+          "title": "Adani Group stocks drop! Adani Ports, Adani Green, Adani Enterprises down up to 10% after US SEC seeks pe - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQWkdETEZsOU1pa0ZKMEVpeW4yb0dsMF8zcmktR04tVVRoS3paMW55ekdOZTZaYWQ4UlQybDdaUGVOeUF6Z1lfaXh6b19zUmlkTnhqOXRlLTh3WHktUzMzblo3cWhob21KdHN4V0Z5dWU1YVc3TGxtVVotTTRBVi13T3B2SFpRdlJIS3BFZHRRZFdPT0tNT2lpWVhxN1FGWjRrOEZjMm5XQldjdjhWQ0JYTHJCRHZRUDVXUExBdGRNazg4SjdxV2hOdE5EREZqR0Y4QzB3anBzRkV3dVRJa09HdUg0RnRhQXo4aFc3b0Z2c2t3QnUxXy1MNDVkNlJaRk1GZTdlTzlRM0x2TGxKQi1idkhXU2VNMFhUdkZ6RGoxYTZvNUdDVTRpdWMtdGZvUTAtYkRab1g3UdIBvAJBVV95cUxPbTlvbGp4TlJ6V2d5S0doUWVmZkhhaDJHX2hSSWV0T3RLMHJzMC0tMHVLTmdDUk1nazFxRVFfTTVNaGxJWmlqNWhTaURMVldCZW5BcmZTSDJoVmNQS1ZqcC1LQjNQRVZ4Q2hWRUNwYm4wS19lNnJXLXl3OFBHa0I4ZUdlcm5CQ2hjUFU3NWZTaXNYbWhqLVFYMDdqUGZHTHRROEZUcUhJOFRIcGp6eFVqLXQ5NkYzR2daU2w2RlEyVjk1cTF3MWpHTlFaT1VUQzBNbzZxblNOSV92N2F5eUR3Um9JZThYU3NuZ1VzTzBVcDVXc2NNUW41Q2JXVlVVVzVaNk9vWDlqYmpkWXNRTjduWGhkcTZTd0tYaHZid29tYTlpUnVVTlBRX2x3THU0ZUdMZVJyQng0XzNGaUxR?oc=5",
+          "published_at": "2026-01-23T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "HDFC Sky",
+          "title": "Adani Ports Reports 42.5 MMT February Cargo Throughput; Adani Ports Shares Price Slip - HDFC Sky",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdlNYM2hOZjNQSVRaWVdvWldZd2Jpb2xiUGxNZDRxdHlkNFFXQ2NsNzJmTk1ST1doakI2YVhfQXU2akEyUFhlR0RreC1pNG5rZGZsNDgwNDZvOEVWZ3JveVdNOWZtb1J1ZExGMnllSHhhMHJQLTBBRF9QdVFrRVlDd2x4cDJLQQ?oc=5",
+          "published_at": "2026-03-04T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Upstox",
+          "title": "Adani Ports shares soar 3.5% on inking strategic MoU with NMDC, Brazil\u2019s Vale S.A. for iron ore - Upstox",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeXZmRGNfOThNeWJaTENQRE5YQmFobnZkRVlTa19qajBhUFE1VGJybzc0SkZvYkJXM2NIRU5QZENhSktaZm1qT2E5aGRLV0tISWxRUnVaRlNNN3dRelB2bTJ4Wm9YaEUzWFdKd0xFUHZvbGpyeVN3bnJhckNzaEprWkJVZW9QcjNQUVVVWVhuZzBXMzJhcjRzUXdRTjlIT2lJZmFlUHpXZ2dXVEtkNktjRW9iZXVmT0llMk9YT2tHOTNHNXBvSllQM1dWZF9WOTR5RGlQcDltd216Ulp0eHBLQ0lOWkFXRG8?oc=5",
+          "published_at": "2026-02-23T08:00:00+00:00",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "WIPRO",
+      "company_name": "Wipro",
+      "sector": "IT",
+      "opportunity_score": 39,
+      "time_window_fit": 0.444,
+      "catalyst_strength": 0.84,
+      "valuation_stretch": 0.592,
+      "setup_quality": 0.12,
+      "risk_score": 0.65,
+      "passed_hard_gates": false,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [
+        "Data is stale"
+      ],
+      "positives": [
+        "Fresh catalyst support is visible",
+        "Valuation still has room to rerate"
+      ],
+      "risks": [
+        "Momentum is below the preferred threshold",
+        "Price trend needs confirmation",
+        "Debt is high relative to profits"
+      ],
+      "summary": "WIPRO combines 12% earnings momentum, 84% catalyst strength, and 12% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q2FY26",
+        "revenue": 235558000000.0,
+        "revenue_prev_year": 223188000000.0,
+        "revenue_prev_quarter": 226973000000.0,
+        "net_profit": 31190000000.0,
+        "profit_prev_year": 33538000000.0,
+        "profit_prev_quarter": 32462000000.0,
+        "operating_margin": 0.14835836609242734,
+        "operating_margin_prev_quarter": 0.16420895877483224,
+        "operating_cash_flow": 42594000000.0,
+        "total_debt": 198046000000.0
+      },
+      "last_price": 204.32,
+      "updated_at": "2025-12-31T00:00:00+00:00",
+      "news": [
+        {
+          "source": "The Economic Times",
+          "title": "Wipro shares crack 4% after Q4, Rs 15,000-crore buyback. What Goldman Sachs, other brokerages are saying? - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNbEtWd2RuRElpYUNtYWVyQ0VGSUJJQ3pYU09kakVHck5PQl9LbFRXQ0JiN1BwZl9XT1QzemlENTBha1g3UW54dUhYTEtoWGhQNkFIQ2JTWF9IVnhvYmNrZFlEa1V6MlIzNWxQelF6dXJEeXd6UEhreEF1Uk1hSEZsbjlCUXZMamVtU0g5cVFuVHdjX185bWdCSW43WTdENWVQSHRiTUw1bjY4NjdiUFpsdk5Bcll0TWMtVENudl9oY004czBEY1k5T3RBQWlaMW92Qm53M3BteTBZLXlzVUJVWnhEY19ZbnpKNmx5YlRMQkRDbjVKeDdWMUFjVGpkeVpmVlZUXzFTd9IBjAJBVV95cUxQejNnUEE0TGRTV09BUnE2R0lLWE15OVMtRlg3TVVuV2VZempldnJ0SktnWVRiYjZKZ096V1VXS1h5SU5icEdaNlhZLTNFR2NiMzY0OE1BM2ZfZVhBUVZPR2pUa3MzbE0xYkFheWVPUkZqelJzWmhhVVUzc01zUWtmWnhKWVBQQUhtRzM3ZmV3RE5pbU12LV9mLWtzc3c2VTlBZThBVjQ1d1FJdnljSk9MUTMyc1prWTg4QkZBYThqMUdFRzZhdTEtRDgyWE9ydW5hU3BkcENYLVpCTDRmQUNFNzFBa3BfUHBXcno5bmxiWTJxY1N0aEhKbmNJcGstanVUcVlhWVoyUWl6TEc1?oc=5",
+          "published_at": "2026-04-17T03:54:31+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "MSN",
+          "title": "Wipro Ltd (WIPRO) - MSN",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13aGxTRWJ2RFNjcVRNa0pueGhzeloyOFlFaVNoTWd3eUJBUGdRUE9JUWNFamw3a0k5S0hLUVI0XzlhUWxCcWoxZjloRVlLR1JvVy0wS1NHT1FOT2FzclRXTzAtYW92VEVCOFpVZE1qdkFIdlBtVkhmdw?oc=5",
+          "published_at": "2026-04-13T20:56:26+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Times of India",
+          "title": "Wipro shares slide up to 4% after weak Q4, muted outlook dents sentiment - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNUHBaUW1jSV9PSkxuNTMzbkozWWxaeWc5NW5aamNJWnhzeERnc2dHU1Y3UDhfRlRTVWE5bFJwYS00V2xOWEdsOFZUR0pNckpLVGZUVklyUG5CX3lpeHV5aFZXT2V0cWxFMFVRSFdYb0RZTlBfaTVlRWFWeXFXSFRHR0RIM0JtbE9Gd2Z0YUxrLWY2ejA2Q2Y4aWhGZDhHSkVHeml3b0JUbkFBNGtnTkRIbWZlM0Y4WFRqRnFEejlOSzZGR3ZWLXBJWi1TMTB2aU9kNl9QdG9yZTlVZUJ0QW5rQTJXdGlwRHNoSE1NTdIB8gFBVV95cUxNQVJ2Q1Y0enpyaUJQX0xQV1BPWm1XeFNWTzZPV05aeTRpdzF3WXpTMGhndVctenRoVkxwdmNjU3RMWEZSYlU3dW52MkpCaXJkQXoyeURhOEk1ekxaUl9XRlY5ejFzSVVjVHNLOUpyUmdXWVBGVkJicmxGNlpTcnZBbWtSUnU0eXpnaUFZM2FxbmlVeV81ZTk3NUVlUjR6enlmQy1pVmVodzVVanNuNUE0NjViVnBkOGpBejVlY3h4OW8tQVVuV0tnVHc3dW1xU2VwVXhQbTU0LU9YMldNbUVqTll6NFlNZ0tGUS1mU1lMdnBtUQ?oc=5",
+          "published_at": "2026-04-17T06:10:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Fortune India",
+          "title": "Wipro shares slip nearly 4% after Q4 profit decline, weak guidance - Fortune India",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbU90NUdITzI0OEVYR0FaVkFQaGE3OEl1NUdzb0lBWFI1ZW1zSDQxZTd2b0F5UkstaFVmMFdoVlplc0JlSmhPcnNVclVqMjJmblhaS2ZjNjNkNVhFSkZ3NmVCcnJLQVdaazY4SW8yWmU1MUtjSkhHeklBRGIzeFJNQ1lKMTZWX1lUcTM5TjNEeHNiOUhUWHBjcGRqU204bXpKOUthdjFsaFpBUEZU0gG6AUFVX3lxTFB5Vk40Y05FUThrZ09JUWVFTGlRbllRaVN4R0xhQzBZZ2lKR1Z2T1RMZ3kxMllzRGxEbzBKN0dpX2txTGhkLU01YnFCYVNMWXhhY1VPVkpncE9CTG1DbVpnVld6dTFOZ0MxUlVFUDBDWlk3RzhRWjdRZlFMWXdCZW1wX1gzTkx6VXdZYkM3dWF2ZnQ0cmhZNjBDUThDbm1ib185YlRCRDBQQ1RCM3pNcVdkWkhneXhSdkphZw?oc=5",
+          "published_at": "2026-04-17T06:48:19+00:00",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Business Standard",
+          "title": "Wipro down 4% post Q4; muted Q1 guidance, delayed ramp-ups spook investors - Business Standard",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUXhqa3pHQWV6ZU1OWXpZd1lxLXl5LVVsZDBGRnJWQTZiazBPc09GdkltVDlVYXVnMlU0Y2lYN2ZXb2lCdzBFQVJQX0tDUzBvRXR6WFBtdlN0dDdNR3VDZWd1NndUN1dzNU5uMzVnVXBZRml4VnBMamZzQUZmbE9jVkVoaTNYanRwQzMzWWlJbXJ2eDNsa0ZRdDI1cDk2VVZ4RzdzVkJfZW11Z2hxbFlFVExPNnJMZm9lN0JhR2NRa2RVc3czQzZMX2hTZXhldDZIaHFVZXZuVTZWWGNlcy1UeGx3Nl9zNkVCNnBwdTFn0gHzAUFVX3lxTFB1bkVEZDRCaU5tYjZHa1RadUMzNFBHQ2dPeE9LNXVuWVhOVWJ2X2F5NjYtb0U3U2NIZWV2V1B1SU1uT25yRUJhZlc3cHpaTWdFd2tXMXZTVXE4MGxfMEViMFoxTWlXTGdORVJpVmJqQ2NNOHFWZzYxSUI4WUJmMVZQM1VOXzh3WmkzRXVfWnBpU0FRMld0NkVOUERDQTV1RlZFcFQtSzZOdG5fMGJqZ2Zqc0xiM0d3Q2JQSkZzR2tBdzdVSVFWSU16VjhHZ1dtQk93MGZnV20yZF84Wm16S3d0TGctY3paWmZfbG9QR2U4NXdqVQ?oc=5",
+          "published_at": "2026-04-17T03:57:34+00:00",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Upstox",
+          "title": "Wipro, HDFC Life among buzzing stocks as SENSEX jumps over 200 pts, NIFTY above 24,200 in noon deals - Upstox",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPOTFuMFZjeFpvX0NTR2hEcVpWNmxKV1ZGa082RDFqVVI2S1N5REt0enAwUGVYRlk4TWtfNmI0UDdpZkVpNWdSN20wOWJHWmgzOG4yMk9Gd09IU0VfSGVIbEpzZXMzYkFmZ19yeFV2blV4UWZyU19EMG80aTIwUVVJaWg1anRpTlM3Tk5lWWZEOURjT1RtSTdmNE4yT2xBSVdLamVvc2tqVmxBWTdoSThNbE40UXQtYmRFUnFuX0VmY0d3dDhtZ05Wd1JTcEZWQ1lfWV84WERlUGJqV2lFRU9TazQ0TUUtdmZ3c3g2c0VB?oc=5",
+          "published_at": "2026-04-17T07:26:46+00:00",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Yahoo Finance UK",
+          "title": "India's Wipro slips as weak forecast deepens growth concerns - Yahoo Finance UK",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWE9yZE1tMnRWOWhGLW5iS21PMzZjOVUtcmZBYWJKaTVwdWF3Y1owT2l1Mnd5WW84dkdwUy1ZS1ZyeEt5NHRrdFMtblkwTVZWdnVFRFVaMW9Eenk2S1dxV3VubURHOEphYUMxMnFveGhTUWdiby0tLS0wWW9Hbk9UOVZVY21rdDVT?oc=5",
+          "published_at": "2026-04-17T04:38:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Invezz",
+          "title": "Wipro stock plunges 3%: is Indian IT stuck in a slow-growth trap? - Invezz",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSmtrbjMxZHN2STNYWDBqbEQ0cTYxSUlCMWxUN0ttc2hMQTc1aS1zRU5YOFZDRXZ0bGFKTVZMNWNQZFU5a2Ntc3UtYVNBZng2cXNHd0FwNThiNG5NeDRWYWNHUEp1RXcySVBIeWdrOHFncmxnb1Z0d2xjdDhyN2t0MTczaGY4Q1dBZ0xncjlEbTN6SDlpbUJZbVV3cWo0d2c?oc=5",
+          "published_at": "2026-04-17T04:39:40+00:00",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "NTPC",
+      "company_name": "NTPC",
+      "sector": "Utilities",
+      "opportunity_score": 39,
+      "time_window_fit": 0.189,
+      "catalyst_strength": 0.14,
+      "valuation_stretch": 0.588,
+      "setup_quality": 0.871,
+      "risk_score": 0.5,
+      "passed_hard_gates": false,
+      "action_label": "Avoid for now",
+      "rejection_reasons": [
+        "Data is stale"
+      ],
+      "positives": [
+        "Price trend is constructive",
+        "Price near 52-week high",
+        "Valuation still has room to rerate"
+      ],
+      "risks": [
+        "Momentum is below the preferred threshold",
+        "Catalyst support is limited",
+        "Cash conversion is weak",
+        "Debt is high relative to profits"
+      ],
+      "summary": "NTPC combines 23% earnings momentum, 14% catalyst strength, and 87% setup quality.",
+      "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
+      "latest": {
+        "quarter": "Q2FY26",
+        "revenue": 458456800000.0,
+        "revenue_prev_year": 450694300000.0,
+        "revenue_prev_quarter": 470653600000.0,
+        "net_profit": 54886700000.0,
+        "profit_prev_year": 50625100000.0,
+        "profit_prev_quarter": 60106000000.0,
+        "operating_margin": 0.20670519010733399,
+        "operating_margin_prev_quarter": 0.16982638611496864,
+        "operating_cash_flow": 0.0,
+        "total_debt": 2500961500000.0
+      },
+      "last_price": 393.6,
+      "updated_at": "2025-12-31T00:00:00+00:00",
+      "news": [
+        {
+          "source": "Goodreturns",
+          "title": "Suzlon, Tata, CESC, NTPC, Coal India To AGEL: Power Stocks May Rally On Q4 Buzz, Summer Demand Surge | List - Goodreturns",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdHhHVFcwRDR1TERVM2ltMURVampTbXRUVDBGbTNtMjhjY19wUm4xOGRfX3k0MWdaa1FwUVdpNnN6T2d0cmtTWndPcHU0Tmp2Q1pDd1FWQWhJRk1iMGhFVkhoMG5NSUZraVVoZG1XeWxiTkxHQjFkVzhnOHlJdFZIcGZHamFlYktoWkgzMGp0cGpnT0hLVTRWUFkyZUtrTU9uTTFoMGxGRjczdWFxRkJmbzhjamF6WU9GUi1iYmtYY3N6bmJFU1NoU21CZ29vZGVzaFhVdEpxVQ?oc=5",
+          "published_at": "2026-04-17T09:21:29+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "The Financial Express",
+          "title": "Suzlon to NTPC: 5 power stocks set for 30% rally on India\u2019s \u2018Evening Surge\u2019 \u2013 JM Financial decodes - The Financial Express",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWElPQ0FrNDNQY3BnVjhsdmdSWVF2c2tGd2RFUGxJUml0am9jRm9XYkxIOFZkSUFiNjdPMlN2Ujh4YmwxV2ZFdk45eFV3bmRXZVhBM0pURnpheno1eUdOQVAydWlSbzdEYjZ4a2RPTFUwMDRhZGJfY01jZG5YdzVlNDU2WWxBTDZJeDdCMmZzZjNFTTl6NHdQQmVCOEEzSW5wdmRUdmItSERuTjNNeVIta0pwa0cybk1TT0dFZmlCOEtzRnNsMmZfX2pvSnFzeDBRZmI2UVZVVdIB3gFBVV95cUxPbHB4ek0tbWFRVVl4LTVmLVhhUmRPaWpwckJBQ2VXSHZrSTdlQmhUU0tJcWJCRV80OEVGRlpOQU94WExIU1l0M3NFamQ5YXNUTEFDVmt1R1FRd3VzbmFTUXVwT3JXQV9JbF9rZVc4ZkE1RE1LU0t2VV9rMDV6YzZtV21KdUtVdWhsSkFSZ0tONWtmMmYya1UwVURzSU5JMWI5UDZqOGNVaXg1dzdqMmZncThwNEFFa0VPMlZ3YmlMQ09qYUQ2d1o0R29XbFhXYVotQTFLMi05Wlg3d2xJM2c?oc=5",
+          "published_at": "2026-04-17T03:47:33+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Upstox",
+          "title": "NTPC shares surge 4% as firm explores international partnerships for nuclear plans; all you need to know - Upstox",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZ3JvNHZkQW1ndXN3SEpLN0xBd3NrdW1OTXlBSXRJd25KLVBBdDQxS0NwUkg3Mll3TWJhZWJHZktNZ0tRWkV0alV5X2FjMkRtd1NodVZ0cHdfRVM0TWt6SjNCN29MR2dMdl90aUpFSzJGSjFqcmQ5cGFnaHZPMzBVaWUwRzVyMlRpYWlhLUJvc0V3czNVcFlKSEtLRHNlM2hyZ0pDcmwyajB3QWJCa2w2b2s4R01uemR3UDBvUDJMc0tJTHNkaTlKZTVjWXNuNXhobmYtU0NOdjZha181bzA5MmVZeG9vTDBXN1haRFBKc1VSTWM?oc=5",
+          "published_at": "2026-01-02T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Equitymaster",
+          "title": "Why NTPC Share Price is Rising - Equitymaster",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN0Y0eXJKZlJwX2paM0o2SHp6cDdpa25QNVFWeWtBMWlmMUxLZms0dWhiclNRdUlLQ0l0SHZpNWRsOGgzWEFDdU9OR1YwM1F5T2U3QjR4WmZ4Sks3M3p6VFJ4RGkyS2NWaEJxQmF1S3ZieGZNSi1KYWozT1FrMzU5MkN3Wi1sYUszaHRXTjF2ai1IU1pVM0JmdWQ5LWxfQmdjNlFZ?oc=5",
+          "published_at": "2026-01-01T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "TradingView \u2014 Track All Markets",
+          "title": "Key facts: NTPC Stock Surges; UBS Adds to Model Portfolio - TradingView \u2014 Track All Markets",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSUl3MGhEdlduRVVsaTZWeDg3emtDSDNhbzh3Q2JPUzN6WmJZS3VQTy1ielMwYVh5TVFHdW5XTlVRSGozZ3MwcExUZ2FlMUV3X1V5aWtJODZxd3VSZnNEYXR4WEtpRlVqakFfd19mR3NoYXgwSmJVU0JRVy00V1hiV1lfNFNDU1Y3Z2YzRlg3eHZnbUEtOXVVTmR4MEJMWkpEOGRfMzVrWV9BU2Y5REtHU0h1Slp6ZVlZ?oc=5",
+          "published_at": "2026-03-05T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Mint",
+          "title": "NTPC shares rise 17% in a year. Can India\u2019s power giant sustain the momentum? - Mint",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPc01lRmlzdjJ4OFpiNF9GV3k1LVJueDBXVHN1eDA1R0xlWXZ2UTkxdUxJV3VYcEgycjFlVlhLcmhiN2hwLUNTTVFQczNkWmVDdUIyRy1mUWxsaG1ob2tWVmpBX2VENnBSMnJxOFI1VnVTSC05NXpOZG1wbDAzV0p0ZzBvSk5JemQzSkozeW5OX1pKYzJqMHRJV1ZuMnFUMDc4YzBwQ2VHaTRLbE51VVJNanlldnZ0OGNpREhyejRRbnJjQ3BxQWRDVGxlRnRDd1RUd215MXVoVGZDSzFw0gHiAUFVX3lxTE9lcEl2a041b2dVcFFZa2dicl9LajZmTERzd2I0V2NjVW8ydktnektUS0xRaEp5UjZoZDJZZHBFV0xNRFB2OFM4LS1IQ2luT0otXzJYRi1ORTdMeWxIakRfcWs2TXFGUlRhWnBmbFhGRTVmYncxcnpWTmFfQWh1eGNWQ202a3RKRkt5NHE3Z0JtYlVQT3BmdFM2emFIVnp4YXAyLUV4Znlxb3RjTVhpc1FFZ0V1eDhnZm1BXzY1Qll5WEhsbjhDbzZjdllhUEttNGVtQU5pa3NJNDRtOXRXRWdub3c?oc=5",
+          "published_at": "2026-02-14T08:00:00+00:00",
+          "sentiment": "neutral"
+        },
+        {
+          "source": "Whalesbook",
+          "title": "NTPC Green Signs Ammonia Deal, But NTPC Stock Dips Amid Sector Jitters - Whalesbook",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdVc5dHZ2Y2dVNVR2T2dCV21RZGR3MlVJcWl6TnNXVmNNelBKS3otMllpSEJzX0c0S29JYlpkNnBKd243eFc1RDFlR2phR25ZcGNneEJub3N0emF3bHE3VW01WkQ3UHlPX1kxS0ZIbWxaeW9SRVFtZkFXaVlxcWVCT2UyNFlsTEdpTEh3WUJJRDRKemV6cVJJS01ySk12U2VjVkhBQXgzZDJxYVhEajJxa2Q1eEgwUzJRVzVfNjdjLUxwQ1AwelN5bnFxQlA5Uno2LXQ5QUhKZnlRcTE3OWc?oc=5",
+          "published_at": "2026-03-31T07:00:00+00:00",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Business Standard",
+          "title": "NTPC rallies 15% in one month, stock hits 52-week high; here's why - Business Standard",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPekdwY0Y3b3J6Q3NOQzRNWG9oeHhXeEoxZHcyVkdkZDNrVjZHemJZRkFldEVzRm53VHZLSGFDbmVoTU5oeUJBcm50NlBNUW84eG9maXBkOHpDcFk5RnpwOTk5RDdXYTZDalBVOXVnM1A4Wmxld182R3d0OEVTdlFwQmlQbVRpcDFrR3JKZWk0Qk5PQTNNcFhwbmRmc3NZYmtfTHN6SDBmRzRLLWJIWk90VFE1SUlTbnRjWEVoaHdpekVJaWU2eEozb2lB0gHPAUFVX3lxTE5LUkExSDVyRDNqQ2VvUFZPWlZ3MjVaWUh2TG11ME5temF2ek91SXRnNkxoNHh4U05maVd3cEJkOWFITVRIUFloNmJMYUEyT1MwRjRXZGNKbjd5ZjI5RjZSX3RFNGMyTnVZTlh3dkhmUjV6a1FQa0RuZnBsQUpiRjV5ZTdCeWRHUEFMLTF1TFlYR09IeWlwN0h4aEg2SFlxWE1qd2JPN2RCclUzLXQtN09YSzNtZ2NUNXdncFBQZHJzTThJQXBaZWRaR29ZU3hZcw?oc=5",
+          "published_at": "2026-02-25T08:00:00+00:00",
+          "sentiment": "neutral"
+        }
+      ]
+    }
+  ],
+  "important_developments": [
+    {
+      "source": "Trade Brains",
+      "title": "Small-Cap Stock Jumps 5% After Its Belgium-Based Subsidiary Bags \u20b9300 Cr JSW Steel Order - Trade Brains",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWkJmbHRtUmU0MmJMRUpVTEhSMlA1dXlKcDhTUnBkOHpkbW9tZGRjV1J0bkF6cnVoSEpwUEdrMEgyQWlXQzF1MGRyN1BkanIzQnNxODZGc3Y1QkNyaWJwWXVVelJVWDZhVmpuSFdKWmNXMFl2TUw1OHJjVXhDdUJDMjNjZDlqd2tCdEVodm9BaE1tQjhFRHhaaFR1NHlaZThTS29ydkFyZGdZTlh5YnpR?oc=5",
+      "published_at": "2026-04-16T09:50:00+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "source": "Whalesbook",
+      "title": "John Cockerill India Share Price: JSW Steel se \u20b9300 Cr ka contract! Stock **4.14%** up, par valuation par sawaal. - Whalesbook",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOV2V6VE1obmFYMmZWcm1DT3FpTnc3Um11YTBjbkJaMnJyam5rdTJ4VURodzJFU0FMTXctRnY1d1JyU2o5eEltTGhidE9zV3g3QTg1SzFEVnVJRWZ4ZVc3d3JYMHRjR3gxYk8zYk5wZExhZWZNWWtuUDVfMG1va0xyM2V0bXRaWHYwZmVXZDQ2MW9ub3VXTmkxLW9wak9lNUtYN1lRVXhpZFQxU2V1akxPRC1HbkhQZHVVaUNMVzlrdnJ3OVRsa19sSU5BbkdGOGlmR2NhamNQeGIwUXU3WFJHMnE1LUNSX0FWZ3NKY2pyVDhhZnJJSTQyTm1KNA?oc=5",
+      "published_at": "2026-04-16T06:13:56+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "source": "Dalal Street Investment Journal",
+      "title": "John Cockerill India Ltd Bags Rs 300 Crore JSW Steel Contract; Stock Gains Over 4% in Early Trade Today - Dalal Street Investment Journal",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOU3E1QzVfT3Z5UU5pOGRjbU8zeGFab2ZydkxDRXU4SlVjT09pWUhNMWtDcThTYTdzWlZRdGJ2MjAzQi1CRTVDX0VZd25DeWtRT25ISFRZMENRMkxDa21wREQ5NG1HdE85VVFSYlpkZkd5cEM1S1BuSjI1bWRfRDZaWUhjcFR0Mkd6aDZEc2t4Sk9WcGNmbzlQVEZmeE5hN1pYdTVHRHBmeDlqMTByeG15Ym5iVUg3S0Y2Q0RiUnJ4M21ERWlKN2VvZTBqQWZnNlh0bkZFOXdJNUtUWHVLZFB1Wkk0bm4?oc=5",
+      "published_at": "2026-04-16T06:13:14+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "source": "The Financial Express",
+      "title": "Nomura bets big on steel: Tata Steel, JSW Steel among top picks as margins surge - The Financial Express",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNjg3VGdBS212eTZZaGVjTHBXRHFORktOc2VlVldEWHRlbFFCWC1fdEhsOWdUbVF4UXlzVjNaUE0zZVl2QUtzcFV3YnVlS3NTUWV2MUluN1FDSk5DUm9CVHZsOGx5ajJuSkQzVDRTNi1RNTRzTjZURERiRW9hRG5Ib2RjUFhDZDhlWTRoWWRCS3YwLVZ5bFhvY1VFeTFfYlN1RVZzVnZ4bDBIUjc5SDJYbTc4d3BSOGRWU1FGZFlUVmtrWWhrWXfSAcwBQVVfeXFMTWFHeEtJbGNpS0dSZm5EN3lqMl9ORzdCaFJKZy1nWUc0QUQ4Mlh3akg0MHNranBxOVZsdGFxcGhpMm5ZaUVjRFBxMkpoNlRzSGZtdlltSVROU3lDdDN4UndqSjU0cjNiSDNJNlZKbEFMckxXYmQyX2RJWC03Mk8zNGUxNXFhQUNtSnZYSExjc0tnbUY4OE1zUU5VX21MZGVxOWhvWDZjbkRWeWljb0ZLSnNYNkNPbTVRTVFTMkpTZXVSaXE3TnZBRGd5Ym84?oc=5",
+      "published_at": "2026-04-13T05:34:09+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Business Standard",
+      "title": "Stocks to Watch today: TCS, Wipro, JSW Steel, HDFC Life, BSE, Tata Steel - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUTV4a1J6c0pRemVSb2ZVaDkyNjJJVi1abXpRV1RvTFJXRXlXTVFfaEN1dHppQUZ6d09YWlZHalFkRWtKOHVrc0JaUlRlWUFmRXYzTUtVSHd0WXNyNThkbW11Ykw0eWR6QzF5dk9FVVhzcWo3M1BEdjBpeHdUeTFleHo1TkZGTk9ka1pPdHRkRFFDQ2ZBUDFQVF82dm10Z1BuWTFQWXg2X3RtNGNfWUFjeEhjNmhaZ0UxZFZ1akVCc3JUdGNHRUdXSHptb1pmUdIB0wFBVV95cUxNNHhHV3VCa0puNlJyWC1kNWR3ak1NWTNjNm1LUWtPU3o1VGMtcDEyMDBURGxHOEEyemxCZnBmTmV5Z3hSSkdsbjJ2RVpUY19YUm1ld3EtZzJ2cGliQzQxWVJzRGlTNzFPRF8wX01FMjFBNzZpZmtLRHd2RzhIWVd5NEhETzBQVmFrTmxSS2VieXZFUUNtZ2ctbVNHeGpGLXdrYjJSdlppU3U5Tll2Q1dVclVjUXM4WTVmdzNqd2tYM01JZ3RsTldMSzhHQ1hOS29oUmxr?oc=5",
+      "published_at": "2026-04-10T02:11:42+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "NDTV Profit",
+      "title": "Stock Picks Today: JSW Steel, Shriram Finance, TCS, Delhivery, Tata Steel And More On Brokerages' Radar - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQT2hsdVJ1TmhLX1U1S252bzVXZ0VrakpDQi1aZWp6UFpXWWRUdm91R21OaThQMDl0cmhyaDFVVV9jTE1FcWhPLVVESjF4a3E1X0xKRnQ0UzlWbW0zTVRMcEVqczhVTjRDb3pKc3VEY0hpZmFSY3V2SEVmZ2NNM3Z1eFE5QTF5aG5pTzlSRi1SYjkzX2NoczNidzh2S2NvNTJqaGZ3STNpN0NhWXFIQ2xTOC13QmVnQ3R1TW10a2dVOHl2OU5hN3JYejIxOWEwdnNJOC1aWG1sQ1TSAeABQVVfeXFMUGptNllvS3ZJaXlRYlYyNjlacVVlRDlvRzQ5Ukt0d2NpYXdKaF9XUGdyXzh4NFVyZXV2N0Q3ZnJUSjVyUU85T1A5NVc5Njc0c3BHRDAzVUROTUJfaHdIOFAwbThlSC1qUUwtRjVFMjVVekhzOUVfM2lGRklfbW0zSUg0LXFkZ2pkd2UtQ0syV3hDbG5VdTBTa1NrZUhmdkVTRDEyVXpmbjcwWjZGTFZXSlhOcHF2eUtUczZmbmQzamFLNWdweHB0cFpud3lnTXVxS2FKQWhMNG43MWJTSFFWSW4?oc=5",
+      "published_at": "2026-04-10T01:37:05+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "CNBC TV18",
+      "title": "Stocks to Watch for March 30: Coal India, JSW Steel, Gujarat Fluorochemicals, RailTel and more - CNBC TV18",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZF9PRGFTaGM5bF9VTU9XQ21YcGhQNnJLZ2ZkTmlnOWFuT1M3Y2p3T0Rmby1yNVV5UGNYTk4wa1F5RktwTndpRWU3SmFxVE4xMHMwOERGeHI3a2h0SjJpcUl2eUVqaW9HTldnNEZIc3phYzh4dmNsU094Yng1SEhNbmlRdk9jYTZFeHFEbi1wMzIyemp5ZTlHWlJfbWVIR1BmdWxUMGIybkxPOGhjemJrWEtZNGp0ZnFTQ0ptM3QxR0kzQi1jMmtXRF9ycDZqdnZNTEo5UFhDdFNlQm5KR0HSAeMBQVVfeXFMT0lyRnNiQmhCMEZuY0pPQlpGeE5ldm5BTngwZXJyVS1WWTlFVFpJTVdLbm1CalYzVHR0ejJ6c3ByY2ZQbWhhZzJpR2thZVdTTmJtbHRrMlZwc2xYaGk5SjRFM1pwVVFWT1J3aG5wZXQwVVlxYnN4MTFMRVQ3d3MxMlV6WDJHNmdVeGtkZjdBQUpLbTA1ZVFtbTRCSnlSQWVxQ3Q0eGR2YXRfZ0d1VHVFTlpHSUc2OFFwRi1FTFQ2OENUM3Y5bE1NQzZZd01MUERXZE12SUR5elJsaEVlZmstSlU2aXM?oc=5",
+      "published_at": "2026-03-29T07:00:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Business Today",
+      "title": "JSW Steel, Coal India, Paytm, Sammaan Capital, Thermax among stocks in focus next week; here\u2019s why - Business Today",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdHYtV1lOUHlETjZLNXN5RTM3bzRXSWRrN0hrYWdhMHA2UXVweG9zcEFoaHgwLURVYzA1WGNSWTI0Tk1JUDZjalBhRGlJd1BDUVlVWkFoQWFLTEZIVWZoYWRSc1dUV0oyaG83d2ZXaGczbnh6ZWU1NXk1RkxXQVdseDZkYXFFdTNKZ1AteC1EcTBhRHRzbm84YVYxSExaTkF6ZUJVemViOWM5VWhkbWdwQzcyU053SGhnNC1zcHVDMUkwWDRONmRtdzZYLWpOdENidjdaYkZISTRGWEdoeEpqLXNPelNwLWxrU0JyZGp4ZkpOZ9IB9wFBVV95cUxOeXl1X2F1UTIxUHVQczVxQzgxNEVGOU1RVFpuMThMUlZMWHQ2X0F5aDhOUC16a1Vyb0pkQjVGa0YweC1uLWVSdGN0Y1lTM0NxNktfTmRmdDJkeTQyY09zdjNJaFhxR29DS0FHUEZyNDVBSmI2S0VvUzRRVTFKeDRaU1JBVGNuMHYwNXdraG1mc1d6Y0NlLVZLUnhqU1RjdjF3UXB1U2xwSGozbTF5YzZiLVc0cl9IcWhDdHo4dmV0TEl6TG5HaE5KdXVtSW9iV3J3cnNENi1faTVwVHdyWnFzSFF2SU9QazMzZjBFc1RvelNrSmlqS0pv?oc=5",
+      "published_at": "2026-03-28T07:00:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Business Today",
+      "title": "BT Closing Bell | Sensex settles 504 pts higher, Nifty above 24,350; HUL, Power Grid lead index gainers - Business Today",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPNGQycHZQOFhXbGJlRWw0R0djNmFoT3lqamZZRUlNZlV3MFJrOHdVcEhwOERQMmFnZWU1VnUxUnZnRWlzS09lUGNDNWs5OE5iMVB6bUIxZ3NLN2ZQSTdJVmV0WHhmaENZRzF0WG1SMnh2V2JoWFkzUE85OUU5azJIQlpxS1E2RFc4X1pkNHg4bWcyZ0F5QTE1VkJ1T2Y3d2JKSncxRExhajNxUnY3NmY3b0FqRkhybmhqSWhsVXBOb1FrMkRaeHgzaU5mMnBpLTlmS1ZPVm5iOHRmZTNLLUluWXF3UjdSM2pnQ0hMaENGeUZfRzZBMnNwa9IB_gFBVV95cUxNVVRIbzJzMUNDZUJSaGtvWHVGdkZqakpnMkpGSENZYVhvdGtCNWVLWnh0czB1TzJfQnBxN1R3NkRLVHBvMlM4ejRObWRVR2lqUW1xS3c0dEZobXQxOWxuNnlXeHdHN2tpMlZISkgxeEtrUDZYdmpjWFozWjhaVU9uUVQ1YWVJZ2FPRVhVWXdTanBMNC1RNnFEd0tSX3hjVXRqeDhFelI1T0gtclh1cHRZQ3V3SENZMW95bzRDTUM2NDVKY0pPQXQ0T18yMDgyUmprX2djYUNHam00V1RuXzYzSHhFeFFFczl4SlBSVl9hOXpIWUZnZ21tNFpZVFM0Zw?oc=5",
+      "published_at": "2026-04-17T10:12:02+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "scanx.trade",
+      "title": "POWERGRID Announces Completion of Tenure for Two Independent Directors - scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSTZxaFVlalZmVkxMU0FjWnpRMk1SbWZOZzRIMnJOWllHdVRMQUZnbWFrcF9MVHNRM1AwUWZSdEVXVjRPVkliWWNEazZ6Q0l0RGF5VFhRbTFsbzhiTjZnTnN2ajR2YkJfN1h2d1l4RlpLallDR001NjNqeDVpdi1mTXVxZVRWa1BIWld2MF9zWVE4WmRwVVVSMkJMa0V0dzhONGhFSDh6NS12UHJsc3RZMHpCLVZXS0IwWnBfdFVoQjVDTTJaQlE?oc=5",
+      "published_at": "2026-04-16T06:40:29+00:00",
+      "sentiment": "neutral"
+    }
+  ]
+}
