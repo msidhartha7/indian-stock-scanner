@@ -158,7 +158,8 @@ def _git_has_publish_changes() -> bool:
 
 
 def _git_commit_publish(publish_date: str) -> None:
-    _run_command(["git", "add", *PUBLISH_PATHS], cwd=PROJECT_ROOT)
+    _run_command(["git", "add", "-f", "data/reports"], cwd=PROJECT_ROOT)
+    _run_command(["git", "add", "web", ".codex", ".github"], cwd=PROJECT_ROOT)
     _run_command(["git", "commit", "-m", f"Publish stock scan for {publish_date}"], cwd=PROJECT_ROOT)
 
 
