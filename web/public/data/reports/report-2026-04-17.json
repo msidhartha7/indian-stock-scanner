@@ -6,7 +6,7 @@
       "company_name": "Trent",
       "sector": "Retail",
       "opportunity_score": 68,
-      "time_window_fit": 0.625,
+      "time_window_fit": 0.632,
       "catalyst_strength": 0.28,
       "valuation_stretch": 0.58,
       "setup_quality": 0.986,
@@ -17,10 +17,11 @@
       "positives": [
         "Strong earnings momentum",
         "Price trend is constructive",
+        "Price near 52-week high",
         "Valuation still has room to rerate"
       ],
       "risks": [],
-      "summary": "TRENT combines 91% earnings momentum, 28% catalyst strength, and 99% setup quality.",
+      "summary": "TRENT combines 92% earnings momentum, 28% catalyst strength, and 99% setup quality.",
       "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
       "latest": {
         "quarter": "Q4FY26",
@@ -49,6 +50,7 @@
     }
   ],
   "catalyst_watchlist": [],
+  "late_entry_risk": [],
   "valuation_stretched": [],
   "high_growth_lacking_confirmation": [],
   "avoid_for_now": [
@@ -57,7 +59,7 @@
       "company_name": "Calm Industries",
       "sector": "Industrials",
       "opportunity_score": 50,
-      "time_window_fit": 0.376,
+      "time_window_fit": 0.383,
       "catalyst_strength": 0.0,
       "valuation_stretch": 0.62,
       "setup_quality": 0.79,
@@ -66,12 +68,13 @@
       "action_label": "Avoid for now",
       "rejection_reasons": [],
       "positives": [
-        "Price trend is constructive"
+        "Price trend is constructive",
+        "Price near 52-week high"
       ],
       "risks": [
         "Catalyst support is limited"
       ],
-      "summary": "CALM combines 68% earnings momentum, 0% catalyst strength, and 79% setup quality.",
+      "summary": "CALM combines 70% earnings momentum, 0% catalyst strength, and 79% setup quality.",
       "invalidation_reason": "Thesis weakens if momentum fades, the catalyst timeline slips, or valuation expands without matching earnings follow-through.",
       "latest": {
         "quarter": "Q4FY26",
